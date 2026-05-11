@@ -1,0 +1,69 @@
+{
+  "schema_version": 2,
+  "id": "repo:ai:repo_map:ai-repo-overview-auto-overview",
+  "title": "ai repo overview",
+  "summary": "Package name: ai. Available npm scripts: build , build:watch , clean , prepack , postpack , type check , test , test:update , test:watch , test:edge , test:node , check bundle size . README excerpt: ! hero illustration .",
+  "body": "Package name: ai.\n\nAvailable npm scripts: `build`, `build:watch`, `clean`, `prepack`, `postpack`, `type-check`, `test`, `test:update`, `test:watch`, `test:edge`, `test:node`, `check-bundle-size`.\n\nREADME excerpt:\n![hero illustration](./assets/hero.gif)\n\n# AI SDK\n\nThe [AI SDK](https://ai-sdk.dev/docs) is a provider-agnostic TypeScript toolkit designed to help you build AI-powered applications and agents using popular UI frameworks like Next.js, React, Svelte, Vue, Angular, and runtimes like Node.js.\n\nTo learn more about how to use the AI SDK, check out our [API Reference](https://ai-sdk.dev/docs/reference) and [Documentation](https://ai-sdk.dev/docs).\n\n## Installation\n\nYou will need Node.js 18+ and npm (or another package manager) installed on your local development machine.\n\n```shell\nnpm install ai\n```\n\n## Skill for Coding Agents\n\nIf you use coding agents such as Claude Code or Cursor, we highly recommend adding the AI SDK skill to your repository:\n\n```shell\nnpx skills add vercel/ai\n```\n\n## Unified Provider Architecture\n\nThe AI SDK provides a [unified API](https://ai-sdk.dev/docs/foundations/providers-and-models) to interact with model providers like [OpenAI](https://ai-sdk.dev/providers/ai-sdk",
+  "type": "repo_map",
+  "scope": "repo",
+  "visibility": "team",
+  "sensitivity": "internal",
+  "status": "approved",
+  "confidence": 0.75,
+  "tags": [
+    "repo",
+    "overview"
+  ],
+  "paths": [
+    "root"
+  ],
+  "stack": [
+    "@ai-sdk/gateway@workspace:*",
+    "@ai-sdk/provider@workspace:*",
+    "@ai-sdk/provider-utils@workspace:*",
+    "@ai-sdk/test-server@workspace:*",
+    "@edge-runtime/vm@^5.0.0",
+    "@types/json-schema@7.0.15",
+    "@types/node@20.17.24",
+    "@vercel/ai-tsconfig@workspace:*",
+    "esbuild@^0.24.2",
+    "tsup@^7.2.0",
+    "tsx@^4.19.2",
+    "typescript@5.8.3",
+    "zod@3.25.76"
+  ],
+  "source_refs": [
+    {
+      "kind": "file",
+      "path": "package.json"
+    },
+    {
+      "kind": "file",
+      "path": "README.md"
+    }
+  ],
+  "context": {
+    "fact": "Generated repo overview summarizes package metadata and the README as a navigation aid for agent startup.",
+    "why": "Agents need fast repo orientation before deeper recall or code graph queries, but generated overview memory should stay separate from human rationale.",
+    "trigger": "Recall when an agent needs first-pass repo purpose, scripts, stack, or README context.",
+    "action": "Use this as orientation only, then inspect source-backed memory and code graph facts for implementation decisions.",
+    "verification": "Generated from package.json and README.md when present.",
+    "risk_if_forgotten": "Agents may waste context rediscovering basic repo purpose or treat generated overview text as deeper semantic memory.",
+    "stale_when": "package.json or README.md changes enough that the generated overview no longer matches the repo."
+  },
+  "freshness": {
+    "ttl_days": 90,
+    "last_verified_at": "2026-05-11",
+    "verification": "source_seen"
+  },
+  "edges": [],
+  "quality": {
+    "reviewer": "kage-indexer",
+    "votes_up": 0,
+    "votes_down": 0,
+    "uses_30d": 0,
+    "reports_stale": 0
+  },
+  "created_at": "2026-05-11T06:30:50.510Z",
+  "updated_at": "2026-05-11T06:30:50.510Z"
+}

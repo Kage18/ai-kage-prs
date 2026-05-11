@@ -1,0 +1,1187 @@
+[
+  {
+    "id": "001d6df428bbd241",
+    "from": "memory:repo-ai-repo-map-ai-repo-overview-auto-overview",
+    "to": "package:ai-sdk-test-server",
+    "relation": "uses_package",
+    "fact": "\"ai repo overview\" references package @ai-sdk/test-server.",
+    "confidence": 0.75,
+    "valid_from": "2026-05-11T06:30:50.510Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:55c0eb828de8e9fa"
+    ]
+  },
+  {
+    "id": "05b8fc483c9b673a",
+    "from": "repo:ai",
+    "to": "command:npm-run-check-bundle-size",
+    "relation": "defines_command",
+    "fact": "ai defines command \"npm run check-bundle-size\".",
+    "confidence": 0.9,
+    "valid_from": "2026-05-11T06:42:15.275Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:repo-manifest-package-json"
+    ]
+  },
+  {
+    "id": "05bb1b99d2f3eba3",
+    "from": "memory:repo-ai-bug-fix-mock-model-array-results-are-call-indexed-after-recording-calls-",
+    "to": "path:src-test-mock-language-model-v3-ts",
+    "relation": "affects_path",
+    "fact": "\"Mock model array results are call-indexed after recording calls\" applies to src/test/mock-language-model-v3.ts.",
+    "confidence": 0.7,
+    "valid_from": "2026-05-11T06:37:26.321Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:1c2a8d1fee75100f"
+    ]
+  },
+  {
+    "id": "06e0aa12a70166e7",
+    "from": "memory:repo-ai-bug-fix-mock-model-array-results-are-call-indexed-after-recording-calls-",
+    "to": "symbol:symbol-src-test-mock-language-model-test-ts-constant-model-72",
+    "relation": "fixes_symbol",
+    "fact": "\"Mock model array results are call-indexed after recording calls\" fixes symbol model in src/test/mock-language-model.test.ts.",
+    "confidence": 0.7,
+    "valid_from": "2026-05-11T06:37:26.321Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:1c2a8d1fee75100f"
+    ]
+  },
+  {
+    "id": "0a0f5cd81fa3e600",
+    "from": "memory:repo-ai-bug-fix-mock-model-array-results-are-call-indexed-after-recording-calls-",
+    "to": "test:symbol-src-model-resolve-model-test-ts-test-should-return-a-embedding-model-from",
+    "relation": "verified_by_test",
+    "fact": "\"Mock model array results are call-indexed after recording calls\" is related to test \"should return a embedding model from the global default provider\".",
+    "confidence": 0.7,
+    "valid_from": "2026-05-11T06:37:26.321Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:1c2a8d1fee75100f"
+    ]
+  },
+  {
+    "id": "0db4f413076aae5a",
+    "from": "repo:ai",
+    "to": "memory:repo-ai-repo-map-ai-repo-structure-auto-structure",
+    "relation": "contains_memory",
+    "fact": "ai contains memory \"ai repo structure\".",
+    "confidence": 1,
+    "valid_from": "2026-05-11T06:42:15.275Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:68599079012aa11b"
+    ]
+  },
+  {
+    "id": "12f7f12fdb76c154",
+    "from": "memory:repo-ai-bug-fix-mock-model-array-results-are-call-indexed-after-recording-calls-",
+    "to": "path:src-test-mock-language-model-v4-ts",
+    "relation": "affects_path",
+    "fact": "\"Mock model array results are call-indexed after recording calls\" applies to src/test/mock-language-model-v4.ts.",
+    "confidence": 0.7,
+    "valid_from": "2026-05-11T06:37:26.321Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:1c2a8d1fee75100f"
+    ]
+  },
+  {
+    "id": "1551fb57d1261a28",
+    "from": "memory:repo-ai-repo-map-ai-repo-overview-auto-overview",
+    "to": "package:types-json-schema",
+    "relation": "uses_package",
+    "fact": "\"ai repo overview\" references package @types/json-schema.",
+    "confidence": 0.75,
+    "valid_from": "2026-05-11T06:30:50.510Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:55c0eb828de8e9fa"
+    ]
+  },
+  {
+    "id": "162a57aa626a7efa",
+    "from": "memory:repo-ai-bug-fix-mock-model-array-results-are-call-indexed-after-recording-calls-",
+    "to": "command:targeted-vitest-before-fix-returned-second-embedding-result-on-first-call-after-",
+    "relation": "verified_by",
+    "fact": "\"Mock model array results are call-indexed after recording calls\" is verified by \"Targeted Vitest before fix returned second embedding result on first call; after fix pnpm --filter ai exec vitest --config vitest.node.config.js --run src/test/mock-language-model.test.ts src/test/mock-embedding-model.test.ts passed 6 tests\".",
+    "confidence": 0.7,
+    "valid_from": "2026-05-11T06:37:26.321Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:1c2a8d1fee75100f"
+    ]
+  },
+  {
+    "id": "1c94360a9e1223c8",
+    "from": "memory:repo-ai-repo-map-ai-repo-overview-auto-overview",
+    "to": "package:esbuild",
+    "relation": "uses_package",
+    "fact": "\"ai repo overview\" references package esbuild.",
+    "confidence": 0.75,
+    "valid_from": "2026-05-11T06:30:50.510Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:55c0eb828de8e9fa"
+    ]
+  },
+  {
+    "id": "1e6db569b2dac387",
+    "from": "memory:repo-ai-bug-fix-mock-model-array-results-are-call-indexed-after-recording-calls-",
+    "to": "symbol:symbol-src-test-mock-embedding-model-test-ts-constant-model-29",
+    "relation": "fixes_symbol",
+    "fact": "\"Mock model array results are call-indexed after recording calls\" fixes symbol model in src/test/mock-embedding-model.test.ts.",
+    "confidence": 0.7,
+    "valid_from": "2026-05-11T06:37:26.321Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:1c2a8d1fee75100f"
+    ]
+  },
+  {
+    "id": "1ed23a7d19d869fc",
+    "from": "memory:repo-ai-repo-map-ai-repo-overview-auto-overview",
+    "to": "path:root",
+    "relation": "affects_path",
+    "fact": "\"ai repo overview\" applies to root.",
+    "confidence": 0.75,
+    "valid_from": "2026-05-11T06:30:50.510Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:55c0eb828de8e9fa"
+    ]
+  },
+  {
+    "id": "1fc371003ee6bf73",
+    "from": "repo:ai",
+    "to": "command:npm-run-test-update",
+    "relation": "defines_command",
+    "fact": "ai defines command \"npm run test:update\".",
+    "confidence": 0.9,
+    "valid_from": "2026-05-11T06:42:15.275Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:repo-manifest-package-json"
+    ]
+  },
+  {
+    "id": "22cb14e10b93a3dd",
+    "from": "memory:repo-ai-bug-fix-mock-model-array-results-are-call-indexed-after-recording-calls-",
+    "to": "symbol:symbol-src-test-mock-language-model-v3-ts-class-mocklanguagemodelv3-9",
+    "relation": "fixes_symbol",
+    "fact": "\"Mock model array results are call-indexed after recording calls\" fixes symbol MockLanguageModelV3 in src/test/mock-language-model-v3.ts.",
+    "confidence": 0.7,
+    "valid_from": "2026-05-11T06:37:26.321Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:1c2a8d1fee75100f"
+    ]
+  },
+  {
+    "id": "2a472081cd0aa6b3",
+    "from": "memory:repo-ai-bug-fix-mock-model-array-results-are-call-indexed-after-recording-calls-",
+    "to": "test:symbol-src-model-resolve-model-test-ts-test-should-return-it-as-is-155",
+    "relation": "verified_by_test",
+    "fact": "\"Mock model array results are call-indexed after recording calls\" is related to test \"should return it as-is\".",
+    "confidence": 0.7,
+    "valid_from": "2026-05-11T06:37:26.321Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:1c2a8d1fee75100f"
+    ]
+  },
+  {
+    "id": "2d97fc7192680ad9",
+    "from": "memory:repo-ai-bug-fix-mock-model-array-results-are-call-indexed-after-recording-calls-",
+    "to": "path:src-test-mock-embedding-model-v4-ts",
+    "relation": "affects_path",
+    "fact": "\"Mock model array results are call-indexed after recording calls\" applies to src/test/mock-embedding-model-v4.ts.",
+    "confidence": 0.7,
+    "valid_from": "2026-05-11T06:37:26.321Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:1c2a8d1fee75100f"
+    ]
+  },
+  {
+    "id": "38d5a64a6a4d87ed",
+    "from": "memory:repo-ai-bug-fix-mock-model-array-results-are-call-indexed-after-recording-calls-",
+    "to": "memory_type:bug-fix",
+    "relation": "has_type",
+    "fact": "\"Mock model array results are call-indexed after recording calls\" is a bug_fix memory.",
+    "confidence": 1,
+    "valid_from": "2026-05-11T06:37:26.321Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:1c2a8d1fee75100f"
+    ]
+  },
+  {
+    "id": "38e8c4749dde90e5",
+    "from": "memory:repo-ai-repo-map-ai-repo-overview-auto-overview",
+    "to": "command:generated-from-package-json-and-readme-md-when-present",
+    "relation": "verified_by",
+    "fact": "\"ai repo overview\" is verified by \"Generated from package.json and README.md when present\".",
+    "confidence": 0.75,
+    "valid_from": "2026-05-11T06:30:50.510Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:55c0eb828de8e9fa"
+    ]
+  },
+  {
+    "id": "3dfad7c886a950d3",
+    "from": "repo:ai",
+    "to": "command:npm-run-test-edge",
+    "relation": "defines_command",
+    "fact": "ai defines command \"npm run test:edge\".",
+    "confidence": 0.9,
+    "valid_from": "2026-05-11T06:42:15.275Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:repo-manifest-package-json"
+    ]
+  },
+  {
+    "id": "3e3401b61e6a0afd",
+    "from": "memory:repo-ai-repo-map-ai-repo-structure-auto-structure",
+    "to": "path:claude-md",
+    "relation": "affects_path",
+    "fact": "\"ai repo structure\" applies to CLAUDE.md.",
+    "confidence": 0.65,
+    "valid_from": "2026-05-11T06:42:15.275Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:68599079012aa11b"
+    ]
+  },
+  {
+    "id": "3f7e1615812331ed",
+    "from": "repo:ai",
+    "to": "command:npm-run-test-node",
+    "relation": "defines_command",
+    "fact": "ai defines command \"npm run test:node\".",
+    "confidence": 0.9,
+    "valid_from": "2026-05-11T06:42:15.275Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:repo-manifest-package-json"
+    ]
+  },
+  {
+    "id": "40f1160c088057da",
+    "from": "repo:ai",
+    "to": "memory:repo-ai-bug-fix-mock-model-array-results-are-call-indexed-after-recording-calls-",
+    "relation": "contains_memory",
+    "fact": "ai contains memory \"Mock model array results are call-indexed after recording calls\".",
+    "confidence": 1,
+    "valid_from": "2026-05-11T06:37:26.321Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:1c2a8d1fee75100f"
+    ]
+  },
+  {
+    "id": "5038d2f6db2f3b45",
+    "from": "memory:repo-ai-repo-map-ai-repo-structure-auto-structure",
+    "to": "tag:structure",
+    "relation": "mentions_tag",
+    "fact": "\"ai repo structure\" is tagged structure.",
+    "confidence": 0.65,
+    "valid_from": "2026-05-11T06:42:15.275Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:68599079012aa11b"
+    ]
+  },
+  {
+    "id": "51e191fff3e02bcc",
+    "from": "memory:repo-ai-bug-fix-mock-model-array-results-are-call-indexed-after-recording-calls-",
+    "to": "test:symbol-src-model-resolve-model-test-ts-test-should-return-it-as-is-25",
+    "relation": "verified_by_test",
+    "fact": "\"Mock model array results are call-indexed after recording calls\" is related to test \"should return it as-is\".",
+    "confidence": 0.7,
+    "valid_from": "2026-05-11T06:37:26.321Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:1c2a8d1fee75100f"
+    ]
+  },
+  {
+    "id": "5db9a763ad288ea9",
+    "from": "memory:repo-ai-repo-map-ai-repo-structure-auto-structure",
+    "to": "path:tsconfig-json",
+    "relation": "affects_path",
+    "fact": "\"ai repo structure\" applies to tsconfig.json.",
+    "confidence": 0.65,
+    "valid_from": "2026-05-11T06:42:15.275Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:68599079012aa11b"
+    ]
+  },
+  {
+    "id": "5f4d8434218b6d98",
+    "from": "memory:repo-ai-bug-fix-mock-model-array-results-are-call-indexed-after-recording-calls-",
+    "to": "command:vitest-config",
+    "relation": "documents_command",
+    "fact": "\"Mock model array results are call-indexed after recording calls\" documents command \"vitest --config\".",
+    "confidence": 0.7,
+    "valid_from": "2026-05-11T06:37:26.321Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:1c2a8d1fee75100f"
+    ]
+  },
+  {
+    "id": "610078507bce7513",
+    "from": "memory:repo-ai-repo-map-ai-repo-overview-auto-overview",
+    "to": "memory_type:repo-map",
+    "relation": "has_type",
+    "fact": "\"ai repo overview\" is a repo_map memory.",
+    "confidence": 1,
+    "valid_from": "2026-05-11T06:30:50.510Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:55c0eb828de8e9fa"
+    ]
+  },
+  {
+    "id": "61ef7f66051ac5ae",
+    "from": "memory:repo-ai-bug-fix-mock-model-array-results-are-call-indexed-after-recording-calls-",
+    "to": "test:symbol-src-model-resolve-model-test-ts-test-should-convert-v3-to-v4-169",
+    "relation": "verified_by_test",
+    "fact": "\"Mock model array results are call-indexed after recording calls\" is related to test \"should convert v3 to v4\".",
+    "confidence": 0.7,
+    "valid_from": "2026-05-11T06:37:26.321Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:1c2a8d1fee75100f"
+    ]
+  },
+  {
+    "id": "646d843b121d4741",
+    "from": "repo:ai",
+    "to": "command:npm-run-test-watch",
+    "relation": "defines_command",
+    "fact": "ai defines command \"npm run test:watch\".",
+    "confidence": 0.9,
+    "valid_from": "2026-05-11T06:42:15.275Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:repo-manifest-package-json"
+    ]
+  },
+  {
+    "id": "6b70b8acdc512a17",
+    "from": "memory:repo-ai-bug-fix-mock-model-array-results-are-call-indexed-after-recording-calls-",
+    "to": "tag:mock-models",
+    "relation": "mentions_tag",
+    "fact": "\"Mock model array results are call-indexed after recording calls\" is tagged mock-models.",
+    "confidence": 0.7,
+    "valid_from": "2026-05-11T06:37:26.321Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:1c2a8d1fee75100f"
+    ]
+  },
+  {
+    "id": "6c9cec9c884617fd",
+    "from": "memory:repo-ai-bug-fix-mock-model-array-results-are-call-indexed-after-recording-calls-",
+    "to": "test:symbol-src-model-resolve-model-test-ts-test-should-return-a-language-model-from-",
+    "relation": "verified_by_test",
+    "fact": "\"Mock model array results are call-indexed after recording calls\" is related to test \"should return a language model from the global default provider\".",
+    "confidence": 0.7,
+    "valid_from": "2026-05-11T06:37:26.321Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:1c2a8d1fee75100f"
+    ]
+  },
+  {
+    "id": "6e7cbbccd4288100",
+    "from": "memory:repo-ai-repo-map-ai-repo-structure-auto-structure",
+    "to": "memory_type:repo-map",
+    "relation": "has_type",
+    "fact": "\"ai repo structure\" is a repo_map memory.",
+    "confidence": 1,
+    "valid_from": "2026-05-11T06:42:15.275Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:68599079012aa11b"
+    ]
+  },
+  {
+    "id": "70847f392f86d266",
+    "from": "memory:repo-ai-bug-fix-mock-model-array-results-are-call-indexed-after-recording-calls-",
+    "to": "symbol:symbol-src-test-mock-language-model-test-ts-constant-model-59",
+    "relation": "fixes_symbol",
+    "fact": "\"Mock model array results are call-indexed after recording calls\" fixes symbol model in src/test/mock-language-model.test.ts.",
+    "confidence": 0.7,
+    "valid_from": "2026-05-11T06:37:26.321Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:1c2a8d1fee75100f"
+    ]
+  },
+  {
+    "id": "73cec0f2ba061ece",
+    "from": "memory:repo-ai-bug-fix-mock-model-array-results-are-call-indexed-after-recording-calls-",
+    "to": "test:symbol-src-model-resolve-model-test-ts-test-should-return-a-gateway-image-model-",
+    "relation": "verified_by_test",
+    "fact": "\"Mock model array results are call-indexed after recording calls\" is related to test \"should return a gateway image model\".",
+    "confidence": 0.7,
+    "valid_from": "2026-05-11T06:37:26.321Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:1c2a8d1fee75100f"
+    ]
+  },
+  {
+    "id": "742a0ff8016a8772",
+    "from": "memory:repo-ai-repo-map-ai-repo-structure-auto-structure",
+    "to": "path:agents-md",
+    "relation": "affects_path",
+    "fact": "\"ai repo structure\" applies to AGENTS.md.",
+    "confidence": 0.65,
+    "valid_from": "2026-05-11T06:42:15.275Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:68599079012aa11b"
+    ]
+  },
+  {
+    "id": "743da89c7f95506e",
+    "from": "memory:repo-ai-bug-fix-mock-model-array-results-are-call-indexed-after-recording-calls-",
+    "to": "path:src-test-mock-language-model-test-ts",
+    "relation": "affects_path",
+    "fact": "\"Mock model array results are call-indexed after recording calls\" applies to src/test/mock-language-model.test.ts.",
+    "confidence": 0.7,
+    "valid_from": "2026-05-11T06:37:26.321Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:1c2a8d1fee75100f"
+    ]
+  },
+  {
+    "id": "78235be4c5f0ead2",
+    "from": "memory:repo-ai-repo-map-ai-repo-structure-auto-structure",
+    "to": "command:generated-from-files-present-in-the-repository",
+    "relation": "verified_by",
+    "fact": "\"ai repo structure\" is verified by \"Generated from files present in the repository\".",
+    "confidence": 0.65,
+    "valid_from": "2026-05-11T06:42:15.275Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:68599079012aa11b"
+    ]
+  },
+  {
+    "id": "7a0d82970ab9b7a8",
+    "from": "memory:repo-ai-bug-fix-mock-model-array-results-are-call-indexed-after-recording-calls-",
+    "to": "path:src-test-mock-embedding-model-v3-ts",
+    "relation": "affects_path",
+    "fact": "\"Mock model array results are call-indexed after recording calls\" applies to src/test/mock-embedding-model-v3.ts.",
+    "confidence": 0.7,
+    "valid_from": "2026-05-11T06:37:26.321Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:1c2a8d1fee75100f"
+    ]
+  },
+  {
+    "id": "7d5b6cd26a05724c",
+    "from": "memory:repo-ai-bug-fix-mock-model-array-results-are-call-indexed-after-recording-calls-",
+    "to": "test:symbol-src-model-resolve-model-test-ts-test-should-adapt-to-v4-and-preserve-prot",
+    "relation": "verified_by_test",
+    "fact": "\"Mock model array results are call-indexed after recording calls\" is related to test \"should adapt to v4 and preserve prototype methods\".",
+    "confidence": 0.7,
+    "valid_from": "2026-05-11T06:37:26.321Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:1c2a8d1fee75100f"
+    ]
+  },
+  {
+    "id": "81071e5f51d1740e",
+    "from": "repo:ai",
+    "to": "command:npm-run-test",
+    "relation": "defines_command",
+    "fact": "ai defines command \"npm run test\".",
+    "confidence": 0.9,
+    "valid_from": "2026-05-11T06:42:15.275Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:repo-manifest-package-json"
+    ]
+  },
+  {
+    "id": "81e8f951baffa959",
+    "from": "repo:ai",
+    "to": "command:npm-run-build",
+    "relation": "defines_command",
+    "fact": "ai defines command \"npm run build\".",
+    "confidence": 0.9,
+    "valid_from": "2026-05-11T06:42:15.275Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:repo-manifest-package-json"
+    ]
+  },
+  {
+    "id": "82458190b15b172e",
+    "from": "memory:repo-ai-repo-map-ai-repo-overview-auto-overview",
+    "to": "package:typescript",
+    "relation": "uses_package",
+    "fact": "\"ai repo overview\" references package typescript.",
+    "confidence": 0.75,
+    "valid_from": "2026-05-11T06:30:50.510Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:55c0eb828de8e9fa"
+    ]
+  },
+  {
+    "id": "83111422fb7d7c29",
+    "from": "repo:ai",
+    "to": "command:npm-run-type-check",
+    "relation": "defines_command",
+    "fact": "ai defines command \"npm run type-check\".",
+    "confidence": 0.9,
+    "valid_from": "2026-05-11T06:42:15.275Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:repo-manifest-package-json"
+    ]
+  },
+  {
+    "id": "86a061bf602eeb9b",
+    "from": "memory:repo-ai-repo-map-ai-repo-structure-auto-structure",
+    "to": "tag:index",
+    "relation": "mentions_tag",
+    "fact": "\"ai repo structure\" is tagged index.",
+    "confidence": 0.65,
+    "valid_from": "2026-05-11T06:42:15.275Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:68599079012aa11b"
+    ]
+  },
+  {
+    "id": "86f7a32c742fc9fa",
+    "from": "repo:ai",
+    "to": "command:npm-run-clean",
+    "relation": "defines_command",
+    "fact": "ai defines command \"npm run clean\".",
+    "confidence": 0.9,
+    "valid_from": "2026-05-11T06:42:15.275Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:repo-manifest-package-json"
+    ]
+  },
+  {
+    "id": "885c844661331143",
+    "from": "memory:repo-ai-repo-map-ai-repo-overview-auto-overview",
+    "to": "package:tsup",
+    "relation": "uses_package",
+    "fact": "\"ai repo overview\" references package tsup.",
+    "confidence": 0.75,
+    "valid_from": "2026-05-11T06:30:50.510Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:55c0eb828de8e9fa"
+    ]
+  },
+  {
+    "id": "8950cd0fca947a5e",
+    "from": "memory:repo-ai-bug-fix-mock-model-array-results-are-call-indexed-after-recording-calls-",
+    "to": "test:symbol-src-model-resolve-model-test-ts-test-should-convert-v3-to-v4-39",
+    "relation": "verified_by_test",
+    "fact": "\"Mock model array results are call-indexed after recording calls\" is related to test \"should convert v3 to v4\".",
+    "confidence": 0.7,
+    "valid_from": "2026-05-11T06:37:26.321Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:1c2a8d1fee75100f"
+    ]
+  },
+  {
+    "id": "8996ec6360ff2be1",
+    "from": "memory:repo-ai-bug-fix-mock-model-array-results-are-call-indexed-after-recording-calls-",
+    "to": "path:src-test-mock-embedding-model-test-ts",
+    "relation": "affects_path",
+    "fact": "\"Mock model array results are call-indexed after recording calls\" applies to src/test/mock-embedding-model.test.ts.",
+    "confidence": 0.7,
+    "valid_from": "2026-05-11T06:37:26.321Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:1c2a8d1fee75100f"
+    ]
+  },
+  {
+    "id": "89d21343eed3d72e",
+    "from": "memory:repo-ai-repo-map-ai-repo-overview-auto-overview",
+    "to": "tag:overview",
+    "relation": "mentions_tag",
+    "fact": "\"ai repo overview\" is tagged overview.",
+    "confidence": 0.75,
+    "valid_from": "2026-05-11T06:30:50.510Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:55c0eb828de8e9fa"
+    ]
+  },
+  {
+    "id": "8c756d25c18b6f4b",
+    "from": "memory:repo-ai-bug-fix-mock-model-array-results-are-call-indexed-after-recording-calls-",
+    "to": "tag:issue-15141",
+    "relation": "mentions_tag",
+    "fact": "\"Mock model array results are call-indexed after recording calls\" is tagged issue-15141.",
+    "confidence": 0.7,
+    "valid_from": "2026-05-11T06:37:26.321Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:1c2a8d1fee75100f"
+    ]
+  },
+  {
+    "id": "8fe5abdf7f1cb858",
+    "from": "repo:ai",
+    "to": "command:npm-run-prepack",
+    "relation": "defines_command",
+    "fact": "ai defines command \"npm run prepack\".",
+    "confidence": 0.9,
+    "valid_from": "2026-05-11T06:42:15.275Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:repo-manifest-package-json"
+    ]
+  },
+  {
+    "id": "904e58ea30ae12da",
+    "from": "memory:repo-ai-repo-map-ai-repo-overview-auto-overview",
+    "to": "command:npx-skills",
+    "relation": "documents_command",
+    "fact": "\"ai repo overview\" documents command \"npx skills\".",
+    "confidence": 0.75,
+    "valid_from": "2026-05-11T06:30:50.510Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:55c0eb828de8e9fa"
+    ]
+  },
+  {
+    "id": "94e7482e53638ccf",
+    "from": "memory:repo-ai-repo-map-ai-repo-overview-auto-overview",
+    "to": "command:npm-install",
+    "relation": "documents_command",
+    "fact": "\"ai repo overview\" documents command \"npm install\".",
+    "confidence": 0.75,
+    "valid_from": "2026-05-11T06:30:50.510Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:55c0eb828de8e9fa"
+    ]
+  },
+  {
+    "id": "987da9bc0ee8fbe9",
+    "from": "memory:repo-ai-repo-map-ai-repo-overview-auto-overview",
+    "to": "package:ai-sdk-provider",
+    "relation": "uses_package",
+    "fact": "\"ai repo overview\" references package @ai-sdk/provider.",
+    "confidence": 0.75,
+    "valid_from": "2026-05-11T06:30:50.510Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:55c0eb828de8e9fa"
+    ]
+  },
+  {
+    "id": "9b860d42ab3c2888",
+    "from": "memory:repo-ai-repo-map-ai-repo-structure-auto-structure",
+    "to": "tag:repo",
+    "relation": "mentions_tag",
+    "fact": "\"ai repo structure\" is tagged repo.",
+    "confidence": 0.65,
+    "valid_from": "2026-05-11T06:42:15.275Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:68599079012aa11b"
+    ]
+  },
+  {
+    "id": "9e49412f7c0e611e",
+    "from": "memory:repo-ai-repo-map-ai-repo-structure-auto-structure",
+    "to": "path:package-json",
+    "relation": "affects_path",
+    "fact": "\"ai repo structure\" applies to package.json.",
+    "confidence": 0.65,
+    "valid_from": "2026-05-11T06:42:15.275Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:68599079012aa11b"
+    ]
+  },
+  {
+    "id": "9e5f886b0535219a",
+    "from": "memory:repo-ai-bug-fix-mock-model-array-results-are-call-indexed-after-recording-calls-",
+    "to": "tag:session-learning",
+    "relation": "mentions_tag",
+    "fact": "\"Mock model array results are call-indexed after recording calls\" is tagged session-learning.",
+    "confidence": 0.7,
+    "valid_from": "2026-05-11T06:37:26.321Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:1c2a8d1fee75100f"
+    ]
+  },
+  {
+    "id": "ac1afa0ea8978883",
+    "from": "memory:repo-ai-repo-map-ai-repo-overview-auto-overview",
+    "to": "package:edge-runtime-vm",
+    "relation": "uses_package",
+    "fact": "\"ai repo overview\" references package @edge-runtime/vm.",
+    "confidence": 0.75,
+    "valid_from": "2026-05-11T06:30:50.510Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:55c0eb828de8e9fa"
+    ]
+  },
+  {
+    "id": "aed35750ce00491b",
+    "from": "memory:repo-ai-bug-fix-mock-model-array-results-are-call-indexed-after-recording-calls-",
+    "to": "symbol:symbol-src-test-mock-embedding-model-v3-ts-class-mockembeddingmodelv3-4",
+    "relation": "fixes_symbol",
+    "fact": "\"Mock model array results are call-indexed after recording calls\" fixes symbol MockEmbeddingModelV3 in src/test/mock-embedding-model-v3.ts.",
+    "confidence": 0.7,
+    "valid_from": "2026-05-11T06:37:26.321Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:1c2a8d1fee75100f"
+    ]
+  },
+  {
+    "id": "b0adf7b539312598",
+    "from": "memory:repo-ai-repo-map-ai-repo-overview-auto-overview",
+    "to": "package:tsx",
+    "relation": "uses_package",
+    "fact": "\"ai repo overview\" references package tsx.",
+    "confidence": 0.75,
+    "valid_from": "2026-05-11T06:30:50.510Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:55c0eb828de8e9fa"
+    ]
+  },
+  {
+    "id": "b1e6cbede13ab6cf",
+    "from": "memory:repo-ai-bug-fix-mock-model-array-results-are-call-indexed-after-recording-calls-",
+    "to": "symbol:symbol-src-test-mock-embedding-model-test-ts-constant-model-14",
+    "relation": "fixes_symbol",
+    "fact": "\"Mock model array results are call-indexed after recording calls\" fixes symbol model in src/test/mock-embedding-model.test.ts.",
+    "confidence": 0.7,
+    "valid_from": "2026-05-11T06:37:26.321Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:1c2a8d1fee75100f"
+    ]
+  },
+  {
+    "id": "bb549058354e144c",
+    "from": "memory:repo-ai-repo-map-ai-repo-overview-auto-overview",
+    "to": "tag:repo",
+    "relation": "mentions_tag",
+    "fact": "\"ai repo overview\" is tagged repo.",
+    "confidence": 0.75,
+    "valid_from": "2026-05-11T06:30:50.510Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:55c0eb828de8e9fa"
+    ]
+  },
+  {
+    "id": "be832fdd922145e6",
+    "from": "memory:repo-ai-bug-fix-mock-model-array-results-are-call-indexed-after-recording-calls-",
+    "to": "test:symbol-src-model-resolve-model-test-ts-test-should-return-the-image-model-v2-219",
+    "relation": "verified_by_test",
+    "fact": "\"Mock model array results are call-indexed after recording calls\" is related to test \"should return the image model v2\".",
+    "confidence": 0.7,
+    "valid_from": "2026-05-11T06:37:26.321Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:1c2a8d1fee75100f"
+    ]
+  },
+  {
+    "id": "be839836ec76d9e6",
+    "from": "memory:repo-ai-repo-map-ai-repo-overview-auto-overview",
+    "to": "package:zod",
+    "relation": "uses_package",
+    "fact": "\"ai repo overview\" references package zod.",
+    "confidence": 0.75,
+    "valid_from": "2026-05-11T06:30:50.510Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:55c0eb828de8e9fa"
+    ]
+  },
+  {
+    "id": "bf90b0bf653a4948",
+    "from": "memory:repo-ai-repo-map-ai-repo-structure-auto-structure",
+    "to": "path:src",
+    "relation": "affects_path",
+    "fact": "\"ai repo structure\" applies to src.",
+    "confidence": 0.65,
+    "valid_from": "2026-05-11T06:42:15.275Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:68599079012aa11b"
+    ]
+  },
+  {
+    "id": "c1f2099e90f8467d",
+    "from": "memory:repo-ai-bug-fix-mock-model-array-results-are-call-indexed-after-recording-calls-",
+    "to": "tag:test-helpers",
+    "relation": "mentions_tag",
+    "fact": "\"Mock model array results are call-indexed after recording calls\" is tagged test-helpers.",
+    "confidence": 0.7,
+    "valid_from": "2026-05-11T06:37:26.321Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:1c2a8d1fee75100f"
+    ]
+  },
+  {
+    "id": "c466ce5b655b83ab",
+    "from": "memory:repo-ai-bug-fix-mock-model-array-results-are-call-indexed-after-recording-calls-",
+    "to": "test:symbol-src-model-resolve-model-test-ts-test-should-return-a-gateway-embedding-mo",
+    "relation": "verified_by_test",
+    "fact": "\"Mock model array results are call-indexed after recording calls\" is related to test \"should return a gateway embedding model\".",
+    "confidence": 0.7,
+    "valid_from": "2026-05-11T06:37:26.321Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:1c2a8d1fee75100f"
+    ]
+  },
+  {
+    "id": "c4a698c78f88ac1b",
+    "from": "memory:repo-ai-repo-map-ai-repo-overview-auto-overview",
+    "to": "package:ai-sdk-provider-utils",
+    "relation": "uses_package",
+    "fact": "\"ai repo overview\" references package @ai-sdk/provider-utils.",
+    "confidence": 0.75,
+    "valid_from": "2026-05-11T06:30:50.510Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:55c0eb828de8e9fa"
+    ]
+  },
+  {
+    "id": "c5646034584e9fc8",
+    "from": "repo:ai",
+    "to": "memory:repo-ai-repo-map-ai-repo-overview-auto-overview",
+    "relation": "contains_memory",
+    "fact": "ai contains memory \"ai repo overview\".",
+    "confidence": 1,
+    "valid_from": "2026-05-11T06:30:50.510Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:55c0eb828de8e9fa"
+    ]
+  },
+  {
+    "id": "cd234f63a546fab6",
+    "from": "memory:repo-ai-bug-fix-mock-model-array-results-are-call-indexed-after-recording-calls-",
+    "to": "test:symbol-src-model-resolve-model-test-ts-test-should-return-a-gateway-language-mod",
+    "relation": "verified_by_test",
+    "fact": "\"Mock model array results are call-indexed after recording calls\" is related to test \"should return a gateway language model\".",
+    "confidence": 0.7,
+    "valid_from": "2026-05-11T06:37:26.321Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:1c2a8d1fee75100f"
+    ]
+  },
+  {
+    "id": "cf91b15939ec0288",
+    "from": "repo:ai",
+    "to": "command:npm-run-build-watch",
+    "relation": "defines_command",
+    "fact": "ai defines command \"npm run build:watch\".",
+    "confidence": 0.9,
+    "valid_from": "2026-05-11T06:42:15.275Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:repo-manifest-package-json"
+    ]
+  },
+  {
+    "id": "d055adecd1b35fde",
+    "from": "memory:repo-ai-bug-fix-mock-model-array-results-are-call-indexed-after-recording-calls-",
+    "to": "symbol:symbol-src-test-mock-language-model-test-ts-constant-model-101",
+    "relation": "fixes_symbol",
+    "fact": "\"Mock model array results are call-indexed after recording calls\" fixes symbol model in src/test/mock-language-model.test.ts.",
+    "confidence": 0.7,
+    "valid_from": "2026-05-11T06:37:26.321Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:1c2a8d1fee75100f"
+    ]
+  },
+  {
+    "id": "d1ffed7760968f73",
+    "from": "memory:repo-ai-bug-fix-mock-model-array-results-are-call-indexed-after-recording-calls-",
+    "to": "command:vitest-before",
+    "relation": "documents_command",
+    "fact": "\"Mock model array results are call-indexed after recording calls\" documents command \"Vitest before\".",
+    "confidence": 0.7,
+    "valid_from": "2026-05-11T06:37:26.321Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:1c2a8d1fee75100f"
+    ]
+  },
+  {
+    "id": "d3c7d8d83bb50596",
+    "from": "repo:ai",
+    "to": "command:npm-run-postpack",
+    "relation": "defines_command",
+    "fact": "ai defines command \"npm run postpack\".",
+    "confidence": 0.9,
+    "valid_from": "2026-05-11T06:42:15.275Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:repo-manifest-package-json"
+    ]
+  },
+  {
+    "id": "d5e91b5f10442473",
+    "from": "memory:repo-ai-repo-map-ai-repo-structure-auto-structure",
+    "to": "path:readme-md",
+    "relation": "affects_path",
+    "fact": "\"ai repo structure\" applies to README.md.",
+    "confidence": 0.65,
+    "valid_from": "2026-05-11T06:42:15.275Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:68599079012aa11b"
+    ]
+  },
+  {
+    "id": "d872fc46b4875b97",
+    "from": "memory:repo-ai-repo-map-ai-repo-overview-auto-overview",
+    "to": "package:vercel-ai-tsconfig",
+    "relation": "uses_package",
+    "fact": "\"ai repo overview\" references package @vercel/ai-tsconfig.",
+    "confidence": 0.75,
+    "valid_from": "2026-05-11T06:30:50.510Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:55c0eb828de8e9fa"
+    ]
+  },
+  {
+    "id": "e79080b9e42f70d7",
+    "from": "memory:repo-ai-repo-map-ai-repo-overview-auto-overview",
+    "to": "package:types-node",
+    "relation": "uses_package",
+    "fact": "\"ai repo overview\" references package @types/node.",
+    "confidence": 0.75,
+    "valid_from": "2026-05-11T06:30:50.510Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:55c0eb828de8e9fa"
+    ]
+  },
+  {
+    "id": "e8e0070cd808814b",
+    "from": "memory:repo-ai-bug-fix-mock-model-array-results-are-call-indexed-after-recording-calls-",
+    "to": "symbol:symbol-src-test-mock-language-model-test-ts-constant-model-88",
+    "relation": "fixes_symbol",
+    "fact": "\"Mock model array results are call-indexed after recording calls\" fixes symbol model in src/test/mock-language-model.test.ts.",
+    "confidence": 0.7,
+    "valid_from": "2026-05-11T06:37:26.321Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:1c2a8d1fee75100f"
+    ]
+  },
+  {
+    "id": "f5785ac80b460dd3",
+    "from": "memory:repo-ai-repo-map-ai-repo-overview-auto-overview",
+    "to": "package:ai-sdk-gateway",
+    "relation": "uses_package",
+    "fact": "\"ai repo overview\" references package @ai-sdk/gateway.",
+    "confidence": 0.75,
+    "valid_from": "2026-05-11T06:30:50.510Z",
+    "invalidated_at": null,
+    "branch": "fix-mock-array-result-index",
+    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "evidence": [
+      "episode:55c0eb828de8e9fa"
+    ]
+  }
+]

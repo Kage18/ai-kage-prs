@@ -1,0 +1,27 @@
+{
+  "session-learning": [
+    "repo:ai:bug_fix:mock-model-array-results-are-call-indexed-after-recording-calls-1778481438900"
+  ],
+  "issue-15141": [
+    "repo:ai:bug_fix:mock-model-array-results-are-call-indexed-after-recording-calls-1778481438900"
+  ],
+  "mock-models": [
+    "repo:ai:bug_fix:mock-model-array-results-are-call-indexed-after-recording-calls-1778481438900"
+  ],
+  "test-helpers": [
+    "repo:ai:bug_fix:mock-model-array-results-are-call-indexed-after-recording-calls-1778481438900"
+  ],
+  "repo": [
+    "repo:ai:repo_map:ai-repo-overview-auto-overview",
+    "repo:ai:repo_map:ai-repo-structure-auto-structure"
+  ],
+  "overview": [
+    "repo:ai:repo_map:ai-repo-overview-auto-overview"
+  ],
+  "structure": [
+    "repo:ai:repo_map:ai-repo-structure-auto-structure"
+  ],
+  "index": [
+    "repo:ai:repo_map:ai-repo-structure-auto-structure"
+  ]
+}

@@ -1,0 +1,3064 @@
+{
+  "schema_version": 1,
+  "project_dir": "/private/tmp/kage-oss/ai-kage-prs/packages/ai",
+  "repo_key": "ai",
+  "generated_at": "2026-05-11T06:42:15.536Z",
+  "provider": "kage-structural",
+  "limits": {
+    "max_extract_file_bytes": 524288,
+    "max_workers": 8,
+    "min_parallel_files": 64
+  },
+  "files": {
+    "total": 432,
+    "indexed": 432,
+    "metadata_only": 1,
+    "ignored": 19
+  },
+  "cache": {
+    "hits": 432,
+    "misses": 0
+  },
+  "symbols": 7267,
+  "imports": 2037,
+  "edges": 9304,
+  "languages": {
+    "javascript": 2,
+    "json": 2,
+    "markdown": 1,
+    "typescript": 427
+  },
+  "worker_count": 8,
+  "ignored_summary": {
+    "generated_vendor_or_cache": 2,
+    "unsupported_file_type": 17
+  },
+  "deleted_files": [],
+  "fingerprint": "a6f64df375daf72786c8d8aa0e568199e9f345749b23bd627f9aae5ed177f4d0",
+  "file_entries": {
+    "package.json": {
+      "path": "package.json",
+      "size_bytes": 3088,
+      "mtime_ms": 1778480951630.9194,
+      "hash": "bbb1a9466ae016dddaacb9180715b81fd0d56d56bf194ac7cd886bc093219f18",
+      "extraction": "structural"
+    },
+    "src/generate-image/generate-image.test.ts": {
+      "path": "src/generate-image/generate-image.test.ts",
+      "size_bytes": 40381,
+      "mtime_ms": 1778480951634.7246,
+      "hash": "9aec4dc659ae2e71a2283cc8493c428e2f527f5b892aa0aa31d29abbb05268f5",
+      "extraction": "structural"
+    },
+    "src/generate-text/filter-active-tools.test.ts": {
+      "path": "src/generate-text/filter-active-tools.test.ts",
+      "size_bytes": 1734,
+      "mtime_ms": 1778480951638.8271,
+      "hash": "c16afd7b300b6e152cbf80de5b855fb90a1f9153178efc0877f9751dcdfb0ba0",
+      "extraction": "structural"
+    },
+    "src/generate-text/smooth-stream.test.ts": {
+      "path": "src/generate-text/smooth-stream.test.ts",
+      "size_bytes": 53438,
+      "mtime_ms": 1778480951641.4165,
+      "hash": "19885a84ff5874b948bb220bf875137901a673866e68609d4f4b76e21142cc91",
+      "extraction": "structural"
+    },
+    "src/middleware/add-tool-input-examples-middleware.test.ts": {
+      "path": "src/middleware/add-tool-input-examples-middleware.test.ts",
+      "size_bytes": 13011,
+      "mtime_ms": 1778480951645.002,
+      "hash": "a93fb452704ae36b60a5b2e6edde31e66b59a9d5da8eb21ac4c9837d1f33ccbe",
+      "extraction": "structural"
+    },
+    "src/middleware/wrap-language-model.test.ts": {
+      "path": "src/middleware/wrap-language-model.test.ts",
+      "size_bytes": 14641,
+      "mtime_ms": 1778480951646.1653,
+      "hash": "3710903d48cff664e1fc86ac4f33f4b88adac9db83aa86e6642dbfeb93fd2f44",
+      "extraction": "structural"
+    },
+    "src/model/as-provider-v4.test.ts": {
+      "path": "src/model/as-provider-v4.test.ts",
+      "size_bytes": 4671,
+      "mtime_ms": 1778480951647.4028,
+      "hash": "b51083e8aaab1e1eb0836a0b05e739afc653539f5e89eb60219c524e583f53c8",
+      "extraction": "structural"
+    },
+    "src/prompt/convert-to-language-model-prompt.test.ts": {
+      "path": "src/prompt/convert-to-language-model-prompt.test.ts",
+      "size_bytes": 86812,
+      "mtime_ms": 1778480951648.6519,
+      "hash": "3e7d10086036f7de0c3435b82a22619b9a4e66b1da19114d64349a59bdef9b6c",
+      "extraction": "structural"
+    },
+    "src/registry/custom-provider.test.ts": {
+      "path": "src/registry/custom-provider.test.ts",
+      "size_bytes": 15895,
+      "mtime_ms": 1778480951650.4993,
+      "hash": "d80fc43a6ecabba93d7c226b26436c515b9612d89c4d80567e3025687605a99e",
+      "extraction": "structural"
+    },
+    "src/test/mock-embedding-model-v4.ts": {
+      "path": "src/test/mock-embedding-model-v4.ts",
+      "size_bytes": 1665,
+      "mtime_ms": 1778481324807.8975,
+      "hash": "c307aeee50fcfaa753a6d03a1b11a0e7aa915592663770e24f5705ab3765715e",
+      "extraction": "structural"
+    },
+    "src/test/mock-language-model.test.ts": {
+      "path": "src/test/mock-language-model.test.ts",
+      "size_bytes": 3262,
+      "mtime_ms": 1778481503603.833,
+      "hash": "791ad2fcba6d344b675a80acd7ae52d17e021a633daeee62ff3087f61d9b175f",
+      "extraction": "structural"
+    },
+    "src/test/mock-speech-model-v3.ts": {
+      "path": "src/test/mock-speech-model-v3.ts",
+      "size_bytes": 702,
+      "mtime_ms": 1778480951652.8242,
+      "hash": "f3e7481da0592912731a13cd958bc20a95bab43052dcfeaa82344a1b18e6bb34",
+      "extraction": "structural"
+    },
+    "src/test/not-implemented.ts": {
+      "path": "src/test/not-implemented.ts",
+      "size_bytes": 82,
+      "mtime_ms": 1778480951653.2246,
+      "hash": "2155ddfd7aa122544cccfc45638290a468b60d7b76a016ecd00d0be9e2002121",
+      "extraction": "structural"
+    },
+    "src/ui-message-stream/pipe-ui-message-stream-to-response.test.ts": {
+      "path": "src/ui-message-stream/pipe-ui-message-stream-to-response.test.ts",
+      "size_bytes": 2519,
+      "mtime_ms": 1778480951656.2178,
+      "hash": "a9b12d074c1e900ba6a4d5f62c2fb1a571a9ecbaadcea3e31562286446af2886",
+      "extraction": "structural"
+    },
+    "src/ui/process-text-stream.test.ts": {
+      "path": "src/ui/process-text-stream.test.ts",
+      "size_bytes": 1146,
+      "mtime_ms": 1778480951660.1138,
+      "hash": "57e53929e27912f8554018ab49169f8657ad722c4f2b11f7f7cf2381d197df77",
+      "extraction": "structural"
+    },
+    "src/util/cosine-similarity.test.ts": {
+      "path": "src/util/cosine-similarity.test.ts",
+      "size_bytes": 1483,
+      "mtime_ms": 1778480951662.4392,
+      "hash": "757806819c00cbb9264f01950d4003cdf5b5eb36322ff827613f326eccbffb35",
+      "extraction": "structural"
+    },
+    "src/util/merge-objects.test.ts": {
+      "path": "src/util/merge-objects.test.ts",
+      "size_bytes": 4469,
+      "mtime_ms": 1778480951664.213,
+      "hash": "ab27a5e234f4560269aaa9d00756a075a80f2710f32fb6916ac2067b404e15d5",
+      "extraction": "structural"
+    },
+    "src/util/simulate-readable-stream.test.ts": {
+      "path": "src/util/simulate-readable-stream.test.ts",
+      "size_bytes": 2873,
+      "mtime_ms": 1778480951665.5417,
+      "hash": "5f13111521be99440f1b37348df7e864a747424269484c38b5ba0cbf12f24ca1",
+      "extraction": "structural"
+    },
+    "src/agent/agent.ts": {
+      "path": "src/agent/agent.ts",
+      "size_bytes": 4983,
+      "mtime_ms": 1778480951631.2126,
+      "hash": "a5a4197c8a76b6b765da70d1895b0d218a1d41ac60dfb8905bbdb040b8f68bdc",
+      "extraction": "structural"
+    },
+    "src/agent/tool-loop-agent-settings.ts": {
+      "path": "src/agent/tool-loop-agent-settings.ts",
+      "size_bytes": 9363,
+      "mtime_ms": 1778480951632.3416,
+      "hash": "7ceaa78f071c32ee00c5504a53b517a8e762a9e88e26edd78fa6b9c80c151e01",
+      "extraction": "structural"
+    },
+    "src/embed/index.ts": {
+      "path": "src/embed/index.ts",
+      "size_bytes": 156,
+      "mtime_ms": 1778480951633.5425,
+      "hash": "7e1cc3c362d517652ebb838bfd7ccddd7794bedf71cc69f1acce282f79e0d8b9",
+      "extraction": "structural"
+    },
+    "src/error/no-object-generated-error.ts": {
+      "path": "src/error/no-object-generated-error.ts",
+      "size_bytes": 2074,
+      "mtime_ms": 1778480951634.028,
+      "hash": "0921c6b0bdd5c32699d4e07136d212150801d1c17b4527314d8dae8dc16a236b",
+      "extraction": "structural"
+    },
+    "src/error/ui-message-stream-error.ts": {
+      "path": "src/error/ui-message-stream-error.ts",
+      "size_bytes": 1281,
+      "mtime_ms": 1778480951634.4521,
+      "hash": "0e87ceb9ed3e09e98638bef9988976a62c70796c8cc754fac9f1e77f15657f07",
+      "extraction": "structural"
+    },
+    "src/generate-object/generate-object.ts": {
+      "path": "src/generate-object/generate-object.ts",
+      "size_bytes": 17801,
+      "mtime_ms": 1778480951636.061,
+      "hash": "7e9af2be39c9bc75c3e86886e0246d9ac1937be5853e3a6cbd537ebf021ef9ce",
+      "extraction": "structural"
+    },
+    "src/generate-object/stream-object.ts": {
+      "path": "src/generate-object/stream-object.ts",
+      "size_bytes": 30440,
+      "mtime_ms": 1778480951636.8884,
+      "hash": "324fea40628bb88057b3f8f9b7f942113420056e5db3581da74ff08084dc4bf6",
+      "extraction": "structural"
+    },
+    "src/generate-text/collect-tool-approvals.ts": {
+      "path": "src/generate-text/collect-tool-approvals.ts",
+      "size_bytes": 3559,
+      "mtime_ms": 1778480951638.1802,
+      "hash": "b29dc50abd555d27ce9cfc1a04e5c3a0b7c74296afdc6b67e326858c5af3987f",
+      "extraction": "structural"
+    },
+    "src/generate-text/generate-text-events.ts": {
+      "path": "src/generate-text/generate-text-events.ts",
+      "size_bytes": 9238,
+      "mtime_ms": 1778480951638.933,
+      "hash": "636e67776fe87274667e4f100c9031a18beb3cbd902a55bdfa40698c68edfb22",
+      "extraction": "structural"
+    },
+    "src/generate-text/output-utils.ts": {
+      "path": "src/generate-text/output-utils.ts",
+      "size_bytes": 680,
+      "mtime_ms": 1778480951640.162,
+      "hash": "641733e69bc23e2fa69d90776e6b242e743c0f69f2c5c46ba3a15abbd912117a",
+      "extraction": "structural"
+    },
+    "src/generate-text/response-message.ts": {
+      "path": "src/generate-text/response-message.ts",
+      "size_bytes": 296,
+      "mtime_ms": 1778480951641.0686,
+      "hash": "a1d0676b6ee30109e08fd423df16ba55d2b9f15388c68c672f806cf6af2f121a",
+      "extraction": "structural"
+    },
+    "src/generate-text/stream-text.test-d.ts": {
+      "path": "src/generate-text/stream-text.test-d.ts",
+      "size_bytes": 21891,
+      "mtime_ms": 1778480951642.0842,
+      "hash": "155d3850658d103909c7c6ae60529c8af377c9590591925e2e5fd87b27bf89bf",
+      "extraction": "structural"
+    },
+    "src/generate-text/tool-call.ts": {
+      "path": "src/generate-text/tool-call.ts",
+      "size_bytes": 1763,
+      "mtime_ms": 1778480951643.245,
+      "hash": "12157b993b93f4eec9df92407927f9028be760d8be9c1e11fd872e02057a1b4c",
+      "extraction": "structural"
+    },
+    "src/generate-text/tools-context-parameter.test-d.ts": {
+      "path": "src/generate-text/tools-context-parameter.test-d.ts",
+      "size_bytes": 6522,
+      "mtime_ms": 1778480951643.7673,
+      "hash": "36c0575d86ab899819e4a44b45b88c59462166399cd5b981e362dbb7304a0f85",
+      "extraction": "structural"
+    },
+    "src/logger/index.ts": {
+      "path": "src/logger/index.ts",
+      "size_bytes": 214,
+      "mtime_ms": 1778480951644.3137,
+      "hash": "70cbd9789fb6d537f8180773d3329f7a90827a39bbdb6c2d6ee03761a476650b",
+      "extraction": "structural"
+    },
+    "src/middleware/simulate-streaming-middleware.ts": {
+      "path": "src/middleware/simulate-streaming-middleware.ts",
+      "size_bytes": 2364,
+      "mtime_ms": 1778480951645.7969,
+      "hash": "5ab2d51b64ff5eeffbfad2208c6550ec4ee765d72ec9f4b008c21e6795d35102",
+      "extraction": "structural"
+    },
+    "src/model/as-image-model-v4.ts": {
+      "path": "src/model/as-image-model-v4.ts",
+      "size_bytes": 656,
+      "mtime_ms": 1778480951646.7693,
+      "hash": "034b2122b9fc45640a3cb145a251eb67e19135339449bfab19be5896fc116307",
+      "extraction": "structural"
+    },
+    "src/model/as-transcription-model-v3.ts": {
+      "path": "src/model/as-transcription-model-v3.ts",
+      "size_bytes": 774,
+      "mtime_ms": 1778480951647.902,
+      "hash": "e0231a8a1eae89431f19388dca52f138f8242397d51cca153303640266585c04",
+      "extraction": "structural"
+    },
+    "src/prompt/data-content.ts": {
+      "path": "src/prompt/data-content.ts",
+      "size_bytes": 1361,
+      "mtime_ms": 1778480951649.0222,
+      "hash": "9961a5224da3acb0117431b27e31cd5e3831f6750da179e7555f0dd9e83bf5ea",
+      "extraction": "structural"
+    },
+    "src/prompt/prepare-language-model-call-options.ts": {
+      "path": "src/prompt/prepare-language-model-call-options.ts",
+      "size_bytes": 2507,
+      "mtime_ms": 1778480951649.5732,
+      "hash": "23cb76b34ee568822e0cf152baa3ada1773acaf5d09d575ad5026e2fda0506d6",
+      "extraction": "structural"
+    },
+    "src/registry/custom-provider.test-d.ts": {
+      "path": "src/registry/custom-provider.test-d.ts",
+      "size_bytes": 18144,
+      "mtime_ms": 1778480951650.257,
+      "hash": "08fa7556aaab56bf55fffab35cb5122a50d3061cade308d4dbdb81f8e5fd189b",
+      "extraction": "structural"
+    },
+    "src/rerank/rerank-result.ts": {
+      "path": "src/rerank/rerank-result.ts",
+      "size_bytes": 1527,
+      "mtime_ms": 1778480951651.2356,
+      "hash": "83de8b52e6c0bd064e5b7092e0f82eebe4315e2c9aebfeb35bf48de6d89990e2",
+      "extraction": "structural"
+    },
+    "src/telemetry/telemetry.ts": {
+      "path": "src/telemetry/telemetry.ts",
+      "size_bytes": 7944,
+      "mtime_ms": 1778480951652.0308,
+      "hash": "bdbcf3ddcbef9acf1a32cb62022c4b629ad9a4ee8c064bae2717793f8548c4aa",
+      "extraction": "structural"
+    },
+    "src/types/embedding-model.ts": {
+      "path": "src/types/embedding-model.ts",
+      "size_bytes": 372,
+      "mtime_ms": 1778480951654.1348,
+      "hash": "a8f1c9f2d44b87fdb26cf6a42bb37fecc2493ee852a78ede8bfc0d1ff8bf96d4",
+      "extraction": "structural"
+    },
+    "src/types/language-model-response-metadata.ts": {
+      "path": "src/types/language-model-response-metadata.ts",
+      "size_bytes": 937,
+      "mtime_ms": 1778480951654.5708,
+      "hash": "a22b00ba82ac0746a293c82b07ce3385bba9bdb81674011443f8f630bbc46f92",
+      "extraction": "structural"
+    },
+    "src/types/transcription-model-response-metadata.ts": {
+      "path": "src/types/transcription-model-response-metadata.ts",
+      "size_bytes": 319,
+      "mtime_ms": 1778480951655.0063,
+      "hash": "40491d2bc51c0c37565b67aa8715eb806b15944a7e961eea2237b1c0bf8b17cf",
+      "extraction": "structural"
+    },
+    "src/ui-message-stream/get-response-ui-message-id.ts": {
+      "path": "src/ui-message-stream/get-response-ui-message-id.ts",
+      "size_bytes": 1277,
+      "mtime_ms": 1778480951655.8735,
+      "hash": "03b500341207751f8e8661051ff478c832fba9926a1b997fa9cd011652460d7f",
+      "extraction": "structural"
+    },
+    "src/ui-message-stream/ui-message-stream-headers.ts": {
+      "path": "src/ui-message-stream/ui-message-stream-headers.ts",
+      "size_bytes": 241,
+      "mtime_ms": 1778480951656.5176,
+      "hash": "716e62a47a325513af67a8677d973869486e9166a7c205e85ef9483628118814",
+      "extraction": "structural"
+    },
+    "src/ui/chat.ts": {
+      "path": "src/ui/chat.ts",
+      "size_bytes": 22152,
+      "mtime_ms": 1778480951658.2598,
+      "hash": "816e20758d535fc22e81ade6391de35bc675c1e049ef3812f4ce44d68c8dbe9b",
+      "extraction": "structural"
+    },
+    "src/ui/last-assistant-message-is-complete-with-tool-calls.ts": {
+      "path": "src/ui/last-assistant-message-is-complete-with-tool-calls.ts",
+      "size_bytes": 1035,
+      "mtime_ms": 1778480951660.0652,
+      "hash": "9c085a4f602a6c7e4429eb6561bb8f514d5a33a0aadd75a4b3b372841f33d157",
+      "extraction": "structural"
+    },
+    "src/upload-file/index.ts": {
+      "path": "src/upload-file/index.ts",
+      "size_bytes": 106,
+      "mtime_ms": 1778480951661.463,
+      "hash": "ed335c3131f38cdcd4a89eb3e4cfd230a017acbb1bda2dec83efdd3c91a99017",
+      "extraction": "structural"
+    },
+    "src/util/consume-stream.ts": {
+      "path": "src/util/consume-stream.ts",
+      "size_bytes": 915,
+      "mtime_ms": 1778480951662.3992,
+      "hash": "6fd32e0b7b1ab028500fc8ed00961ce4b3d3a35b8d2387aa4703d01fa523ec06",
+      "extraction": "structural"
+    },
+    "src/util/download/download.ts": {
+      "path": "src/util/download/download.ts",
+      "size_bytes": 1757,
+      "mtime_ms": 1778480951663.091,
+      "hash": "91ac4c2564135102c572bb2c2e374897c1befdd805e530e7b6840ee50facd7a9",
+      "extraction": "structural"
+    },
+    "src/util/is-non-empty-object.ts": {
+      "path": "src/util/is-non-empty-object.ts",
+      "size_bytes": 188,
+      "mtime_ms": 1778480951663.7107,
+      "hash": "1bbc23ea421300460b8119dc54f83b8ea776afa8ef5c741411b3b235b2590991",
+      "extraction": "structural"
+    },
+    "src/util/parse-partial-json.ts": {
+      "path": "src/util/parse-partial-json.ts",
+      "size_bytes": 819,
+      "mtime_ms": 1778480951664.6294,
+      "hash": "b258d1e4610fc1ad45f227f5162de0282a96d6deecc26e81f84cc830c9f1acb0",
+      "extraction": "structural"
+    },
+    "src/util/split-array.ts": {
+      "path": "src/util/split-array.ts",
+      "size_bytes": 574,
+      "mtime_ms": 1778480951665.7104,
+      "hash": "672ae71bdd7fcd0606cdb437259389f542d3a9d87c687a4330a8d960c96daac6",
+      "extraction": "structural"
+    },
+    "README.md": {
+      "path": "README.md",
+      "size_bytes": 7025,
+      "mtime_ms": 1778480951630.6196,
+      "hash": "47d8069ab66fea9e8bc354aa5b7a560f8250e76ded2ba81b1d2132eceb43c3b0",
+      "extraction": "structural"
+    },
+    "src/generate-object/generate-object.test.ts": {
+      "path": "src/generate-object/generate-object.test.ts",
+      "size_bytes": 45081,
+      "mtime_ms": 1778480951635.9453,
+      "hash": "ea91b714afbb632961dab8e1d69df8b6481372b2f013b4354e83e198ea137d6c",
+      "extraction": "structural"
+    },
+    "src/generate-text/generate-text.test.ts": {
+      "path": "src/generate-text/generate-text.test.ts",
+      "size_bytes": 347213,
+      "mtime_ms": 1778480951639.4834,
+      "hash": "00a653b23bdcc722e91d09249bee6cfdc91e1214ebd43768547de9436b253609",
+      "extraction": "structural"
+    },
+    "src/generate-text/stop-condition.test.ts": {
+      "path": "src/generate-text/stop-condition.test.ts",
+      "size_bytes": 4699,
+      "mtime_ms": 1778480951641.7246,
+      "hash": "a8711007180038e347662e110e229253fd69f7f5b4e2665c08b6408979b2eb66",
+      "extraction": "structural"
+    },
+    "src/middleware/default-embedding-settings-middleware.test.ts": {
+      "path": "src/middleware/default-embedding-settings-middleware.test.ts",
+      "size_bytes": 3683,
+      "mtime_ms": 1778480951645.1157,
+      "hash": "e49693b8afe672d3e17af86e5d356a755c9e08347cfb9e3af9e93c9684323cb1",
+      "extraction": "structural"
+    },
+    "src/middleware/wrap-provider.test.ts": {
+      "path": "src/middleware/wrap-provider.test.ts",
+      "size_bytes": 4013,
+      "mtime_ms": 1778480951646.2603,
+      "hash": "51a2a770c135e851fdee0d8cce1c1879033ba7e7e2da8834aea5df1445c71bd4",
+      "extraction": "structural"
+    },
+    "src/model/as-reranking-model-v4.test.ts": {
+      "path": "src/model/as-reranking-model-v4.test.ts",
+      "size_bytes": 2785,
+      "mtime_ms": 1778480951647.4924,
+      "hash": "7dd05bd4b5aee6bb5da5c71e8a9c55326705e84a5c7196e4bf838595d3fbeb03",
+      "extraction": "structural"
+    },
+    "src/prompt/convert-to-language-model-prompt.validation.test.ts": {
+      "path": "src/prompt/convert-to-language-model-prompt.validation.test.ts",
+      "size_bytes": 3981,
+      "mtime_ms": 1778480951648.7908,
+      "hash": "82beba90e8323164080c1380418834fa688abbba0a030f5382a879fd844a6756",
+      "extraction": "structural"
+    },
+    "src/registry/provider-registry.test.ts": {
+      "path": "src/registry/provider-registry.test.ts",
+      "size_bytes": 26986,
+      "mtime_ms": 1778480951650.794,
+      "hash": "c44b3cea078421e9d46b9c94db5f0021310f3c30c9840fbb0f93982e53475f8f",
+      "extraction": "structural"
+    },
+    "src/test/mock-embedding-model.test.ts": {
+      "path": "src/test/mock-embedding-model.test.ts",
+      "size_bytes": 1221,
+      "mtime_ms": 1778481151902.3445,
+      "hash": "0a4d50f4fd701ed93d26dcd33695129bb3161bef18e8710df35f1d9a5557a991",
+      "extraction": "structural"
+    },
+    "src/test/mock-provider-v2.ts": {
+      "path": "src/test/mock-provider-v2.ts",
+      "size_bytes": 2105,
+      "mtime_ms": 1778480951652.503,
+      "hash": "5a826fb0fe8a21775b543507227b7f64f03229d3cd38f40b057834adaaa36ae5",
+      "extraction": "structural"
+    },
+    "src/test/mock-speech-model-v4.ts": {
+      "path": "src/test/mock-speech-model-v4.ts",
+      "size_bytes": 702,
+      "mtime_ms": 1778480951652.871,
+      "hash": "c0785b1813377eb705ba1045328983a337c32d0f6480fb501283c18086d0b75b",
+      "extraction": "structural"
+    },
+    "src/text-stream/create-text-stream-response.test.ts": {
+      "path": "src/text-stream/create-text-stream-response.test.ts",
+      "size_bytes": 1255,
+      "mtime_ms": 1778480951653.327,
+      "hash": "4be34f739eadca078f60d8e4ea88da6110affc27c1dc8d517aff89e8c4afcaa4",
+      "extraction": "structural"
+    },
+    "src/ui-message-stream/read-ui-message-stream.test.ts": {
+      "path": "src/ui-message-stream/read-ui-message-stream.test.ts",
+      "size_bytes": 3470,
+      "mtime_ms": 1778480951656.3132,
+      "hash": "1995579d0b8187414209787a3e51127dccc0a61080418782a98d6b61004569a5",
+      "extraction": "structural"
+    },
+    "src/ui/process-ui-message-stream.test.ts": {
+      "path": "src/ui/process-ui-message-stream.test.ts",
+      "size_bytes": 259179,
+      "mtime_ms": 1778480951660.7869,
+      "hash": "a0926fe1b8647eb463926f4907135de44ae0540c28eddd1654adab9ad992a3d1",
+      "extraction": "structural"
+    },
+    "src/util/create-stitchable-stream.test.ts": {
+      "path": "src/util/create-stitchable-stream.test.ts",
+      "size_bytes": 7402,
+      "mtime_ms": 1778480951662.6575,
+      "hash": "9fb38cb285000422e9dd854e39327389947788b7d881de5d85e8b74be53f88a3",
+      "extraction": "structural"
+    },
+    "src/util/notify.test.ts": {
+      "path": "src/util/notify.test.ts",
+      "size_bytes": 6686,
+      "mtime_ms": 1778480951664.395,
+      "hash": "31ca808188c2201289fabb39de742bf7425d21be28176cb1b0a28273889356fb",
+      "extraction": "structural"
+    },
+    "src/util/split-array.test.ts": {
+      "path": "src/util/split-array.test.ts",
+      "size_bytes": 1781,
+      "mtime_ms": 1778480951665.651,
+      "hash": "95bb2c96d09178477d92f3ca388bdf2f30d2dd24add10e4eccfef97db106dd4b",
+      "extraction": "structural"
+    },
+    "src/agent/create-agent-ui-stream-response.ts": {
+      "path": "src/agent/create-agent-ui-stream-response.ts",
+      "size_bytes": 2624,
+      "mtime_ms": 1778480951631.8823,
+      "hash": "3f27d57d68f1a0e7887c1206f6cc0ac2436a83b41bbed8dcdcea2ea8b9f26c5b",
+      "extraction": "structural"
+    },
+    "src/agent/tool-loop-agent.test-d.ts": {
+      "path": "src/agent/tool-loop-agent.test-d.ts",
+      "size_bytes": 18686,
+      "mtime_ms": 1778480951632.4282,
+      "hash": "ce30775804a0353cff88398f22f0cefd6d301078d1fb02964d603ecb9a79398f",
+      "extraction": "structural"
+    },
+    "src/error/index.ts": {
+      "path": "src/error/index.ts",
+      "size_bytes": 1849,
+      "mtime_ms": 1778480951633.635,
+      "hash": "cf1aa02131b6b5ddec7a06dc3d30f428540e5130d1a35f64919b0bacebef83de",
+      "extraction": "structural"
+    },
+    "src/error/no-output-generated-error.ts": {
+      "path": "src/error/no-output-generated-error.ts",
+      "size_bytes": 652,
+      "mtime_ms": 1778480951634.082,
+      "hash": "8a81d719d80e15a6d7afdfdc99bccccc68d89756470a2b4e9c0dc50e325f6a07",
+      "extraction": "structural"
+    },
+    "src/error/unsupported-model-version-error.ts": {
+      "path": "src/error/unsupported-model-version-error.ts",
+      "size_bytes": 768,
+      "mtime_ms": 1778480951634.5,
+      "hash": "3e2bdd9afb4e751d286fb4d80c3f73fb949d51913829dc363ff670d6a0332741",
+      "extraction": "structural"
+    },
+    "src/generate-object/index.ts": {
+      "path": "src/generate-object/index.ts",
+      "size_bytes": 552,
+      "mtime_ms": 1778480951636.1238,
+      "hash": "98f0489c941d2b71c6005772ce73a26d0cfdfa4e76110549e5803e96add80ff1",
+      "extraction": "structural"
+    },
+    "src/generate-object/structured-output-events.ts": {
+      "path": "src/generate-object/structured-output-events.ts",
+      "size_bytes": 7046,
+      "mtime_ms": 1778480951637.035,
+      "hash": "98f9c75af961d813890194bd570357275c482a5e2284ba903be4fd49934452b5",
+      "extraction": "structural"
+    },
+    "src/generate-text/content-part.ts": {
+      "path": "src/generate-text/content-part.ts",
+      "size_bytes": 1412,
+      "mtime_ms": 1778480951638.2288,
+      "hash": "7ad9ce847209f5c75146f51221d91ae4d5ffe797e1552b7a11a0093fafff07cb",
+      "extraction": "structural"
+    },
+    "src/generate-text/generate-text-result.ts": {
+      "path": "src/generate-text/generate-text-result.ts",
+      "size_bytes": 4986,
+      "mtime_ms": 1778480951639.0732,
+      "hash": "9d785792c7c8e92d4d2f708d51aa047b95d3eb9be3d40c54312bd78c2328aa5c",
+      "extraction": "structural"
+    },
+    "src/generate-text/output.ts": {
+      "path": "src/generate-text/output.ts",
+      "size_bytes": 17862,
+      "mtime_ms": 1778480951640.2957,
+      "hash": "8710e2408666477eb85aa273c2c24a80366a44c103b121c5dc903a4d27e43564",
+      "extraction": "structural"
+    },
+    "src/generate-text/restricted-telemetry-dispatcher.test-d.ts": {
+      "path": "src/generate-text/restricted-telemetry-dispatcher.test-d.ts",
+      "size_bytes": 2443,
+      "mtime_ms": 1778480951641.1145,
+      "hash": "5d9ceffe4d63e9c65e100f9d67ea34e0ea9ad75272346215c335c0175f2bf0f7",
+      "extraction": "structural"
+    },
+    "src/generate-text/stream-text.ts": {
+      "path": "src/generate-text/stream-text.ts",
+      "size_bytes": 92163,
+      "mtime_ms": 1778480951642.4597,
+      "hash": "38c13b9cdee69006d23f9958e46b2a5c62ecdf2323c0630d0d4375d9a08069fa",
+      "extraction": "structural"
+    },
+    "src/generate-text/tool-error.ts": {
+      "path": "src/generate-text/tool-error.ts",
+      "size_bytes": 988,
+      "mtime_ms": 1778480951643.291,
+      "hash": "073585858f6ab67793d9c4d32a676a3b3403559bd87ba3a93ea56d80e88639f9",
+      "extraction": "structural"
+    },
+    "src/generate-text/tools-context-parameter.ts": {
+      "path": "src/generate-text/tools-context-parameter.ts",
+      "size_bytes": 421,
+      "mtime_ms": 1778480951643.809,
+      "hash": "8750f9bcd8b5bae17973239cddfaea42bdb24d3c5b32891b12e63fe5ba78a8d8",
+      "extraction": "structural"
+    },
+    "src/logger/log-warnings.ts": {
+      "path": "src/logger/log-warnings.ts",
+      "size_bytes": 4349,
+      "mtime_ms": 1778480951644.5837,
+      "hash": "f706eeac35797c65c2e1077f76679de1fd469876ddb4231ee02361838159a30c",
+      "extraction": "structural"
+    },
+    "src/middleware/wrap-embedding-model.ts": {
+      "path": "src/middleware/wrap-embedding-model.ts",
+      "size_bytes": 3098,
+      "mtime_ms": 1778480951645.935,
+      "hash": "8f876b56bb0076a59340d1df7e21f77a4954a7e085c924e2b955438c2448c675",
+      "extraction": "structural"
+    },
+    "src/model/as-language-model-v3.ts": {
+      "path": "src/model/as-language-model-v3.ts",
+      "size_bytes": 2992,
+      "mtime_ms": 1778480951647.0771,
+      "hash": "c921befef9f8bd0c0beab7f7d12b868000a1a8e55650e89f56152f3ce9497917",
+      "extraction": "structural"
+    },
+    "src/model/as-transcription-model-v4.ts": {
+      "path": "src/model/as-transcription-model-v4.ts",
+      "size_bytes": 760,
+      "mtime_ms": 1778480951647.9915,
+      "hash": "30c729c5e61287503c1d1a85a5fcd480a4c933affc2d6281d652ff2c8ac978cb",
+      "extraction": "structural"
+    },
+    "src/prompt/file-part-data.ts": {
+      "path": "src/prompt/file-part-data.ts",
+      "size_bytes": 3603,
+      "mtime_ms": 1778480951649.1829,
+      "hash": "b19e37ec9b6c72b483575c9ad43687d78d7d9295522edd0af620f5dc5c44576b",
+      "extraction": "structural"
+    },
+    "src/prompt/prepare-tool-choice.ts": {
+      "path": "src/prompt/prepare-tool-choice.ts",
+      "size_bytes": 522,
+      "mtime_ms": 1778480951649.6606,
+      "hash": "2d37e9ce19bbe6d342392eb53d9c3a81dcca99f56db13430bdec553598cb050b",
+      "extraction": "structural"
+    },
+    "src/registry/custom-provider.ts": {
+      "path": "src/registry/custom-provider.ts",
+      "size_bytes": 9924,
+      "mtime_ms": 1778480951650.5706,
+      "hash": "375313feccea2d2591e39f5bc74c4b41bf9588cf758dbd1f252412258f51ce7c",
+      "extraction": "structural"
+    },
+    "src/rerank/rerank.ts": {
+      "path": "src/rerank/rerank.ts",
+      "size_bytes": 9281,
+      "mtime_ms": 1778480951651.3762,
+      "hash": "bd5049ec9893375fdb5c1010857710406d759e10c10870f42daa1f3dcbdb290f",
+      "extraction": "structural"
+    },
+    "src/text-stream/create-text-stream-response.ts": {
+      "path": "src/text-stream/create-text-stream-response.ts",
+      "size_bytes": 993,
+      "mtime_ms": 1778480951653.3955,
+      "hash": "97acb2d01ec2951a60849a2be3856e69da9c1fc6c3f1edf383720213b9e2b25d",
+      "extraction": "structural"
+    },
+    "src/types/image-model-middleware.ts": {
+      "path": "src/types/image-model-middleware.ts",
+      "size_bytes": 462,
+      "mtime_ms": 1778480951654.1838,
+      "hash": "9c6935b6d2224b45682273ca44edf4109e6cbd6366a47fc51e11d39ed7f752bf",
+      "extraction": "structural"
+    },
+    "src/types/language-model.ts": {
+      "path": "src/types/language-model.ts",
+      "size_bytes": 2958,
+      "mtime_ms": 1778480951654.6255,
+      "hash": "ddeb863df0de978c89cf6aa4fbca4225c9c5ed0f4d0ae846503b5909df0d1c41",
+      "extraction": "structural"
+    },
+    "src/types/transcription-model.ts": {
+      "path": "src/types/transcription-model.ts",
+      "size_bytes": 293,
+      "mtime_ms": 1778480951655.0613,
+      "hash": "6b3f8d4acaad6d6b90a9ed9f44d86dcc57b649161e6d1f8a5fbc1fb463161e3d",
+      "extraction": "structural"
+    },
+    "src/ui-message-stream/handle-ui-message-stream-finish.ts": {
+      "path": "src/ui-message-stream/handle-ui-message-stream-finish.ts",
+      "size_bytes": 4784,
+      "mtime_ms": 1778480951656.0842,
+      "hash": "f9081cc383064a99cad4f90c53a7be1bb42d0ad39e66ff112ea23f2d922f8d02",
+      "extraction": "structural"
+    },
+    "src/ui-message-stream/ui-message-stream-on-finish-callback.ts": {
+      "path": "src/ui-message-stream/ui-message-stream-on-finish-callback.ts",
+      "size_bytes": 858,
+      "mtime_ms": 1778480951656.559,
+      "hash": "f8e2d20ea0ee0788595bb26d607fa8ca63741970413136199d356d39d72efd07",
+      "extraction": "structural"
+    },
+    "src/ui/convert-file-list-to-file-ui-parts.ts": {
+      "path": "src/ui/convert-file-list-to-file-ui-parts.ts",
+      "size_bytes": 962,
+      "mtime_ms": 1778480951658.3103,
+      "hash": "90075aa9b47c76c53e42397950a9ede1274e8967aa86dbbb23a3ece1c1a4316e",
+      "extraction": "structural"
+    },
+    "src/ui/process-text-stream.ts": {
+      "path": "src/ui/process-text-stream.ts",
+      "size_bytes": 394,
+      "mtime_ms": 1778480951660.1626,
+      "hash": "8bc3870a6d46197bc1f0a7794a38f14ad1907f9ee7b24168b085239a31d92a08",
+      "extraction": "structural"
+    },
+    "src/upload-file/upload-file-result.ts": {
+      "path": "src/upload-file/upload-file-result.ts",
+      "size_bytes": 421,
+      "mtime_ms": 1778480951661.5051,
+      "hash": "70c8090f549bd7e6dbcea82df5a08a8cd1c91ec9f66dc725f2efba92a755e629",
+      "extraction": "structural"
+    },
+    "src/util/cosine-similarity.ts": {
+      "path": "src/util/cosine-similarity.ts",
+      "size_bytes": 1416,
+      "mtime_ms": 1778480951662.4832,
+      "hash": "c2e9408117667c1775d6e041d83605e894b61503e1b723a307c586082bcb6fdc",
+      "extraction": "structural"
+    },
+    "src/util/error-handler.ts": {
+      "path": "src/util/error-handler.ts",
+      "size_bytes": 53,
+      "mtime_ms": 1778480951663.1328,
+      "hash": "b8446d6d44a2cdc2b6a4ed3a5b418b261bb9f8fe5060c289a903ef5e356d721d",
+      "extraction": "structural"
+    },
+    "src/util/job.ts": {
+      "path": "src/util/job.ts",
+      "size_bytes": 39,
+      "mtime_ms": 1778480951663.7507,
+      "hash": "8a758bb16ec531ee49dc25af705a1e655b1b2eddc26855d53b66d7bdb089a3ed",
+      "extraction": "structural"
+    },
+    "src/util/prepare-headers.ts": {
+      "path": "src/util/prepare-headers.ts",
+      "size_bytes": 356,
+      "mtime_ms": 1778480951664.7185,
+      "hash": "9bc70426653e5d18996c603936944e26e3961856ea5f417302e537f97241523e",
+      "extraction": "structural"
+    },
+    "src/util/value-of.ts": {
+      "path": "src/util/value-of.ts",
+      "size_bytes": 2275,
+      "mtime_ms": 1778480951665.7756,
+      "hash": "aa525aac11606e158a7d6d901430fc6d9272b728a36742b32073d9f86b8ea482",
+      "extraction": "structural"
+    },
+    "tsconfig.json": {
+      "path": "tsconfig.json",
+      "size_bytes": 601,
+      "mtime_ms": 1778480951666.2505,
+      "hash": "8ec45ccf310bce5f83a564120b497a733abf9d175d2c7715681db10c14cf78f6",
+      "extraction": "structural"
+    },
+    "src/generate-object/inject-json-instruction.test.ts": {
+      "path": "src/generate-object/inject-json-instruction.test.ts",
+      "size_bytes": 5398,
+      "mtime_ms": 1778480951636.2937,
+      "hash": "621ce768328044fea3a5fb671165a6d41af5f074662dbb4bf48df647ccfdf884",
+      "extraction": "structural"
+    },
+    "src/generate-text/invoke-tool-callbacks-from-stream.test.ts": {
+      "path": "src/generate-text/invoke-tool-callbacks-from-stream.test.ts",
+      "size_bytes": 5287,
+      "mtime_ms": 1778480951640.0198,
+      "hash": "982944715adb740546d48324efdf2113f074b6f0f8d57bff8ccc44ffc891fa75",
+      "extraction": "structural"
+    },
+    "src/generate-text/stream-language-model-call.test.ts": {
+      "path": "src/generate-text/stream-language-model-call.test.ts",
+      "size_bytes": 33497,
+      "mtime_ms": 1778480951641.8271,
+      "hash": "396afc05cf6cadff0fbb74322b10d1df22f1404dabd18459eae9a192172ebf14",
+      "extraction": "structural"
+    },
+    "src/middleware/default-settings-middleware.test.ts": {
+      "path": "src/middleware/default-settings-middleware.test.ts",
+      "size_bytes": 11341,
+      "mtime_ms": 1778480951645.2253,
+      "hash": "35015bdeefaa3de706d488cb83c82729b9f1d99b1c3ede663d75d0a6ee351704",
+      "extraction": "structural"
+    },
+    "src/model/as-embedding-model-v3.test.ts": {
+      "path": "src/model/as-embedding-model-v3.test.ts",
+      "size_bytes": 9345,
+      "mtime_ms": 1778480951646.425,
+      "hash": "3b141cf3164c1b919bf44cd097a48a81c1ae92b37fddb410f8eab60a58b29656",
+      "extraction": "structural"
+    },
+    "src/model/as-speech-model-v3.test.ts": {
+      "path": "src/model/as-speech-model-v3.test.ts",
+      "size_bytes": 10059,
+      "mtime_ms": 1778480951647.6006,
+      "hash": "eed2018a73b01d7fd02e1dc544418387e463569c6472e5fc84be94f820ce9282",
+      "extraction": "structural"
+    },
+    "src/prompt/create-tool-model-output.test.ts": {
+      "path": "src/prompt/create-tool-model-output.test.ts",
+      "size_bytes": 12623,
+      "mtime_ms": 1778480951648.924,
+      "hash": "396fc3b88883d9aef17a0a056ce20d2bfe5217f2d2b8186cc5dd57c0f0659eac",
+      "extraction": "structural"
+    },
+    "src/rerank/rerank.test.ts": {
+      "path": "src/rerank/rerank.test.ts",
+      "size_bytes": 23676,
+      "mtime_ms": 1778480951651.2937,
+      "hash": "34a11f419ffc66a0377646056d9923e36d43497f5023478c1a460e948d4787f2",
+      "extraction": "structural"
+    },
+    "src/test/mock-image-model-v2.ts": {
+      "path": "src/test/mock-image-model-v2.ts",
+      "size_bytes": 885,
+      "mtime_ms": 1778480951652.2346,
+      "hash": "c6aea2e3834634204d1ca92ecc69789b3eac176fb6ed917a91c64ca9037ed697",
+      "extraction": "structural"
+    },
+    "src/test/mock-provider-v3.ts": {
+      "path": "src/test/mock-provider-v3.ts",
+      "size_bytes": 2484,
+      "mtime_ms": 1778480951652.545,
+      "hash": "71190fcd2a15247b6e61762894a3443e253830b603272b826926a1c7ec2eaa96",
+      "extraction": "structural"
+    },
+    "src/test/mock-transcription-model-v2.ts": {
+      "path": "src/test/mock-transcription-model-v2.ts",
+      "size_bytes": 765,
+      "mtime_ms": 1778480951652.925,
+      "hash": "476b408c64442c0f3e2ecb23dcc41cd9e89e1237b6b241ea8ef1e8d4697467cb",
+      "extraction": "structural"
+    },
+    "src/text-stream/pipe-text-stream-to-response.test.ts": {
+      "path": "src/text-stream/pipe-text-stream-to-response.test.ts",
+      "size_bytes": 1237,
+      "mtime_ms": 1778480951653.5002,
+      "hash": "de90eac9eb9e443cf6d38008f647b385f2b094a8c4cd37f22cfa9eb8cb3054a7",
+      "extraction": "structural"
+    },
+    "src/ui/chat.test.ts": {
+      "path": "src/ui/chat.test.ts",
+      "size_bytes": 79057,
+      "mtime_ms": 1778480951658.178,
+      "hash": "5f7d191d13c8107a66b54fe73f02411a0f983af28f195ca29de7bbb9e6457561",
+      "extraction": "structural"
+    },
+    "src/ui/transform-text-to-ui-message-stream.test.ts": {
+      "path": "src/ui/transform-text-to-ui-message-stream.test.ts",
+      "size_bytes": 2942,
+      "mtime_ms": 1778480951660.9744,
+      "hash": "fbe49f6beb69d7b0e40c6542d9abcdb7c64cf5afe8b329a8ab81e9b3b13bfe41",
+      "extraction": "structural"
+    },
+    "src/util/download/download.test.ts": {
+      "path": "src/util/download/download.test.ts",
+      "size_bytes": 6883,
+      "mtime_ms": 1778480951663.0442,
+      "hash": "201de59d7bb29948160ecee517553cc8030e044e8b3cc8a4fc3af84b2c93eebe",
+      "extraction": "structural"
+    },
+    "src/util/parse-partial-json.test.ts": {
+      "path": "src/util/parse-partial-json.test.ts",
+      "size_bytes": 2569,
+      "mtime_ms": 1778480951664.5618,
+      "hash": "3d08d648827c6f0e8ef111ce5b3c8fc0449d7f6c3d82b17530c8101641515730",
+      "extraction": "structural"
+    },
+    "src/util/write-to-server-response.test.ts": {
+      "path": "src/util/write-to-server-response.test.ts",
+      "size_bytes": 8036,
+      "mtime_ms": 1778480951665.9036,
+      "hash": "c883f009e2f26f9fed627c4161086c9ea835ad7f90ddc919aa9b91409fbaf3ce",
+      "extraction": "structural"
+    },
+    "src/agent/create-agent-ui-stream.ts": {
+      "path": "src/agent/create-agent-ui-stream.ts",
+      "size_bytes": 3154,
+      "mtime_ms": 1778480951631.9414,
+      "hash": "9b348cb1135eb5225f1ac6aac5ec3fbb9c9f0e08cd0506c486c4b9ab976ccf80",
+      "extraction": "structural"
+    },
+    "src/agent/tool-loop-agent.ts": {
+      "path": "src/agent/tool-loop-agent.ts",
+      "size_bytes": 7623,
+      "mtime_ms": 1778480951632.7031,
+      "hash": "e04eefd5655d2113850bfb38ece01c41149e9e7bb4ed1f1c411216d250e74f8b",
+      "extraction": "structural"
+    },
+    "src/error/invalid-argument-error.ts": {
+      "path": "src/error/invalid-argument-error.ts",
+      "size_bytes": 762,
+      "mtime_ms": 1778480951633.6917,
+      "hash": "1c22c7e82011096343f175ad7a6fd6a7d7857da9b0719d07f7c65af159d1c8cc",
+      "extraction": "structural"
+    },
+    "src/error/no-speech-generated-error.ts": {
+      "path": "src/error/no-speech-generated-error.ts",
+      "size_bytes": 827,
+      "mtime_ms": 1778480951634.1384,
+      "hash": "a5a8318bd9a77f3369d5364a7f22252456deabe630a07785a0be266091ed2bdd",
+      "extraction": "structural"
+    },
+    "src/error/verify-no-object-generated-error.ts": {
+      "path": "src/error/verify-no-object-generated-error.ts",
+      "size_bytes": 856,
+      "mtime_ms": 1778480951634.5527,
+      "hash": "59c2b29f242fccdacea10b809227264d39ba39d742b3e6d721690aa1c6712c2c",
+      "extraction": "structural"
+    },
+    "src/generate-object/inject-json-instruction.ts": {
+      "path": "src/generate-object/inject-json-instruction.ts",
+      "size_bytes": 918,
+      "mtime_ms": 1778480951636.3606,
+      "hash": "da5ca885fd8931d2f622747b33ff3cfd052093756a17c3aa94cf70bd27a3e52e",
+      "extraction": "structural"
+    },
+    "src/generate-object/validate-object-generation-input.ts": {
+      "path": "src/generate-object/validate-object-generation-input.ts",
+      "size_bytes": 3649,
+      "mtime_ms": 1778480951637.1086,
+      "hash": "f17c30b0e06ec3f7721003fbc011890e06309f67ce44f08c324e880db7b56ffd",
+      "extraction": "structural"
+    },
+    "src/generate-text/create-execute-tools-transformation.ts": {
+      "path": "src/generate-text/create-execute-tools-transformation.ts",
+      "size_bytes": 5937,
+      "mtime_ms": 1778480951638.4263,
+      "hash": "121ac06e38a3b273d11a3ad7c7a839022e82773b441413f49dc78193f9b60564",
+      "extraction": "structural"
+    },
+    "src/generate-text/generate-text.test-d.ts": {
+      "path": "src/generate-text/generate-text.test-d.ts",
+      "size_bytes": 18535,
+      "mtime_ms": 1778480951639.1436,
+      "hash": "95484a161e75092066cf4d5793e3bda71e3ec8733db3a92e34245a6588748484",
+      "extraction": "structural"
+    },
+    "src/generate-text/parse-tool-call.ts": {
+      "path": "src/generate-text/parse-tool-call.ts",
+      "size_bytes": 6609,
+      "mtime_ms": 1778480951640.4912,
+      "hash": "1758efe5676b8b864dbc9bc84778a6e50b08d6352c9f63232a158700efb8c7c3",
+      "extraction": "structural"
+    },
+    "src/generate-text/restricted-telemetry-dispatcher.ts": {
+      "path": "src/generate-text/restricted-telemetry-dispatcher.ts",
+      "size_bytes": 7489,
+      "mtime_ms": 1778480951641.3025,
+      "hash": "3efca704439019fa1a391a28316240eb7b02e4db9165022877ad618f119b462c",
+      "extraction": "structural"
+    },
+    "src/generate-text/to-response-messages.ts": {
+      "path": "src/generate-text/to-response-messages.ts",
+      "size_bytes": 5797,
+      "mtime_ms": 1778480951642.8909,
+      "hash": "82ef9bb5d48f987a212cc81541bac930bc3b1b4f1887f149ba3566c5f4f00501",
+      "extraction": "structural"
+    },
+    "src/generate-text/tool-execution-events.test-d.ts": {
+      "path": "src/generate-text/tool-execution-events.test-d.ts",
+      "size_bytes": 8878,
+      "mtime_ms": 1778480951643.3567,
+      "hash": "c2ab903db2436f9647a7fc16506ae8be1cd3e8aff7095a633fd22abd5515a3ec",
+      "extraction": "structural"
+    },
+    "src/generate-text/validate-tool-context.ts": {
+      "path": "src/generate-text/validate-tool-context.ts",
+      "size_bytes": 955,
+      "mtime_ms": 1778480951643.9,
+      "hash": "b13bd795786dc78d3dc0379d5e9a363169957bb65f4aea07ace22bf0caa9b29c",
+      "extraction": "structural"
+    },
+    "src/middleware/add-tool-input-examples-middleware.ts": {
+      "path": "src/middleware/add-tool-input-examples-middleware.ts",
+      "size_bytes": 2789,
+      "mtime_ms": 1778480951645.0596,
+      "hash": "f016513dd1d73b4530c52b4f97d66538095321dd1fbe7563feab7aad2a6f3ca1",
+      "extraction": "structural"
+    },
+    "src/middleware/wrap-image-model.ts": {
+      "path": "src/middleware/wrap-image-model.ts",
+      "size_bytes": 3204,
+      "mtime_ms": 1778480951646.0347,
+      "hash": "52456eda57c998185e1cfc052e0a9ae29eb7db37fac0acbf1a3ad396a21bf740",
+      "extraction": "structural"
+    },
+    "src/model/as-language-model-v4.ts": {
+      "path": "src/model/as-language-model-v4.ts",
+      "size_bytes": 695,
+      "mtime_ms": 1778480951647.2366,
+      "hash": "768bdb2eb6e931143ee8ab93f14a01385d921715addf77fdfc4b7596029d98fc",
+      "extraction": "structural"
+    },
+    "src/model/as-video-model-v4.ts": {
+      "path": "src/model/as-video-model-v4.ts",
+      "size_bytes": 518,
+      "mtime_ms": 1778480951648.081,
+      "hash": "6d1d91b79e41dc442fb51124c1fd1b88639f5c2a7b0a057cd2412e3baf92a678",
+      "extraction": "structural"
+    },
+    "src/prompt/index.ts": {
+      "path": "src/prompt/index.ts",
+      "size_bytes": 1203,
+      "mtime_ms": 1778480951649.2227,
+      "hash": "7a9b4795e1a44c9ea55f8bf25d9df9a19d6f5b1469aa4d297836a4cf904c5ec7",
+      "extraction": "structural"
+    },
+    "src/prompt/prepare-tools.ts": {
+      "path": "src/prompt/prepare-tools.ts",
+      "size_bytes": 1610,
+      "mtime_ms": 1778480951649.8264,
+      "hash": "7ed2cdfd1a9e31819d4503b4a19f61631cf504dfc52f7346ed5c6f07e516628f",
+      "extraction": "structural"
+    },
+    "src/registry/index.ts": {
+      "path": "src/registry/index.ts",
+      "size_bytes": 289,
+      "mtime_ms": 1778480951650.6145,
+      "hash": "daa8aa08d67cd4a4c1d806421b99989d0af0df94f7d37946019e0fd6e91a56ad",
+      "extraction": "structural"
+    },
+    "src/telemetry/create-telemetry-dispatcher.ts": {
+      "path": "src/telemetry/create-telemetry-dispatcher.ts",
+      "size_bytes": 5488,
+      "mtime_ms": 1778480951651.5962,
+      "hash": "7e43ec627d6d1850de67ffae52e58ca9e622ea6a793222fb5f93ec7b8680bd67",
+      "extraction": "structural"
+    },
+    "src/text-stream/index.ts": {
+      "path": "src/text-stream/index.ts",
+      "size_bytes": 149,
+      "mtime_ms": 1778480951653.443,
+      "hash": "db798c77b2f181a59d948c4a8354a46e99c6cf141b8a440284f79304c5a78578",
+      "extraction": "structural"
+    },
+    "src/types/image-model-response-metadata.ts": {
+      "path": "src/types/image-model-response-metadata.ts",
+      "size_bytes": 311,
+      "mtime_ms": 1778480951654.2407,
+      "hash": "b57e1efa5caff419fc8146cb74896260351a6762e64c54c23c5efa0b146356f7",
+      "extraction": "structural"
+    },
+    "src/types/provider-metadata.ts": {
+      "path": "src/types/provider-metadata.ts",
+      "size_bytes": 546,
+      "mtime_ms": 1778480951654.6772,
+      "hash": "0c66007c9b1f72269b447bffa2b15dca8a28399e24a1bb043455842f7dfc1c2d",
+      "extraction": "structural"
+    },
+    "src/types/usage.ts": {
+      "path": "src/types/usage.ts",
+      "size_bytes": 4664,
+      "mtime_ms": 1778480951655.1826,
+      "hash": "70de3d2f351d9b4b63f814d4c2b16b61ac51e12e04bb4597bfdab701e221d78e",
+      "extraction": "structural"
+    },
+    "src/ui-message-stream/index.ts": {
+      "path": "src/ui-message-stream/index.ts",
+      "size_bytes": 837,
+      "mtime_ms": 1778480951656.1282,
+      "hash": "3c1b9fc2c623cf78215b8912e5b95c1ff4d9d358953afe814b7424f7bfa32fd4",
+      "extraction": "structural"
+    },
+    "src/ui-message-stream/ui-message-stream-on-step-finish-callback.ts": {
+      "path": "src/ui-message-stream/ui-message-stream-on-step-finish-callback.ts",
+      "size_bytes": 800,
+      "mtime_ms": 1778480951656.6082,
+      "hash": "c310e27cedffe682b508d24dd86592add5031282c4e443c75145b2cb805279ef",
+      "extraction": "structural"
+    },
+    "src/ui/convert-to-model-messages.ts": {
+      "path": "src/ui/convert-to-model-messages.ts",
+      "size_bytes": 15618,
+      "mtime_ms": 1778480951658.5398,
+      "hash": "f1b185acce3afdbe9636bb205fb7bb9ee0154d6d8d8f3a1eb6af6aea785ba934",
+      "extraction": "structural"
+    },
+    "src/ui/process-ui-message-stream.ts": {
+      "path": "src/ui/process-ui-message-stream.ts",
+      "size_bytes": 34076,
+      "mtime_ms": 1778480951660.8716,
+      "hash": "8e49255491d36b9d8f61854d774c86969b44b19978e3c9051a9a16e50d77357e",
+      "extraction": "structural"
+    },
+    "src/upload-file/upload-file.ts": {
+      "path": "src/upload-file/upload-file.ts",
+      "size_bytes": 4386,
+      "mtime_ms": 1778480951661.9297,
+      "hash": "998c5ecf2eadfec5343bd1f8c394feab5ced99175489c066fb16bfb439c857b8",
+      "extraction": "structural"
+    },
+    "src/util/create-resolvable-promise.ts": {
+      "path": "src/util/create-resolvable-promise.ts",
+      "size_bytes": 826,
+      "mtime_ms": 1778480951662.524,
+      "hash": "6b6811db1c7bfde952833eaf58456a23fa6f9a4844424e94eadc34408d97c0f0",
+      "extraction": "structural"
+    },
+    "src/util/extract-literal-union.ts": {
+      "path": "src/util/extract-literal-union.ts",
+      "size_bytes": 700,
+      "mtime_ms": 1778480951663.1792,
+      "hash": "88eb65849fef44a4b7546db83f632597a8a93a4875b75ce7252643c8bc5d37c0",
+      "extraction": "structural"
+    },
+    "src/util/log-v2-compatibility-warning.ts": {
+      "path": "src/util/log-v2-compatibility-warning.ts",
+      "size_bytes": 446,
+      "mtime_ms": 1778480951663.797,
+      "hash": "71856b1387b5b689a1ef14f64518e31ddb8db5a416b206dfdbbc1b3594f6a3e6",
+      "extraction": "structural"
+    },
+    "src/util/prepare-retries.ts": {
+      "path": "src/util/prepare-retries.ts",
+      "size_bytes": 1091,
+      "mtime_ms": 1778480951664.8154,
+      "hash": "09fec2b250988e2299028ab2a7707593cca6d082d965cb07d647b618c09843e2",
+      "extraction": "structural"
+    },
+    "src/util/write-to-server-response.ts": {
+      "path": "src/util/write-to-server-response.ts",
+      "size_bytes": 1143,
+      "mtime_ms": 1778480951665.9707,
+      "hash": "03bba741c784a7cad2436422f70715585f4d8b7a4a3ed5b19e44d149695486cd",
+      "extraction": "structural"
+    },
+    "internal/index.test.ts": {
+      "path": "internal/index.test.ts",
+      "size_bytes": 838,
+      "mtime_ms": 1778480951630.8157,
+      "hash": "3a54c744744ce4f62caf3f68499028e7bf7e9fef713d0a4cea4cc4343b633226",
+      "extraction": "structural"
+    },
+    "src/generate-object/stream-object.test.ts": {
+      "path": "src/generate-object/stream-object.test.ts",
+      "size_bytes": 71420,
+      "mtime_ms": 1778480951636.8057,
+      "hash": "4ae4d0ee685656284640b372968063e235071b2abf36c112e6fd857f6163a8ad",
+      "extraction": "structural"
+    },
+    "src/generate-text/output.test.ts": {
+      "path": "src/generate-text/output.test.ts",
+      "size_bytes": 22014,
+      "mtime_ms": 1778480951640.2314,
+      "hash": "4531daaa6f1863283c155765ddd63141776d1d81ed594eb659d30dfda63c27bc",
+      "extraction": "structural"
+    },
+    "src/generate-text/stream-text.test.ts": {
+      "path": "src/generate-text/stream-text.test.ts",
+      "size_bytes": 803582,
+      "mtime_ms": 1778480951642.3857,
+      "hash": "629c87ab85e583b80352b8f728d074d5fec0674f857194814a285a59e4191049",
+      "extraction": "metadata-only"
+    },
+    "src/middleware/extract-json-middleware.test.ts": {
+      "path": "src/middleware/extract-json-middleware.test.ts",
+      "size_bytes": 25844,
+      "mtime_ms": 1778480951645.357,
+      "hash": "94682020b4e52b96caa57ea83dfbd242b257009f85e2ef762272f33b3fa96fdb",
+      "extraction": "structural"
+    },
+    "src/model/as-embedding-model-v4.test.ts": {
+      "path": "src/model/as-embedding-model-v4.test.ts",
+      "size_bytes": 3890,
+      "mtime_ms": 1778480951646.5237,
+      "hash": "000243ad7b09c5186f00468ddf186bdc9539bf452f95b046372aca5d6dc693f4",
+      "extraction": "structural"
+    },
+    "src/model/as-speech-model-v4.test.ts": {
+      "path": "src/model/as-speech-model-v4.test.ts",
+      "size_bytes": 3198,
+      "mtime_ms": 1778480951647.687,
+      "hash": "f0eb7cb4d6bb8c95715219d8184033ce148bd1e185a39279f631aaeb35c41dbd",
+      "extraction": "structural"
+    },
+    "src/prompt/file-part-data.test.ts": {
+      "path": "src/prompt/file-part-data.test.ts",
+      "size_bytes": 6247,
+      "mtime_ms": 1778480951649.1396,
+      "hash": "61c69adb022d28769cf6b01ef735a36e9dff815671e4b5f0f4dd471736457528",
+      "extraction": "structural"
+    },
+    "src/telemetry/create-telemetry-dispatcher.test.ts": {
+      "path": "src/telemetry/create-telemetry-dispatcher.test.ts",
+      "size_bytes": 17888,
+      "mtime_ms": 1778480951651.465,
+      "hash": "f8b56032ff68a71c98be360e54516e2fb1e864d5c12b422fc72eeeb5b5a6ae41",
+      "extraction": "structural"
+    },
+    "src/test/mock-image-model-v3.ts": {
+      "path": "src/test/mock-image-model-v3.ts",
+      "size_bytes": 885,
+      "mtime_ms": 1778480951652.283,
+      "hash": "d1b7607f3ddc2fd28aa33c67398b1c6bb3b37a33c3ae8117c13832b0bf34e024",
+      "extraction": "structural"
+    },
+    "src/test/mock-provider-v4.ts": {
+      "path": "src/test/mock-provider-v4.ts",
+      "size_bytes": 2484,
+      "mtime_ms": 1778480951652.5889,
+      "hash": "3c7a2a03388287dd2492dd87df822b6e538fd030dd259a3289aa54602f358266",
+      "extraction": "structural"
+    },
+    "src/test/mock-transcription-model-v3.ts": {
+      "path": "src/test/mock-transcription-model-v3.ts",
+      "size_bytes": 765,
+      "mtime_ms": 1778480951652.9739,
+      "hash": "6226defdbdcbb7e489a85590e1fb545017fe0cc55b2a3a6a02f47c0bd56f6592",
+      "extraction": "structural"
+    },
+    "src/transcribe/transcribe.test.ts": {
+      "path": "src/transcribe/transcribe.test.ts",
+      "size_bytes": 7925,
+      "mtime_ms": 1778480951653.854,
+      "hash": "bf32bb84604bb0b5ab93945f80f12d9ec27994ab6e01aab6e7f78c843c9ab0eb",
+      "extraction": "structural"
+    },
+    "src/ui/convert-to-model-messages.test.ts": {
+      "path": "src/ui/convert-to-model-messages.test.ts",
+      "size_bytes": 86880,
+      "mtime_ms": 1778480951658.3857,
+      "hash": "2ac936c1ebb803bf0c070e6a1f01e5c97419e930855a0b46769fbecf95b77e27",
+      "extraction": "structural"
+    },
+    "src/ui/ui-messages.test.ts": {
+      "path": "src/ui/ui-messages.test.ts",
+      "size_bytes": 1919,
+      "mtime_ms": 1778480951661.062,
+      "hash": "5ed7ff2b20c64e5c6e7bed2d41ed38045456388ec4f6ebf38a1d22b3a7a5df4e",
+      "extraction": "structural"
+    },
+    "src/util/fix-json.test.ts": {
+      "path": "src/util/fix-json.test.ts",
+      "size_bytes": 7898,
+      "mtime_ms": 1778480951663.3044,
+      "hash": "02e7a4c49c6021da1e76feceadcbc706c90d60d7efef4a23e1538df3b6551cc1",
+      "extraction": "structural"
+    },
+    "src/util/prepare-headers.test.ts": {
+      "path": "src/util/prepare-headers.test.ts",
+      "size_bytes": 1594,
+      "mtime_ms": 1778480951664.6785,
+      "hash": "016e9aa98c44de722f8efee4446c4d7330da82d9b4bec34214e469014c811a5a",
+      "extraction": "structural"
+    },
+    "test/index.ts": {
+      "path": "test/index.ts",
+      "size_bytes": 1620,
+      "mtime_ms": 1778480951666.1594,
+      "hash": "dfb124c1e0d09e7f5d9e307319137825b55324caa670e2d58ba8748aa24612b9",
+      "extraction": "structural"
+    },
+    "src/agent/index.ts": {
+      "path": "src/agent/index.ts",
+      "size_bytes": 881,
+      "mtime_ms": 1778480951632.0088,
+      "hash": "3801184a19aa82b307992fc40341da55de43a31ae5d5bda49af73ded0600d08e",
+      "extraction": "structural"
+    },
+    "src/embed/embed-events.ts": {
+      "path": "src/embed/embed-events.ts",
+      "size_bytes": 4624,
+      "mtime_ms": 1778480951633.0007,
+      "hash": "17abe211a87b61956c4bccf2b60f985502def87d45c7bd8dac44c4defed1bf1c",
+      "extraction": "structural"
+    },
+    "src/error/invalid-stream-part-error.ts": {
+      "path": "src/error/invalid-stream-part-error.ts",
+      "size_bytes": 726,
+      "mtime_ms": 1778480951633.7454,
+      "hash": "5173b469790c8d9eaf07395b0df7483162106f75eff7e56d8175b026837db5f4",
+      "extraction": "structural"
+    },
+    "src/error/no-such-tool-error.ts": {
+      "path": "src/error/no-such-tool-error.ts",
+      "size_bytes": 946,
+      "mtime_ms": 1778480951634.189,
+      "hash": "c94d43431e5b264ed1c3e2b56a1002d3a46d72b54e8e5e9ff99f8196c91c3724",
+      "extraction": "structural"
+    },
+    "src/generate-image/generate-image-result.ts": {
+      "path": "src/generate-image/generate-image-result.ts",
+      "size_bytes": 1319,
+      "mtime_ms": 1778480951634.6406,
+      "hash": "886af9b36e3a2f09797c0267657ec16c8d2b2f22235287d4c2d17435330254fb",
+      "extraction": "structural"
+    },
+    "src/generate-object/output-strategy.ts": {
+      "path": "src/generate-object/output-strategy.ts",
+      "size_bytes": 11554,
+      "mtime_ms": 1778480951636.4397,
+      "hash": "116488558b2a343172be96a6bc33fb4cab337cb60230bcee14ae747a5d7a294c",
+      "extraction": "structural"
+    },
+    "src/generate-speech/generate-speech-result.ts": {
+      "path": "src/generate-speech/generate-speech-result.ts",
+      "size_bytes": 905,
+      "mtime_ms": 1778480951637.21,
+      "hash": "ea9db55fbbf35f4f30ceb59e1a612a1e3b32c68ed033e46590bc5e4a8c820e4b",
+      "extraction": "structural"
+    },
+    "src/generate-text/execute-tool-call.ts": {
+      "path": "src/generate-text/execute-tool-call.ts",
+      "size_bytes": 5585,
+      "mtime_ms": 1778480951638.639,
+      "hash": "83116b7c7ba377ec33cbe14a390e616703b3d86556326f8c82c37c11582d02ff",
+      "extraction": "structural"
+    },
+    "src/generate-text/generate-text.ts": {
+      "path": "src/generate-text/generate-text.ts",
+      "size_bytes": 50932,
+      "mtime_ms": 1778480951639.7712,
+      "hash": "e2a00e9e175ef5dd15b624ecf58470caa94015dbfca1e9701b3253bfbe3084f3",
+      "extraction": "structural"
+    },
+    "src/generate-text/prepare-step.ts": {
+      "path": "src/generate-text/prepare-step.ts",
+      "size_bytes": 4831,
+      "mtime_ms": 1778480951640.623,
+      "hash": "f8d5adeaee7983263da6d1fe6f8930abfa9f658c5a31eff6be0d0712b5b19f0e",
+      "extraction": "structural"
+    },
+    "src/generate-text/smooth-stream.ts": {
+      "path": "src/generate-text/smooth-stream.ts",
+      "size_bytes": 5048,
+      "mtime_ms": 1778480951641.5469,
+      "hash": "c0a2120eb4e2407b85192adba99a7a836f28b66cbff463a1f71f63a26fb68192",
+      "extraction": "structural"
+    },
+    "src/generate-text/tool-approval-configuration.test-d.ts": {
+      "path": "src/generate-text/tool-approval-configuration.test-d.ts",
+      "size_bytes": 7245,
+      "mtime_ms": 1778480951643.016,
+      "hash": "8f72cb109c9b43742c84d47da81d005c7e0ca34a543fa16f6181a129f8a1840c",
+      "extraction": "structural"
+    },
+    "src/generate-text/tool-execution-events.ts": {
+      "path": "src/generate-text/tool-execution-events.ts",
+      "size_bytes": 6066,
+      "mtime_ms": 1778480951643.473,
+      "hash": "fedb1fc95be28402202bad2f266c72f065240e17f75df08e5e7a553ed254d943",
+      "extraction": "structural"
+    },
+    "src/generate-video/generate-video-result.ts": {
+      "path": "src/generate-video/generate-video-result.ts",
+      "size_bytes": 1026,
+      "mtime_ms": 1778480951643.972,
+      "hash": "424f905177a76b191ada686c36475786ca6f6804915cdefee7032c9978bfe4c7",
+      "extraction": "structural"
+    },
+    "src/middleware/default-embedding-settings-middleware.ts": {
+      "path": "src/middleware/default-embedding-settings-middleware.ts",
+      "size_bytes": 673,
+      "mtime_ms": 1778480951645.166,
+      "hash": "63b73d62c5feca0a4f05dd1c6ed473776c52c0b793877eff3a106c1418d5a8ad",
+      "extraction": "structural"
+    },
+    "src/middleware/wrap-language-model.ts": {
+      "path": "src/middleware/wrap-language-model.ts",
+      "size_bytes": 3776,
+      "mtime_ms": 1778480951646.218,
+      "hash": "94d4337a89bf50b3ee030c76c4effdb4925a0a8820915fed675fee5b4e4b1b4a",
+      "extraction": "structural"
+    },
+    "src/model/as-provider-v3.ts": {
+      "path": "src/model/as-provider-v3.ts",
+      "size_bytes": 1409,
+      "mtime_ms": 1778480951647.2864,
+      "hash": "502d74bf5d52874719d30a423af029d9166b19fb96df636543e4518677d7c07c",
+      "extraction": "structural"
+    },
+    "src/model/resolve-model.ts": {
+      "path": "src/model/resolve-model.ts",
+      "size_bytes": 5847,
+      "mtime_ms": 1778480951648.2625,
+      "hash": "9b0d54831b5c4c762adf699c2d17ecec3e608d253821babf55a89f35e0d1a2cd",
+      "extraction": "structural"
+    },
+    "src/prompt/invalid-data-content-error.ts": {
+      "path": "src/prompt/invalid-data-content-error.ts",
+      "size_bytes": 760,
+      "mtime_ms": 1778480951649.2656,
+      "hash": "275bbb9702b6f942859aa7e1c0418b83e6b18a43f9d6f0d7874db3dfa37f705d",
+      "extraction": "structural"
+    },
+    "src/prompt/prompt.ts": {
+      "path": "src/prompt/prompt.ts",
+      "size_bytes": 1706,
+      "mtime_ms": 1778480951649.8716,
+      "hash": "d7982a5045b08e13753ab37f7937c63d4b3fb1fad9a157f77c673ff08a3e7e75",
+      "extraction": "structural"
+    },
+    "src/registry/no-such-provider-error.ts": {
+      "path": "src/registry/no-such-provider-error.ts",
+      "size_bytes": 1131,
+      "mtime_ms": 1778480951650.6619,
+      "hash": "034e43c22d8a361381949a8b0c25be5dd07ef781a8cde3594ffe86523e09b0c5",
+      "extraction": "structural"
+    },
+    "src/telemetry/diagnostic-channel-publisher.ts": {
+      "path": "src/telemetry/diagnostic-channel-publisher.ts",
+      "size_bytes": 1251,
+      "mtime_ms": 1778480951651.641,
+      "hash": "5020291455143ef89fb9744721cfe3b7c8866ccd3cbaabcfcc2547769766782e",
+      "extraction": "structural"
+    },
+    "src/text-stream/pipe-text-stream-to-response.ts": {
+      "path": "src/text-stream/pipe-text-stream-to-response.ts",
+      "size_bytes": 1219,
+      "mtime_ms": 1778480951653.5654,
+      "hash": "7af9e15ca28f2ba0a9559f98ac7b1ce19726c93850bd46373bea8befcc15a0cb",
+      "extraction": "structural"
+    },
+    "src/types/image-model.ts": {
+      "path": "src/types/image-model.ts",
+      "size_bytes": 451,
+      "mtime_ms": 1778480951654.2917,
+      "hash": "d7a0c950b03e947baba5def63b907053261c008f8eedc71e85653843bc018238",
+      "extraction": "structural"
+    },
+    "src/types/provider-reference.ts": {
+      "path": "src/types/provider-reference.ts",
+      "size_bytes": 127,
+      "mtime_ms": 1778480951654.7385,
+      "hash": "f4561b9d9d2ca6d12a6353e83154da6c9c9e47febe49469c6895871dd2282568",
+      "extraction": "structural"
+    },
+    "src/types/video-model-response-metadata.ts": {
+      "path": "src/types/video-model-response-metadata.ts",
+      "size_bytes": 685,
+      "mtime_ms": 1778480951655.247,
+      "hash": "c52d6c1c7acf98527dfa363c5f4196e4395dc9133e0186cf5f3151046b331074",
+      "extraction": "structural"
+    },
+    "src/ui-message-stream/json-to-sse-transform-stream.ts": {
+      "path": "src/ui-message-stream/json-to-sse-transform-stream.ts",
+      "size_bytes": 549,
+      "mtime_ms": 1778480951656.1726,
+      "hash": "eff8b7832658d68fc2f45d3d60dceb684e1b21227f81eb179a6de17d7055a95c",
+      "extraction": "structural"
+    },
+    "src/ui-message-stream/ui-message-stream-response-init.ts": {
+      "path": "src/ui-message-stream/ui-message-stream-response-init.ts",
+      "size_bytes": 556,
+      "mtime_ms": 1778480951656.6562,
+      "hash": "5d470a5d51e8f51b205e0136c1212bc020823e600548aabf11532cb2fe6076ca",
+      "extraction": "structural"
+    },
+    "src/ui/default-chat-transport.ts": {
+      "path": "src/ui/default-chat-transport.ts",
+      "size_bytes": 1044,
+      "mtime_ms": 1778480951658.588,
+      "hash": "60efc63699c7f97abb7c00f5d62ae04de45310ee4086a32cafecc4d9505139ac",
+      "extraction": "structural"
+    },
+    "src/ui/text-stream-chat-transport.ts": {
+      "path": "src/ui/text-stream-chat-transport.ts",
+      "size_bytes": 770,
+      "mtime_ms": 1778480951660.9194,
+      "hash": "8fea732679d32036575bd1057094221afc3d6adbee3e46593ca86f3eda961dda",
+      "extraction": "structural"
+    },
+    "src/upload-skill/index.ts": {
+      "path": "src/upload-skill/index.ts",
+      "size_bytes": 110,
+      "mtime_ms": 1778480951661.9932,
+      "hash": "20c07d065345e121c70ea19812ca764ffc850998439c82f7e8506d94c0e59783",
+      "extraction": "structural"
+    },
+    "src/util/create-stitchable-stream.ts": {
+      "path": "src/util/create-stitchable-stream.ts",
+      "size_bytes": 3319,
+      "mtime_ms": 1778480951662.709,
+      "hash": "a74e85dd6302f25775c3b909ef37454dc5d5ad1bf753f570d26e9cfaa626a2b7",
+      "extraction": "structural"
+    },
+    "src/util/fix-json.ts": {
+      "path": "src/util/fix-json.ts",
+      "size_bytes": 8911,
+      "mtime_ms": 1778480951663.371,
+      "hash": "89441a3b9265c30225b2141018d6f7a1230b7760c27c27a7b0c0561bacfd376b",
+      "extraction": "structural"
+    },
+    "src/util/merge-abort-signals.ts": {
+      "path": "src/util/merge-abort-signals.ts",
+      "size_bytes": 938,
+      "mtime_ms": 1778480951663.9773,
+      "hash": "32d3ed6043e19070dbd852290f9198f31addc649b760fe2eb4008d0a43f4d206",
+      "extraction": "structural"
+    },
+    "src/util/retry-error.ts": {
+      "path": "src/util/retry-error.ts",
+      "size_bytes": 973,
+      "mtime_ms": 1778480951664.8572,
+      "hash": "f69ecd8e0762f59057531be975fa46efc249220140ed4fef9e4226730272b2ba",
+      "extraction": "structural"
+    },
+    "src/version.ts": {
+      "path": "src/version.ts",
+      "size_bytes": 177,
+      "mtime_ms": 1778480951666.0286,
+      "hash": "7cc9385ec3985cee5dcba8f66893737d1d9c81b851fd5f0eca998c18d90ac789",
+      "extraction": "structural"
+    },
+    "src/agent/create-agent-ui-stream-response.test.ts": {
+      "path": "src/agent/create-agent-ui-stream-response.test.ts",
+      "size_bytes": 14740,
+      "mtime_ms": 1778480951631.8132,
+      "hash": "2a03341542b86dd4774fe04e631770c7f3da78278d8adc962133de956fe999b4",
+      "extraction": "structural"
+    },
+    "src/generate-speech/generate-speech.test.ts": {
+      "path": "src/generate-speech/generate-speech.test.ts",
+      "size_bytes": 7755,
+      "mtime_ms": 1778480951637.339,
+      "hash": "cc1f83d37a5db91c3604e31cd822890a1a025fbb05ca27e7d11abcbea2bda11b",
+      "extraction": "structural"
+    },
+    "src/generate-text/parse-tool-call.test.ts": {
+      "path": "src/generate-text/parse-tool-call.test.ts",
+      "size_bytes": 22445,
+      "mtime_ms": 1778480951640.368,
+      "hash": "4067b1a6b383d04f9e9497008213b7f341b1238e794b48c444522e491059be85",
+      "extraction": "structural"
+    },
+    "src/generate-text/to-response-messages.test.ts": {
+      "path": "src/generate-text/to-response-messages.test.ts",
+      "size_bytes": 39133,
+      "mtime_ms": 1778480951642.7625,
+      "hash": "6e0c2555cdc6300204355c800fa660365ca4866ace30b871d56cc4daad6f2dd2",
+      "extraction": "structural"
+    },
+    "src/middleware/extract-reasoning-middleware.test.ts": {
+      "path": "src/middleware/extract-reasoning-middleware.test.ts",
+      "size_bytes": 31767,
+      "mtime_ms": 1778480951645.5627,
+      "hash": "a26886930a1f0caadd113bd59144d2271caa2f2bd114cef306c176fc06ec1da3",
+      "extraction": "structural"
+    },
+    "src/model/as-image-model-v3.test.ts": {
+      "path": "src/model/as-image-model-v3.test.ts",
+      "size_bytes": 11580,
+      "mtime_ms": 1778480951646.6387,
+      "hash": "ca2b550cdea0b95c09958ac06d83055caabc2ab8dcf6940b1946effc3a1cc02e",
+      "extraction": "structural"
+    },
+    "src/model/as-transcription-model-v3.test.ts": {
+      "path": "src/model/as-transcription-model-v3.test.ts",
+      "size_bytes": 15303,
+      "mtime_ms": 1778480951647.859,
+      "hash": "496530b27c0b0e9052fa1b52aa02551e9782e01ffb0826556f16446e3382887a",
+      "extraction": "structural"
+    },
+    "src/prompt/prepare-language-model-call-options.test.ts": {
+      "path": "src/prompt/prepare-language-model-call-options.test.ts",
+      "size_bytes": 8447,
+      "mtime_ms": 1778480951649.53,
+      "hash": "ac449775843d7747898a8697e78b24641a0ea159ad64a57032428d3323c9c604",
+      "extraction": "structural"
+    },
+    "src/telemetry/diagnostic-channel.test.ts": {
+      "path": "src/telemetry/diagnostic-channel.test.ts",
+      "size_bytes": 3675,
+      "mtime_ms": 1778480951651.6885,
+      "hash": "bb32f66657b9d04057d020ceafb5f691391f5329ce8b79b3dec4c4c62d98c945",
+      "extraction": "structural"
+    },
+    "src/test/mock-image-model-v4.ts": {
+      "path": "src/test/mock-image-model-v4.ts",
+      "size_bytes": 885,
+      "mtime_ms": 1778480951652.327,
+      "hash": "a28a3b7efeafb8cdd66d693dec043d8882efc62ad24047b799174de7a49f6d9b",
+      "extraction": "structural"
+    },
+    "src/test/mock-reranking-model-v3.ts": {
+      "path": "src/test/mock-reranking-model-v3.ts",
+      "size_bytes": 716,
+      "mtime_ms": 1778480951652.6343,
+      "hash": "68392fcebf521fd727eeff965748aa45ba10bd54d0f9b9c28f3eab2b242d1098",
+      "extraction": "structural"
+    },
+    "src/test/mock-transcription-model-v4.ts": {
+      "path": "src/test/mock-transcription-model-v4.ts",
+      "size_bytes": 765,
+      "mtime_ms": 1778480951653.0203,
+      "hash": "d29f6a79a20839f73b8e4fac28b36f9a29ed02081074e5a519875eaaa1777ee9",
+      "extraction": "structural"
+    },
+    "src/ui-message-stream/create-ui-message-stream-response.test.ts": {
+      "path": "src/ui-message-stream/create-ui-message-stream-response.test.ts",
+      "size_bytes": 7294,
+      "mtime_ms": 1778480951655.5046,
+      "hash": "2e44ae06e85e2eccb2d3f480b2a2f63f2c8e78df8cab8e48ed0656d2007a3d65",
+      "extraction": "structural"
+    },
+    "src/ui/direct-chat-transport.test.ts": {
+      "path": "src/ui/direct-chat-transport.test.ts",
+      "size_bytes": 13608,
+      "mtime_ms": 1778480951659.4055,
+      "hash": "635a100000f3066da221f465a87d8b69eeb45657097a2e01ffb21097d009dbb1",
+      "extraction": "structural"
+    },
+    "src/ui/validate-ui-messages.test.ts": {
+      "path": "src/ui/validate-ui-messages.test.ts",
+      "size_bytes": 44558,
+      "mtime_ms": 1778480951661.3225,
+      "hash": "be236dbb27afe6819879ac7c117417cd850112e5fec71ab735a840dc0c63ca8b",
+      "extraction": "structural"
+    },
+    "src/util/get-potential-start-index.test.ts": {
+      "path": "src/util/get-potential-start-index.test.ts",
+      "size_bytes": 1189,
+      "mtime_ms": 1778480951663.415,
+      "hash": "7b94768b31fc24c954c2d3394d63b5636475683db5269c9bda91adc1cd98664a",
+      "extraction": "structural"
+    },
+    "src/util/prepare-retries.test.ts": {
+      "path": "src/util/prepare-retries.test.ts",
+      "size_bytes": 316,
+      "mtime_ms": 1778480951664.7693,
+      "hash": "a59038b65fb4b5f6237ff39ce5a15ee52a0eb1798a90bcc0c6e3c20673b799bf",
+      "extraction": "structural"
+    },
+    "index.ts": {
+      "path": "index.ts",
+      "size_bytes": 97,
+      "mtime_ms": 1778480951630.6787,
+      "hash": "81cd6d696bede9534b575fb6090a5d1f9fd17fb6a31be397c3287da2207aa2e7",
+      "extraction": "structural"
+    },
+    "src/agent/infer-agent-tools.ts": {
+      "path": "src/agent/infer-agent-tools.ts",
+      "size_bytes": 190,
+      "mtime_ms": 1778480951632.0518,
+      "hash": "78f5a408cdb5c95f990af6a32397baa4abb4040993693cacd64c587598da5910",
+      "extraction": "structural"
+    },
+    "src/embed/embed-many-result.ts": {
+      "path": "src/embed/embed-many-result.ts",
+      "size_bytes": 1102,
+      "mtime_ms": 1778480951633.0657,
+      "hash": "20791f142391ab412b71de6869b7bd847dd4dc21b4b5baa2d30c25912668ea49",
+      "extraction": "structural"
+    },
+    "src/error/invalid-tool-approval-error.ts": {
+      "path": "src/error/invalid-tool-approval-error.ts",
+      "size_bytes": 745,
+      "mtime_ms": 1778480951633.8005,
+      "hash": "956492d0d5a01805880b91261df38387122e4c010f0e94a605630722288f7e86",
+      "extraction": "structural"
+    },
+    "src/error/no-transcript-generated-error.ts": {
+      "path": "src/error/no-transcript-generated-error.ts",
+      "size_bytes": 870,
+      "mtime_ms": 1778480951634.245,
+      "hash": "5ad5a8a0f521ce3ab1fdcc55adfbfac6ec6560c9da738e415378141101cbcd29",
+      "extraction": "structural"
+    },
+    "src/generate-image/generate-image.ts": {
+      "path": "src/generate-image/generate-image.ts",
+      "size_bytes": 10376,
+      "mtime_ms": 1778480951634.823,
+      "hash": "579f2b4e9a7d23006342dad8eb0b16a4d893de0988de589068b5e964848e6168",
+      "extraction": "structural"
+    },
+    "src/generate-object/parse-and-validate-object-result.ts": {
+      "path": "src/generate-object/parse-and-validate-object-result.ts",
+      "size_bytes": 3595,
+      "mtime_ms": 1778480951636.496,
+      "hash": "217eb7de9ec9fc1adc50c37c920904f60e9b56ac38916bcc3fc2fa4cfd986e8a",
+      "extraction": "structural"
+    },
+    "src/generate-speech/generate-speech.ts": {
+      "path": "src/generate-speech/generate-speech.ts",
+      "size_bytes": 5374,
+      "mtime_ms": 1778480951637.4797,
+      "hash": "12c82325cae4a1deec05aa2f220aeb57a68332ddd8400f840dc170f59e4ba144",
+      "extraction": "structural"
+    },
+    "src/generate-text/extract-reasoning-content.ts": {
+      "path": "src/generate-text/extract-reasoning-content.ts",
+      "size_bytes": 425,
+      "mtime_ms": 1778480951638.6863,
+      "hash": "80c702d9cd04db7d9ed6ec56fd4668ef1a0a39bb78ddced599dc98532e3b71ec",
+      "extraction": "structural"
+    },
+    "src/generate-text/generated-file.ts": {
+      "path": "src/generate-text/generated-file.ts",
+      "size_bytes": 1670,
+      "mtime_ms": 1778480951639.84,
+      "hash": "cc3dd834b441fe1a0931724be0e603a2fa2a9c44c495fc481e39c2735ada23d9",
+      "extraction": "structural"
+    },
+    "src/generate-text/prune-messages.ts": {
+      "path": "src/generate-text/prune-messages.ts",
+      "size_bytes": 5446,
+      "mtime_ms": 1778480951640.824,
+      "hash": "08f05656d0f672b4f42416d1c80cc7dcbec528a1e5d1d65a7983159ce4cee583",
+      "extraction": "structural"
+    },
+    "src/generate-text/step-result.ts": {
+      "path": "src/generate-text/step-result.ts",
+      "size_bytes": 8491,
+      "mtime_ms": 1778480951641.6099,
+      "hash": "3ec5decd8ffc9e9bebf6401f39d1f8044f6b5787f84e27cdae26fbb6cd3fd30b",
+      "extraction": "structural"
+    },
+    "src/generate-text/tool-approval-configuration.ts": {
+      "path": "src/generate-text/tool-approval-configuration.ts",
+      "size_bytes": 3873,
+      "mtime_ms": 1778480951643.0632,
+      "hash": "a0f1f3d07c4801c9e2aa52deaf0b34f03b5498e1a33c2503fffbc8e2ee32875d",
+      "extraction": "structural"
+    },
+    "src/generate-text/tool-input-refinement.ts": {
+      "path": "src/generate-text/tool-input-refinement.ts",
+      "size_bytes": 579,
+      "mtime_ms": 1778480951643.5166,
+      "hash": "2f6dca5a149f2848a19357f0db18c04206f4ad4068e38b29cbb1f258669104eb",
+      "extraction": "structural"
+    },
+    "src/generate-video/generate-video.ts": {
+      "path": "src/generate-video/generate-video.ts",
+      "size_bytes": 10868,
+      "mtime_ms": 1778480951644.1208,
+      "hash": "e12fdc7d9e5786cede68240777e671ce7a689ed43973b7ee75fb336c101fc6c0",
+      "extraction": "structural"
+    },
+    "src/middleware/default-settings-middleware.ts": {
+      "path": "src/middleware/default-settings-middleware.ts",
+      "size_bytes": 1307,
+      "mtime_ms": 1778480951645.2651,
+      "hash": "3d8bd32681d0f8b4a5c3976306698ea4edb39d244e2022cabce59b3d66a505a8",
+      "extraction": "structural"
+    },
+    "src/middleware/wrap-provider.ts": {
+      "path": "src/middleware/wrap-provider.ts",
+      "size_bytes": 2491,
+      "mtime_ms": 1778480951646.3127,
+      "hash": "e5b7ff6319d0ea182a8854b1c5721cbdfe06601c21f33f588a1b868b1d2bf0d4",
+      "extraction": "structural"
+    },
+    "src/model/as-provider-v4.ts": {
+      "path": "src/model/as-provider-v4.ts",
+      "size_bytes": 1763,
+      "mtime_ms": 1778480951647.449,
+      "hash": "85015d7760a9e49d54ffabf55dca7227fd8c54add7adab0062f2afc84a96d245",
+      "extraction": "structural"
+    },
+    "src/prompt/clone-model-message.ts": {
+      "path": "src/prompt/clone-model-message.ts",
+      "size_bytes": 1010,
+      "mtime_ms": 1778480951648.4058,
+      "hash": "464a98f169e0a60a782c7932fc07526619d2f31ed1a9e1bf244d60c52397724d",
+      "extraction": "structural"
+    },
+    "src/prompt/invalid-message-role-error.ts": {
+      "path": "src/prompt/invalid-message-role-error.ts",
+      "size_bytes": 681,
+      "mtime_ms": 1778480951649.3105,
+      "hash": "20eb530fa5a50019a714a69534948912e2cd5a59069dc8f7f936520608b6ca8b",
+      "extraction": "structural"
+    },
+    "src/prompt/request-options.ts": {
+      "path": "src/prompt/request-options.ts",
+      "size_bytes": 3308,
+      "mtime_ms": 1778480951649.9253,
+      "hash": "296e9e5a4be18bc0c50dbfa874776a88b8845283f6b71a01f59964cc7fd18fb9",
+      "extraction": "structural"
+    },
+    "src/registry/provider-registry.test-d.ts": {
+      "path": "src/registry/provider-registry.test-d.ts",
+      "size_bytes": 19435,
+      "mtime_ms": 1778480951650.7173,
+      "hash": "3275dd3c4828816816a1c33a0c0d05958ad249a4b76d902fce5b47e34b8977f6",
+      "extraction": "structural"
+    },
+    "src/telemetry/diagnostic-channel.ts": {
+      "path": "src/telemetry/diagnostic-channel.ts",
+      "size_bytes": 593,
+      "mtime_ms": 1778480951651.735,
+      "hash": "6654d03c4cb58472d8132196498a87444d74534ea55e41e2f65e9152bb0c1754",
+      "extraction": "structural"
+    },
+    "src/transcribe/index.ts": {
+      "path": "src/transcribe/index.ts",
+      "size_bytes": 170,
+      "mtime_ms": 1778480951653.6584,
+      "hash": "6c5b96512034bd0bdcbc7c1127c9714f5dd70393f124d26ecac35331667c2c18",
+      "extraction": "structural"
+    },
+    "src/types/index.ts": {
+      "path": "src/types/index.ts",
+      "size_bytes": 1494,
+      "mtime_ms": 1778480951654.3484,
+      "hash": "70514d37332cb6af9ca02aba73a36d03ddf6e44e667ed30309ea32246115a233",
+      "extraction": "structural"
+    },
+    "src/types/provider.ts": {
+      "path": "src/types/provider.ts",
+      "size_bytes": 1832,
+      "mtime_ms": 1778480951654.7983,
+      "hash": "94b2e75cf9527dfbef2e5dab6b3d939c20e95a38fa4cd084c80ae0c78c366bf6",
+      "extraction": "structural"
+    },
+    "src/types/video-model.ts": {
+      "path": "src/types/video-model.ts",
+      "size_bytes": 370,
+      "mtime_ms": 1778480951655.299,
+      "hash": "eb3999bd9c0db11a8bfd8c0834a58cc7f6a75b8ad9a4c07c1ca09cb90ec9689b",
+      "extraction": "structural"
+    },
+    "src/ui-message-stream/pipe-ui-message-stream-to-response.ts": {
+      "path": "src/ui-message-stream/pipe-ui-message-stream-to-response.ts",
+      "size_bytes": 2014,
+      "mtime_ms": 1778480951656.2603,
+      "hash": "eda354141cc358e660309b46e79ce4bc78e5155f76aee183a72c9a9735e7e071",
+      "extraction": "structural"
+    },
+    "src/ui-message-stream/ui-message-stream-writer.ts": {
+      "path": "src/ui-message-stream/ui-message-stream-writer.ts",
+      "size_bytes": 720,
+      "mtime_ms": 1778480951656.6997,
+      "hash": "2172f25b9958a39ab3181be6cd05eaee0f9cdc0302c51ecb555b105787e040ed",
+      "extraction": "structural"
+    },
+    "src/ui/direct-chat-transport.ts": {
+      "path": "src/ui/direct-chat-transport.ts",
+      "size_bytes": 3798,
+      "mtime_ms": 1778480951659.468,
+      "hash": "8251fb6b342a5c0725f116d04b7dd6f4933a420f7a714e0effb1a353b77fb161",
+      "extraction": "structural"
+    },
+    "src/ui/transform-text-to-ui-message-stream.ts": {
+      "path": "src/ui/transform-text-to-ui-message-stream.ts",
+      "size_bytes": 814,
+      "mtime_ms": 1778480951661.02,
+      "hash": "4c37d1b94847a76bc9b2eb7c0be0b06cd6eeec9a9e1e628d1ced7c3c000430dd",
+      "extraction": "structural"
+    },
+    "src/upload-skill/upload-skill-result.ts": {
+      "path": "src/upload-skill/upload-skill-result.ts",
+      "size_bytes": 379,
+      "mtime_ms": 1778480951662.0347,
+      "hash": "28cde79726864cd32b1fa8ec2d43ece847807627cde66d9be4d1ad40bef6e928",
+      "extraction": "structural"
+    },
+    "src/util/data-url.ts": {
+      "path": "src/util/data-url.ts",
+      "size_bytes": 455,
+      "mtime_ms": 1778480951662.753,
+      "hash": "4c3660a75a7c12eb96722e12b3c66f69b10fa7133bbff74c9539edd2b3d3caec",
+      "extraction": "structural"
+    },
+    "src/util/get-potential-start-index.ts": {
+      "path": "src/util/get-potential-start-index.ts",
+      "size_bytes": 1309,
+      "mtime_ms": 1778480951663.4707,
+      "hash": "13914e7a03bd2b941fbcb1a505a2834db8caad9c4b0d563b84c77da5e7b339e4",
+      "extraction": "structural"
+    },
+    "src/util/merge-callbacks.ts": {
+      "path": "src/util/merge-callbacks.ts",
+      "size_bytes": 662,
+      "mtime_ms": 1778480951664.0771,
+      "hash": "e620151e861a2626855ece4ccd1a4f6c067b5666d326103d01f0fb7ef23f7880",
+      "extraction": "structural"
+    },
+    "src/util/retry-with-exponential-backoff.ts": {
+      "path": "src/util/retry-with-exponential-backoff.ts",
+      "size_bytes": 4078,
+      "mtime_ms": 1778480951665.2007,
+      "hash": "2ce5e82aa99d607629d2d28df631c999f001a8ca0455c8cbe6fef20212191bb8",
+      "extraction": "structural"
+    },
+    "test.d.ts": {
+      "path": "test.d.ts",
+      "size_bytes": 29,
+      "mtime_ms": 1778480951666.0752,
+      "hash": "09cadcc489e8d95f3d95d890d0cbe2f0a499884bb3b0a5f164ded44ef0ee8e7d",
+      "extraction": "structural"
+    },
+    "src/agent/tool-loop-agent.test.ts": {
+      "path": "src/agent/tool-loop-agent.test.ts",
+      "size_bytes": 112484,
+      "mtime_ms": 1778480951632.5684,
+      "hash": "3e3989a05294454bd10faf81b993efb78ecab86a091f7d77f2511e5802d10cb1",
+      "extraction": "structural"
+    },
+    "src/generate-text/collect-tool-approvals.test.ts": {
+      "path": "src/generate-text/collect-tool-approvals.test.ts",
+      "size_bytes": 15173,
+      "mtime_ms": 1778480951638.1323,
+      "hash": "ff137cc57c3bb6c731bbcd44a5a70a84358dc533a9b286ba8b5e026db36447ee",
+      "extraction": "structural"
+    },
+    "src/generate-text/prune-messages.test.ts": {
+      "path": "src/generate-text/prune-messages.test.ts",
+      "size_bytes": 19503,
+      "mtime_ms": 1778480951640.7068,
+      "hash": "1f2a8cd02bb590529ccb5708a0c1315048f735eb3cb0cf689eec8f5925dbd8ad",
+      "extraction": "structural"
+    },
+    "src/generate-text/validate-tool-context.test.ts": {
+      "path": "src/generate-text/validate-tool-context.test.ts",
+      "size_bytes": 1591,
+      "mtime_ms": 1778480951643.8567,
+      "hash": "55de561e691c021d0ff58e2ab4cf3a3bef2cf20aa948c783aeb94857aab90af7",
+      "extraction": "structural"
+    },
+    "src/middleware/simulate-streaming-middleware.test.ts": {
+      "path": "src/middleware/simulate-streaming-middleware.test.ts",
+      "size_bytes": 24200,
+      "mtime_ms": 1778480951645.7393,
+      "hash": "5ebe19dda4915b38ebbfc3e58bb7e301e42c30f592878a8669796a511243bb0b",
+      "extraction": "structural"
+    },
+    "src/model/as-image-model-v4.test.ts": {
+      "path": "src/model/as-image-model-v4.test.ts",
+      "size_bytes": 3428,
+      "mtime_ms": 1778480951646.73,
+      "hash": "b22686ded59c8c7308f0da8f09578ba8b50ed243ede59198cdaf086ed4957c1c",
+      "extraction": "structural"
+    },
+    "src/model/as-transcription-model-v4.test.ts": {
+      "path": "src/model/as-transcription-model-v4.test.ts",
+      "size_bytes": 3695,
+      "mtime_ms": 1778480951647.9436,
+      "hash": "110cd561d62e70ee535ff58d6147123f37f7904f656ae941341c22aa34ea086d",
+      "extraction": "structural"
+    },
+    "src/prompt/prepare-tool-choice.test.ts": {
+      "path": "src/prompt/prepare-tool-choice.test.ts",
+      "size_bytes": 1333,
+      "mtime_ms": 1778480951649.6182,
+      "hash": "aa818cc120efea9c681d0c6bf204190272700d8073c254aec948bf618821b1b2",
+      "extraction": "structural"
+    },
+    "src/telemetry/telemetry-registry.test.ts": {
+      "path": "src/telemetry/telemetry-registry.test.ts",
+      "size_bytes": 1709,
+      "mtime_ms": 1778480951651.8687,
+      "hash": "afff8cee18b7bbed3cf9e0cb8f42fba75f9756c6a9137f8d1a9ea15cf7158272",
+      "extraction": "structural"
+    },
+    "src/test/mock-language-model-v2.ts": {
+      "path": "src/test/mock-language-model-v2.ts",
+      "size_bytes": 2242,
+      "mtime_ms": 1778480951652.3704,
+      "hash": "10d2cda431c10a30cf2c0215cd500c646ecf8e1884ab2d605c42c972acfde410",
+      "extraction": "structural"
+    },
+    "src/test/mock-reranking-model-v4.ts": {
+      "path": "src/test/mock-reranking-model-v4.ts",
+      "size_bytes": 716,
+      "mtime_ms": 1778480951652.6833,
+      "hash": "29f206532712e250759c7b03d056a76553e3ce4b6b610e8264d7340594c934ed",
+      "extraction": "structural"
+    },
+    "src/test/mock-values.ts": {
+      "path": "src/test/mock-values.ts",
+      "size_bytes": 141,
+      "mtime_ms": 1778480951653.0698,
+      "hash": "1444ef7d65f44d8f8071c2eea1707ce75d975fa664d004de42116828d2261aab",
+      "extraction": "structural"
+    },
+    "src/ui-message-stream/create-ui-message-stream.test.ts": {
+      "path": "src/ui-message-stream/create-ui-message-stream.test.ts",
+      "size_bytes": 16904,
+      "mtime_ms": 1778480951655.6294,
+      "hash": "c6f9c0a046b0aa19bd46bfc2324dd40c691e09a8803ba2b170afaf675bb8a5eb",
+      "extraction": "structural"
+    },
+    "src/ui/http-chat-transport.test.ts": {
+      "path": "src/ui/http-chat-transport.test.ts",
+      "size_bytes": 4945,
+      "mtime_ms": 1778480951659.5896,
+      "hash": "929232c82e88695664f95883212fbe1f72ba53c02cce5d3198180ef3d12ba9d3",
+      "extraction": "structural"
+    },
+    "src/upload-file/upload-file.test.ts": {
+      "path": "src/upload-file/upload-file.test.ts",
+      "size_bytes": 6151,
+      "mtime_ms": 1778480951661.6248,
+      "hash": "cd25ca2cca163a33351b5a0592b74a19ffea5c77da92db9c82936803dc1ae289",
+      "extraction": "structural"
+    },
+    "src/util/is-deep-equal-data.test.ts": {
+      "path": "src/util/is-deep-equal-data.test.ts",
+      "size_bytes": 3414,
+      "mtime_ms": 1778480951663.5647,
+      "hash": "d30da3b3419ebb5f686e971168e20c188212f7a6d6dbc9eff820a09bb62e002a",
+      "extraction": "structural"
+    },
+    "src/util/retry-with-exponential-backoff.test.ts": {
+      "path": "src/util/retry-with-exponential-backoff.test.ts",
+      "size_bytes": 13887,
+      "mtime_ms": 1778480951665.132,
+      "hash": "c755220ba3c6f0a470bcd70ef73989fbae6a46161a6620ac7c7bfc5c100af045",
+      "extraction": "structural"
+    },
+    "internal.d.ts": {
+      "path": "internal.d.ts",
+      "size_bytes": 33,
+      "mtime_ms": 1778480951630.7324,
+      "hash": "647bd0edcc65c231dc7d03cf81bbd77b9dd063f1d9747abaee3ef10f449871e2",
+      "extraction": "structural"
+    },
+    "src/agent/infer-agent-ui-message.test-d.ts": {
+      "path": "src/agent/infer-agent-ui-message.test-d.ts",
+      "size_bytes": 1501,
+      "mtime_ms": 1778480951632.1003,
+      "hash": "bf477123a98891296914e275fc3f241cc30eda43eecb716df311e76fdba970a2",
+      "extraction": "structural"
+    },
+    "src/embed/embed-many.ts": {
+      "path": "src/embed/embed-many.ts",
+      "size_bytes": 11706,
+      "mtime_ms": 1778480951633.2412,
+      "hash": "8f4cca97293483d975b6100d4d0794f1e43dc1ed456a6d48560789f0d3ce43a8",
+      "extraction": "structural"
+    },
+    "src/error/invalid-tool-input-error.ts": {
+      "path": "src/error/invalid-tool-input-error.ts",
+      "size_bytes": 824,
+      "mtime_ms": 1778480951633.8535,
+      "hash": "4d58547cbed9940093150e651a3ff80c66784c98cb1fb9427fdb84906b001f56",
+      "extraction": "structural"
+    },
+    "src/error/no-video-generated-error.ts": {
+      "path": "src/error/no-video-generated-error.ts",
+      "size_bytes": 1405,
+      "mtime_ms": 1778480951634.292,
+      "hash": "23e92254d70dfdc32606cde02e9fe0eb905dbaa28b9515527855584c701d6717",
+      "extraction": "structural"
+    },
+    "src/generate-image/index.ts": {
+      "path": "src/generate-image/index.ts",
+      "size_bytes": 572,
+      "mtime_ms": 1778480951634.8782,
+      "hash": "88a0fe97aeffa031618ff9422fb14a1fb565afc7c126c31af9831264aa106407",
+      "extraction": "structural"
+    },
+    "src/generate-object/repair-text.ts": {
+      "path": "src/generate-object/repair-text.ts",
+      "size_bytes": 395,
+      "mtime_ms": 1778480951636.5532,
+      "hash": "1598138d0bd57bcd26e7bdee2a348c901d74c716c071cf56c1555fa50e986fce",
+      "extraction": "structural"
+    },
+    "src/generate-speech/generated-audio-file.ts": {
+      "path": "src/generate-speech/generated-audio-file.ts",
+      "size_bytes": 1384,
+      "mtime_ms": 1778480951637.5283,
+      "hash": "5a140cdb4fff10db5417a070a11e14c70f240149a71176d99815404bc01ac448",
+      "extraction": "structural"
+    },
+    "src/generate-text/extract-text-content.ts": {
+      "path": "src/generate-text/extract-text-content.ts",
+      "size_bytes": 411,
+      "mtime_ms": 1778480951638.7236,
+      "hash": "066410be3a658fd82a1a29adbbd9c332105171babc0b6bdc02d8923c952ed3a7",
+      "extraction": "structural"
+    },
+    "src/generate-text/index.ts": {
+      "path": "src/generate-text/index.ts",
+      "size_bytes": 3388,
+      "mtime_ms": 1778480951639.8901,
+      "hash": "3f16c084edeafde73abdbd2b36bf99a7c9dfef135239a0439ee5c7bf881c5475",
+      "extraction": "structural"
+    },
+    "src/generate-text/reasoning-output.ts": {
+      "path": "src/generate-text/reasoning-output.ts",
+      "size_bytes": 3097,
+      "mtime_ms": 1778480951640.8713,
+      "hash": "5299f3b038692a078ac97bacf55aa34a3fa4121493b538521d0f41d06b2b9ba8",
+      "extraction": "structural"
+    },
+    "src/generate-text/stop-condition.ts": {
+      "path": "src/generate-text/stop-condition.ts",
+      "size_bytes": 2471,
+      "mtime_ms": 1778480951641.766,
+      "hash": "374d94dcaf961081874638e8e33bc1a566710f85cb542d225600e3a779cb0d3d",
+      "extraction": "structural"
+    },
+    "src/generate-text/tool-approval-request-output.ts": {
+      "path": "src/generate-text/tool-approval-request-output.ts",
+      "size_bytes": 681,
+      "mtime_ms": 1778480951643.1091,
+      "hash": "3eeb9d0ef3825a69263045a01918a47707bd8eec00b40bbe287cb789cc00205c",
+      "extraction": "structural"
+    },
+    "src/generate-text/tool-output-denied.ts": {
+      "path": "src/generate-text/tool-output-denied.ts",
+      "size_bytes": 601,
+      "mtime_ms": 1778480951643.56,
+      "hash": "88163418e0e4773dae593348bfb4b7acb0838f0edb4252f2a28a542b05764e84",
+      "extraction": "structural"
+    },
+    "src/generate-video/index.ts": {
+      "path": "src/generate-video/index.ts",
+      "size_bytes": 192,
+      "mtime_ms": 1778480951644.157,
+      "hash": "582bef6bb610d7617f71cdd19810c8470bef4ee811fcec185e6aee130dac218d",
+      "extraction": "structural"
+    },
+    "src/middleware/extract-json-middleware.ts": {
+      "path": "src/middleware/extract-json-middleware.ts",
+      "size_bytes": 6800,
+      "mtime_ms": 1778480951645.4773,
+      "hash": "3be55b5b7d4cb5eb6143b8ad678ea1726d63bfffd95befe6cac4372e233f1fa0",
+      "extraction": "structural"
+    },
+    "src/model/as-embedding-model-v3.ts": {
+      "path": "src/model/as-embedding-model-v3.ts",
+      "size_bytes": 753,
+      "mtime_ms": 1778480951646.4768,
+      "hash": "d674e6fa6bc4c9850886fc34db78d3fbdd291390443c9e45bbec197dc2139e6a",
+      "extraction": "structural"
+    },
+    "src/model/as-reranking-model-v4.ts": {
+      "path": "src/model/as-reranking-model-v4.ts",
+      "size_bytes": 454,
+      "mtime_ms": 1778480951647.5364,
+      "hash": "72f41acd34ec9c8ab44eb886ced44e5d7e08159042ac988c51405933ff5fbb21",
+      "extraction": "structural"
+    },
+    "src/prompt/content-part.ts": {
+      "path": "src/prompt/content-part.ts",
+      "size_bytes": 8467,
+      "mtime_ms": 1778480951648.5684,
+      "hash": "bcab73a86e1f8a20bb2e7e8d980856608ba4e1745f406a1c0603139de99350ad",
+      "extraction": "structural"
+    },
+    "src/prompt/language-model-call-options.ts": {
+      "path": "src/prompt/language-model-call-options.ts",
+      "size_bytes": 2445,
+      "mtime_ms": 1778480951649.372,
+      "hash": "52b496e83b22b7cc2a6cc4058af84346ed0b3b0ea0d1166f670a5da59ea4e9ff",
+      "extraction": "structural"
+    },
+    "src/prompt/split-data-url.ts": {
+      "path": "src/prompt/split-data-url.ts",
+      "size_bytes": 379,
+      "mtime_ms": 1778480951649.975,
+      "hash": "2086f51c8f172a622ad3d9c4d380d0545643d3ec74888d0fc45df01e1f243d50",
+      "extraction": "structural"
+    },
+    "src/registry/provider-registry.ts": {
+      "path": "src/registry/provider-registry.ts",
+      "size_bytes": 13318,
+      "mtime_ms": 1778480951650.9421,
+      "hash": "36cef60a10a74e7439f2b366f6230c42843989a234d2432ed0621cdd4750e6c6",
+      "extraction": "structural"
+    },
+    "src/telemetry/index.ts": {
+      "path": "src/telemetry/index.ts",
+      "size_bytes": 344,
+      "mtime_ms": 1778480951651.7751,
+      "hash": "a483face594deea6141ad6f5a52cec55e0669b7a1faf577c4538b64ebc047abb",
+      "extraction": "structural"
+    },
+    "src/transcribe/transcribe-result.ts": {
+      "path": "src/transcribe/transcribe-result.ts",
+      "size_bytes": 1715,
+      "mtime_ms": 1778480951653.7192,
+      "hash": "67e617fc2dc5331cee93b816288cde61ab1118034eea6c447f75b1c7f5613228",
+      "extraction": "structural"
+    },
+    "src/types/json-value.ts": {
+      "path": "src/types/json-value.ts",
+      "size_bytes": 379,
+      "mtime_ms": 1778480951654.4023,
+      "hash": "19ad0c39e1568dc34063bf2a4a14c101ac1235fcf3cf954b9d7e472c42578107",
+      "extraction": "structural"
+    },
+    "src/types/reranking-model.ts": {
+      "path": "src/types/reranking-model.ts",
+      "size_bytes": 207,
+      "mtime_ms": 1778480951654.8462,
+      "hash": "15088e0aafeb4bad6f56852dc419c91f6c0609dbf92739964ea81df47e0debbe",
+      "extraction": "structural"
+    },
+    "src/types/warning.ts": {
+      "path": "src/types/warning.ts",
+      "size_bytes": 266,
+      "mtime_ms": 1778480951655.3489,
+      "hash": "3beeed29c444492647f5682c3f99169269b766d50400ab15f06510bea1793a0c",
+      "extraction": "structural"
+    },
+    "src/ui-message-stream/read-ui-message-stream.ts": {
+      "path": "src/ui-message-stream/read-ui-message-stream.ts",
+      "size_bytes": 2635,
+      "mtime_ms": 1778480951656.3635,
+      "hash": "509f2480a035e55cc4720e3a644edc24cc6618566f44b1d93d64a62902fdd570",
+      "extraction": "structural"
+    },
+    "src/ui/call-completion-api.ts": {
+      "path": "src/ui/call-completion-api.ts",
+      "size_bytes": 3958,
+      "mtime_ms": 1778480951657.327,
+      "hash": "b0a2d6793f963167c028464e44e711fec55f123b4916cd8d47789c1c7a97900a",
+      "extraction": "structural"
+    },
+    "src/ui/http-chat-transport.ts": {
+      "path": "src/ui/http-chat-transport.ts",
+      "size_bytes": 7991,
+      "mtime_ms": 1778480951659.72,
+      "hash": "d744b4e9af2115e7d6aa6bec3cf867b692344d6f7b19ae9ecc04a626aa642893",
+      "extraction": "structural"
+    },
+    "src/ui/ui-messages.ts": {
+      "path": "src/ui/ui-messages.ts",
+      "size_bytes": 15249,
+      "mtime_ms": 1778480951661.199,
+      "hash": "e84c769d0a14349522d2dc949bf76085526d3e8900d721ade3154efd93f9f0be",
+      "extraction": "structural"
+    },
+    "src/upload-skill/upload-skill.ts": {
+      "path": "src/upload-skill/upload-skill.ts",
+      "size_bytes": 1379,
+      "mtime_ms": 1778480951662.126,
+      "hash": "94233811f9f6dbd47f91b31d875e1b2dd60db022e757f667de97fd4982fd6bd5",
+      "extraction": "structural"
+    },
+    "src/util/deep-partial.ts": {
+      "path": "src/util/deep-partial.ts",
+      "size_bytes": 3513,
+      "mtime_ms": 1778480951662.8115,
+      "hash": "2d4aed0da6df49925fefad5310138fd7305cdbdb7e136af026790c9924de9948",
+      "extraction": "structural"
+    },
+    "src/util/index.ts": {
+      "path": "src/util/index.ts",
+      "size_bytes": 732,
+      "mtime_ms": 1778480951663.5156,
+      "hash": "7483b0acff5f6eeb53248321a75bf7ed6c83ed695853a70887752c44e848ecaa",
+      "extraction": "structural"
+    },
+    "src/util/merge-objects.ts": {
+      "path": "src/util/merge-objects.ts",
+      "size_bytes": 2863,
+      "mtime_ms": 1778480951664.2673,
+      "hash": "263fe6963e51a5eea81d35f63fa357a821d53e136836bfbe4f2a2def5d63ad69",
+      "extraction": "structural"
+    },
+    "src/util/serial-job-executor.ts": {
+      "path": "src/util/serial-job-executor.ts",
+      "size_bytes": 686,
+      "mtime_ms": 1778480951665.3835,
+      "hash": "08a7502fe8e92105ca392758856afada4597a067c2d7dbdf60b683ac411d766c",
+      "extraction": "structural"
+    },
+    "tsup.config.ts": {
+      "path": "tsup.config.ts",
+      "size_bytes": 1463,
+      "mtime_ms": 1778480951666.3008,
+      "hash": "02bbabd97240277bdbe291482495307c3937b5f912cc813406c2e8806e18398c",
+      "extraction": "structural"
+    },
+    "src/embed/embed-many.test.ts": {
+      "path": "src/embed/embed-many.test.ts",
+      "size_bytes": 25792,
+      "mtime_ms": 1778480951633.1387,
+      "hash": "6cbb1abb3a51a48d236e51aaec2d35b54ce792e49d4d35cb71218ecc3a5cbebc",
+      "extraction": "structural"
+    },
+    "src/generate-text/create-execute-tools-transformation.test.ts": {
+      "path": "src/generate-text/create-execute-tools-transformation.test.ts",
+      "size_bytes": 36772,
+      "mtime_ms": 1778480951638.2966,
+      "hash": "7a0319b10e50b698f61a568e49216f9b275726306f8f0b9e30c3b09505a58c69",
+      "extraction": "structural"
+    },
+    "src/generate-text/resolve-tool-approval.test.ts": {
+      "path": "src/generate-text/resolve-tool-approval.test.ts",
+      "size_bytes": 19155,
+      "mtime_ms": 1778480951640.978,
+      "hash": "a085caf91573bc77d2e61d5800fe8be2889bc515308d9cacb25968d6db5a098b",
+      "extraction": "structural"
+    },
+    "src/generate-video/generate-video.test.ts": {
+      "path": "src/generate-video/generate-video.test.ts",
+      "size_bytes": 28985,
+      "mtime_ms": 1778480951644.043,
+      "hash": "5b5cd3727687bc48401b0f35aa03ad2546ac18280318814ac579caf07bbd3b44",
+      "extraction": "structural"
+    },
+    "src/middleware/wrap-embedding-model.test.ts": {
+      "path": "src/middleware/wrap-embedding-model.test.ts",
+      "size_bytes": 9834,
+      "mtime_ms": 1778480951645.884,
+      "hash": "119e9731db3f081b0d7e38de6c38c9e36adad8e40a5dec5f0eaa0ac99d4dea31",
+      "extraction": "structural"
+    },
+    "src/model/as-language-model-v3.test.ts": {
+      "path": "src/model/as-language-model-v3.test.ts",
+      "size_bytes": 15296,
+      "mtime_ms": 1778480951647.0247,
+      "hash": "82ed843fbdb7c9b13c0bfadf885334279cf6e3acfa599e8ea87b6602127217a3",
+      "extraction": "structural"
+    },
+    "src/model/as-video-model-v4.test.ts": {
+      "path": "src/model/as-video-model-v4.test.ts",
+      "size_bytes": 2940,
+      "mtime_ms": 1778480951648.0408,
+      "hash": "35f13b518ab0188a5979afc0e1e497dd6a14051b4a286210a3cecc79dd0fc5e2",
+      "extraction": "structural"
+    },
+    "src/prompt/prepare-tools.test.ts": {
+      "path": "src/prompt/prepare-tools.test.ts",
+      "size_bytes": 5979,
+      "mtime_ms": 1778480951649.779,
+      "hash": "fad618fde63fccf336a2f1198c942068dd909afbb811a76c28e5211a27f4a077",
+      "extraction": "structural"
+    },
+    "src/test/mock-embedding-model-v2.ts": {
+      "path": "src/test/mock-embedding-model-v2.ts",
+      "size_bytes": 1294,
+      "mtime_ms": 1778480951652.1025,
+      "hash": "98b6ce119278dcff681ef3f7c29a2d88a69de617247a91763f6993639a998aec",
+      "extraction": "structural"
+    },
+    "src/test/mock-language-model-v3.ts": {
+      "path": "src/test/mock-language-model-v3.ts",
+      "size_bytes": 2229,
+      "mtime_ms": 1778481324807.563,
+      "hash": "1bc48539bf8536013ade308fa1572151e329b100f846e454da70e5b4866de1a7",
+      "extraction": "structural"
+    },
+    "src/test/mock-server-response.ts": {
+      "path": "src/test/mock-server-response.ts",
+      "size_bytes": 1546,
+      "mtime_ms": 1778480951652.7322,
+      "hash": "190010fbaf7272d182b0f5f0f1d9912516c406f87da291031e0a6a5acc049371",
+      "extraction": "structural"
+    },
+    "src/test/mock-video-model-v3.ts": {
+      "path": "src/test/mock-video-model-v3.ts",
+      "size_bytes": 1015,
+      "mtime_ms": 1778480951653.1257,
+      "hash": "6e9d475e54bba29d8b8155addb3a95deed64232328b2475f5732a7337d36c6f6",
+      "extraction": "structural"
+    },
+    "src/ui-message-stream/get-response-ui-message-id.test.ts": {
+      "path": "src/ui-message-stream/get-response-ui-message-id.test.ts",
+      "size_bytes": 1744,
+      "mtime_ms": 1778480951655.8176,
+      "hash": "15f49071fa8d11298c3ff96b0f1904ea449ab0dcd0c602c404f1bb1186f23392",
+      "extraction": "structural"
+    },
+    "src/ui/last-assistant-message-is-complete-with-approval-responses.test.ts": {
+      "path": "src/ui/last-assistant-message-is-complete-with-approval-responses.test.ts",
+      "size_bytes": 7676,
+      "mtime_ms": 1778480951659.8936,
+      "hash": "e9a329833f57fa3feee3070ce912cbdf1b9a112e40181ce593d3b17705989622",
+      "extraction": "structural"
+    },
+    "src/upload-skill/upload-skill.test.ts": {
+      "path": "src/upload-skill/upload-skill.test.ts",
+      "size_bytes": 3549,
+      "mtime_ms": 1778480951662.0813,
+      "hash": "0a4482ab8f0cdb17b941f1997a6a32afd2dda0ab27636ac31c404f67bf818bf9",
+      "extraction": "structural"
+    },
+    "src/util/merge-abort-signals.test.ts": {
+      "path": "src/util/merge-abort-signals.test.ts",
+      "size_bytes": 5633,
+      "mtime_ms": 1778480951663.9216,
+      "hash": "b597ed04c979265f8ad0c75dc398e08cfba885e03c6bfaaae71518d9bf44ed05",
+      "extraction": "structural"
+    },
+    "src/util/serial-job-executor.test.ts": {
+      "path": "src/util/serial-job-executor.test.ts",
+      "size_bytes": 4620,
+      "mtime_ms": 1778480951665.3364,
+      "hash": "13c81ce7ec0e46559f4e2ab999d29a0825380c76b54ecca9b1329314f2022c85",
+      "extraction": "structural"
+    },
+    "internal/index.ts": {
+      "path": "internal/index.ts",
+      "size_bytes": 1190,
+      "mtime_ms": 1778480951630.8608,
+      "hash": "f1e4932944dc7a711023121bb30736e04e2edd7679618067ee86ad94230f721e",
+      "extraction": "structural"
+    },
+    "src/agent/infer-agent-ui-message.ts": {
+      "path": "src/agent/infer-agent-ui-message.ts",
+      "size_bytes": 328,
+      "mtime_ms": 1778480951632.1519,
+      "hash": "e62bb16760d6745a7a47e41949acb857aa4d92d2a71dc75d43e8b9becae581fa",
+      "extraction": "structural"
+    },
+    "src/embed/embed-result.ts": {
+      "path": "src/embed/embed-result.ts",
+      "size_bytes": 970,
+      "mtime_ms": 1778480951633.2937,
+      "hash": "c1afe8688aa7cc665b6c3c70e43a3e6768c60f544be34977203e4ba88290f000",
+      "extraction": "structural"
+    },
+    "src/error/missing-tool-result-error.ts": {
+      "path": "src/error/missing-tool-result-error.ts",
+      "size_bytes": 750,
+      "mtime_ms": 1778480951633.9072,
+      "hash": "29cb43b7b35aa8e24d3fb52d15ef6be4159e464516cf4d70a5bc9df90736ea95",
+      "extraction": "structural"
+    },
+    "src/error/tool-call-not-found-for-approval-error.ts": {
+      "path": "src/error/tool-call-not-found-for-approval-error.ts",
+      "size_bytes": 810,
+      "mtime_ms": 1778480951634.3477,
+      "hash": "a7b791b1848b5562156baa763b3db7c92d58e26689baaabb756063716d3a1353",
+      "extraction": "structural"
+    },
+    "src/generate-object/generate-object-result.ts": {
+      "path": "src/generate-object/generate-object-result.ts",
+      "size_bytes": 1605,
+      "mtime_ms": 1778480951635.152,
+      "hash": "cf22d57da8756d453a82ad98ef407b9e12b45bde2ef2a6d72801f9fbf11a3550",
+      "extraction": "structural"
+    },
+    "src/generate-object/stream-object-result.ts": {
+      "path": "src/generate-object/stream-object-result.ts",
+      "size_bytes": 3898,
+      "mtime_ms": 1778480951636.6077,
+      "hash": "1f8b8a42abd346878d906a750dbf051752f0194f995d2e97f0589f2255e16324",
+      "extraction": "structural"
+    },
+    "src/generate-speech/index.ts": {
+      "path": "src/generate-speech/index.ts",
+      "size_bytes": 240,
+      "mtime_ms": 1778480951637.5742,
+      "hash": "2d98ab6dd75827a1825b664a0dfafffd823fa21dba8b1acc9d037a606e44b714",
+      "extraction": "structural"
+    },
+    "src/generate-text/filter-active-tools.test-d.ts": {
+      "path": "src/generate-text/filter-active-tools.test-d.ts",
+      "size_bytes": 3240,
+      "mtime_ms": 1778480951638.7727,
+      "hash": "591837684dba1670ce53aa77791af9871fe86b97c2f9f6c7699e19881ce0466c",
+      "extraction": "structural"
+    },
+    "src/generate-text/invoke-tool-callbacks-from-stream.ts": {
+      "path": "src/generate-text/invoke-tool-callbacks-from-stream.ts",
+      "size_bytes": 2400,
+      "mtime_ms": 1778480951640.0735,
+      "hash": "dc6a2a31b5e30edcfe97ddf9ff60ff2c0ee5777faa8f858d33e0d7b3b554ad60",
+      "extraction": "structural"
+    },
+    "src/generate-text/reasoning.ts": {
+      "path": "src/generate-text/reasoning.ts",
+      "size_bytes": 369,
+      "mtime_ms": 1778480951640.9133,
+      "hash": "28750b78603216c9bda6da271fa5ad96ce9b197b87aa041a4709287690e5a718",
+      "extraction": "structural"
+    },
+    "src/generate-text/stream-language-model-call.ts": {
+      "path": "src/generate-text/stream-language-model-call.ts",
+      "size_bytes": 21731,
+      "mtime_ms": 1778480951641.899,
+      "hash": "855a9e5f68f07a189b596922a0da7bc96fe8567388d6c974273ffade3a83d218",
+      "extraction": "structural"
+    },
+    "src/generate-text/tool-approval-response-output.ts": {
+      "path": "src/generate-text/tool-approval-response-output.ts",
+      "size_bytes": 822,
+      "mtime_ms": 1778480951643.156,
+      "hash": "00f10e8093e67d29d017af4b60d94182c0982de77f7ac9247c6a6ed3a76c8857",
+      "extraction": "structural"
+    },
+    "src/generate-text/tool-output.ts": {
+      "path": "src/generate-text/tool-output.ts",
+      "size_bytes": 264,
+      "mtime_ms": 1778480951643.6023,
+      "hash": "e91c1eade198dced8f995f3a4fc43dbe385a07fab99522207d28e8104c0781dd",
+      "extraction": "structural"
+    },
+    "src/global.ts": {
+      "path": "src/global.ts",
+      "size_bytes": 1312,
+      "mtime_ms": 1778480951644.204,
+      "hash": "dbc2e9600753f803c5b7967cf530668521ff021f7c32303e0ec588775dc3196c",
+      "extraction": "structural"
+    },
+    "src/middleware/extract-reasoning-middleware.ts": {
+      "path": "src/middleware/extract-reasoning-middleware.ts",
+      "size_bytes": 8364,
+      "mtime_ms": 1778480951645.637,
+      "hash": "5ad90cb407b8d23335e06d9580630e9a59e907dfcfc259d49a4dd1e9f904bd8d",
+      "extraction": "structural"
+    },
+    "src/model/as-embedding-model-v4.ts": {
+      "path": "src/model/as-embedding-model-v4.ts",
+      "size_bytes": 716,
+      "mtime_ms": 1778480951646.571,
+      "hash": "8101d509a1a50809d269f8bd6a170eabd1b548d44d712cf41fc5f6652a96de94",
+      "extraction": "structural"
+    },
+    "src/model/as-speech-model-v3.ts": {
+      "path": "src/model/as-speech-model-v3.ts",
+      "size_bytes": 713,
+      "mtime_ms": 1778480951647.639,
+      "hash": "5e6e10e0b91bffdd930d3c7f78378e9bd9c4def31abda52e684af7e86c429184",
+      "extraction": "structural"
+    },
+    "src/prompt/convert-to-language-model-prompt.ts": {
+      "path": "src/prompt/convert-to-language-model-prompt.ts",
+      "size_bytes": 24874,
+      "mtime_ms": 1778480951648.718,
+      "hash": "72ce9a18c25ebabc3b45040da45930d12f303896a3a49ae177b6e46e83da8475",
+      "extraction": "structural"
+    },
+    "src/prompt/message-conversion-error.ts": {
+      "path": "src/prompt/message-conversion-error.ts",
+      "size_bytes": 722,
+      "mtime_ms": 1778480951649.4167,
+      "hash": "aa52e0cadfd8763c5fdfd9f1c8fac5c3299d1d381244f89f95d6b184089ffc54",
+      "extraction": "structural"
+    },
+    "src/prompt/standardize-prompt.ts": {
+      "path": "src/prompt/standardize-prompt.ts",
+      "size_bytes": 2876,
+      "mtime_ms": 1778480951650.1362,
+      "hash": "884bd8ad2c78e80e4216d28676483a91f7c2c50f3a6a1547b1ecc0eda2638d84",
+      "extraction": "structural"
+    },
+    "src/rerank/index.ts": {
+      "path": "src/rerank/index.ts",
+      "size_bytes": 228,
+      "mtime_ms": 1778480951651.0752,
+      "hash": "d62681939a1928d338caea5458ca866b80a1f7e8e33d453b6eb2c7bdc0e35489",
+      "extraction": "structural"
+    },
+    "src/telemetry/telemetry-options.ts": {
+      "path": "src/telemetry/telemetry-options.ts",
+      "size_bytes": 2225,
+      "mtime_ms": 1778480951651.8228,
+      "hash": "3e260ff00cf9524a6063b858dd044b8747b6e4cbf47b8af968c15c6ea90b0128",
+      "extraction": "structural"
+    },
+    "src/transcribe/transcribe.ts": {
+      "path": "src/transcribe/transcribe.ts",
+      "size_bytes": 5601,
+      "mtime_ms": 1778480951653.9912,
+      "hash": "c6374a452c9b307a07d2ec99b6d16bd6414a464a01ad9b021fe14af0b708ca23",
+      "extraction": "structural"
+    },
+    "src/types/language-model-middleware.ts": {
+      "path": "src/types/language-model-middleware.ts",
+      "size_bytes": 477,
+      "mtime_ms": 1778480951654.4602,
+      "hash": "334b978b4ba26c3638d79ab2e6a13684a62432031a2910fcd1bf4b8df4c709fd",
+      "extraction": "structural"
+    },
+    "src/types/speech-model-response-metadata.ts": {
+      "path": "src/types/speech-model-response-metadata.ts",
+      "size_bytes": 363,
+      "mtime_ms": 1778480951654.8955,
+      "hash": "6bc50e21e1f480a03216e60fa3e11026da249f2cb36df378ee67b2787e9fc747",
+      "extraction": "structural"
+    },
+    "src/ui-message-stream/create-ui-message-stream-response.ts": {
+      "path": "src/ui-message-stream/create-ui-message-stream-response.ts",
+      "size_bytes": 1773,
+      "mtime_ms": 1778480951655.5583,
+      "hash": "563ddc2a4a9ee208bd62b478f2a06bcfadf6fa46ce82500aee1732338b966be4",
+      "extraction": "structural"
+    },
+    "src/ui-message-stream/ui-message-chunks.test-d.ts": {
+      "path": "src/ui-message-stream/ui-message-chunks.test-d.ts",
+      "size_bytes": 567,
+      "mtime_ms": 1778480951656.4124,
+      "hash": "2215799c140d5b066b0574b5479e97a0f7aaebc21e5fab1d4bcf2a3c50178cf5",
+      "extraction": "structural"
+    },
+    "src/ui/chat-transport.ts": {
+      "path": "src/ui/chat-transport.ts",
+      "size_bytes": 4157,
+      "mtime_ms": 1778480951657.442,
+      "hash": "49724e2436cf10de208d89d85a2eb96de46cd5dfbbfe6e1d7b0d8ed8bf8f4ff7",
+      "extraction": "structural"
+    },
+    "src/ui/index.ts": {
+      "path": "src/ui/index.ts",
+      "size_bytes": 2237,
+      "mtime_ms": 1778480951659.767,
+      "hash": "3b2675232c3eac99c36b50c6036855f424b780b31d4d6ed7db26f02339e8e029",
+      "extraction": "structural"
+    },
+    "src/ui/use-completion.ts": {
+      "path": "src/ui/use-completion.ts",
+      "size_bytes": 2115,
+      "mtime_ms": 1778480951661.2473,
+      "hash": "17840b697eafa9ef892c368336bf49611225a662b0ad8770d150cef123e41885",
+      "extraction": "structural"
+    },
+    "src/util/async-iterable-stream.ts": {
+      "path": "src/util/async-iterable-stream.ts",
+      "size_bytes": 2937,
+      "mtime_ms": 1778480951662.3171,
+      "hash": "159884cfbcb2a46ca192dc31d16acd81131e8dd8f062c69f80486af4996cb4bc",
+      "extraction": "structural"
+    },
+    "src/util/download/create-download.ts": {
+      "path": "src/util/download/create-download.ts",
+      "size_bytes": 604,
+      "mtime_ms": 1778480951662.8804,
+      "hash": "a7394a12aa1087b109f1e7ddd48ca42a8db20a42958a709111bb9d55981c0765",
+      "extraction": "structural"
+    },
+    "src/util/is-deep-equal-data.ts": {
+      "path": "src/util/is-deep-equal-data.ts",
+      "size_bytes": 1621,
+      "mtime_ms": 1778480951663.6077,
+      "hash": "40e3e9a9d8d707cf8bd93e2874ab7e717caee611bb73d9ad6e4806641262073c",
+      "extraction": "structural"
+    },
+    "src/util/notify.ts": {
+      "path": "src/util/notify.ts",
+      "size_bytes": 550,
+      "mtime_ms": 1778480951664.4578,
+      "hash": "551f1c4eca4322956939222a328215778c3cc90b3694c686641bf8fb049feb68",
+      "extraction": "structural"
+    },
+    "src/util/set-abort-timeout.ts": {
+      "path": "src/util/set-abort-timeout.ts",
+      "size_bytes": 1140,
+      "mtime_ms": 1778480951665.4836,
+      "hash": "21e87274c8c9b46508426243d5d25f7e368f5f8288d8e7b49bb06a70027b2cda",
+      "extraction": "structural"
+    },
+    "vitest.edge.config.js": {
+      "path": "vitest.edge.config.js",
+      "size_bytes": 564,
+      "mtime_ms": 1778480951666.3828,
+      "hash": "4b292e8bf7bde7d9254d728b8eec6efc0427b07157934eee5bf12242dd0a6f91",
+      "extraction": "structural"
+    },
+    "src/embed/embed.test.ts": {
+      "path": "src/embed/embed.test.ts",
+      "size_bytes": 16403,
+      "mtime_ms": 1778480951633.3625,
+      "hash": "fe106edf191d51451f05a123d96e38abb9fa7a93e9cecae3a3fb5e3e1366669b",
+      "extraction": "structural"
+    },
+    "src/generate-text/execute-tool-call.test.ts": {
+      "path": "src/generate-text/execute-tool-call.test.ts",
+      "size_bytes": 37120,
+      "mtime_ms": 1778480951638.5095,
+      "hash": "c4884444c59aaa078d5b32eead040ceb44711ec38c71f94f71e3ca56548470a3",
+      "extraction": "structural"
+    },
+    "src/generate-text/restricted-telemetry-dispatcher.test.ts": {
+      "path": "src/generate-text/restricted-telemetry-dispatcher.test.ts",
+      "size_bytes": 11778,
+      "mtime_ms": 1778480951641.1772,
+      "hash": "3b3fed90d89fb84ce9a62afbd8ae3d0eea842dba7b141b6d0ea91c4229217432",
+      "extraction": "structural"
+    },
+    "src/logger/log-warnings.test.ts": {
+      "path": "src/logger/log-warnings.test.ts",
+      "size_bytes": 12458,
+      "mtime_ms": 1778480951644.461,
+      "hash": "491291a7b13f77647f4207ded2dea11a943254398af1d9aede29642f9a7843f3",
+      "extraction": "structural"
+    },
+    "src/middleware/wrap-image-model.test.ts": {
+      "path": "src/middleware/wrap-image-model.test.ts",
+      "size_bytes": 11080,
+      "mtime_ms": 1778480951645.997,
+      "hash": "97083f8dca5aae448b839a14c8b98eeadf476587c13fbeab33fdafdaf543a13e",
+      "extraction": "structural"
+    },
+    "src/model/as-language-model-v4.test.ts": {
+      "path": "src/model/as-language-model-v4.test.ts",
+      "size_bytes": 6006,
+      "mtime_ms": 1778480951647.1934,
+      "hash": "09019fd01703e4d3b9bb6f08cc5bb51f67963b5ffde12787c9ec34ff8c42f12b",
+      "extraction": "structural"
+    },
+    "src/model/resolve-model.test.ts": {
+      "path": "src/model/resolve-model.test.ts",
+      "size_bytes": 17144,
+      "mtime_ms": 1778480951648.1372,
+      "hash": "c645dc2e045bfc4d0f5cff4fa0b18a67e27eab0309efa5704d708759d31cf111",
+      "extraction": "structural"
+    },
+    "src/prompt/standardize-prompt.test.ts": {
+      "path": "src/prompt/standardize-prompt.test.ts",
+      "size_bytes": 5097,
+      "mtime_ms": 1778480951650.091,
+      "hash": "8e7d43841745193b78f74de7da8f37425c61d27b0f0a6a811905d7666e06ee7c",
+      "extraction": "structural"
+    },
+    "src/test/mock-embedding-model-v3.ts": {
+      "path": "src/test/mock-embedding-model-v3.ts",
+      "size_bytes": 1665,
+      "mtime_ms": 1778481324807.7969,
+      "hash": "29135c6407157828d5a9afe0cf8c2b688a601640cae95a30ea954748e4d180d0",
+      "extraction": "structural"
+    },
+    "src/test/mock-language-model-v4.ts": {
+      "path": "src/test/mock-language-model-v4.ts",
+      "size_bytes": 2229,
+      "mtime_ms": 1778481324807.6829,
+      "hash": "db5d7dc32a0b0d13e118da99ae1331a319dbbed72e32e8149a78a016f43b4996",
+      "extraction": "structural"
+    },
+    "src/test/mock-speech-model-v2.ts": {
+      "path": "src/test/mock-speech-model-v2.ts",
+      "size_bytes": 702,
+      "mtime_ms": 1778480951652.7764,
+      "hash": "4de0c6d6a0c8ac801d75379ff6d0a6edd3bef649adb1bc0182dbc1cd06d2f964",
+      "extraction": "structural"
+    },
+    "src/test/mock-video-model-v4.ts": {
+      "path": "src/test/mock-video-model-v4.ts",
+      "size_bytes": 1015,
+      "mtime_ms": 1778480951653.1765,
+      "hash": "dd4dd51db0689cd2d377b47b6563f0470a5dbf04f78379a56096797148a49393",
+      "extraction": "structural"
+    },
+    "src/ui-message-stream/handle-ui-message-stream-finish.test.ts": {
+      "path": "src/ui-message-stream/handle-ui-message-stream-finish.test.ts",
+      "size_bytes": 24363,
+      "mtime_ms": 1778480951655.948,
+      "hash": "b6e5801b545694c885cd79536161d624c29cc6b923028d39c5a93bc971afa7db",
+      "extraction": "structural"
+    },
+    "src/ui/last-assistant-message-is-complete-with-tool-calls.test.ts": {
+      "path": "src/ui/last-assistant-message-is-complete-with-tool-calls.test.ts",
+      "size_bytes": 10605,
+      "mtime_ms": 1778480951660.0156,
+      "hash": "f3b218101a2adc861f60083590ed4134ef26e10d83f12278e5dfc952bdb39cd8",
+      "extraction": "structural"
+    },
+    "src/util/async-iterable-stream.test.ts": {
+      "path": "src/util/async-iterable-stream.test.ts",
+      "size_bytes": 6759,
+      "mtime_ms": 1778480951662.2732,
+      "hash": "363982f266b7225508ddd3cc5ca5a8bdc552e25f16b950c96461f7965709ee3a",
+      "extraction": "structural"
+    },
+    "src/util/merge-callbacks.test.ts": {
+      "path": "src/util/merge-callbacks.test.ts",
+      "size_bytes": 2519,
+      "mtime_ms": 1778480951664.0234,
+      "hash": "d1703e02879693435e31d68b2e4879307dcbc50ebb104088416337c7c0c2b8f8",
+      "extraction": "structural"
+    },
+    "src/util/set-abort-timeout.test.ts": {
+      "path": "src/util/set-abort-timeout.test.ts",
+      "size_bytes": 2585,
+      "mtime_ms": 1778480951665.4358,
+      "hash": "6f9c712f645d46caa9373b4378eb32356a26a3b507f95cf74b301a19c7560dc0",
+      "extraction": "structural"
+    },
+    "scripts/check-bundle-size.ts": {
+      "path": "scripts/check-bundle-size.ts",
+      "size_bytes": 3321,
+      "mtime_ms": 1778480951631.0146,
+      "hash": "0522c592b796155b0c8c88b7b819b8d1577a981563747adc73679bab6fb8da0b",
+      "extraction": "structural"
+    },
+    "src/agent/pipe-agent-ui-stream-to-response.ts": {
+      "path": "src/agent/pipe-agent-ui-stream-to-response.ts",
+      "size_bytes": 2746,
+      "mtime_ms": 1778480951632.1985,
+      "hash": "32f81572548b3ebded797e63ba5a22f0d7094bd06584c226ef584ac3710b89d2",
+      "extraction": "structural"
+    },
+    "src/embed/embed.ts": {
+      "path": "src/embed/embed.ts",
+      "size_bytes": 7131,
+      "mtime_ms": 1778480951633.497,
+      "hash": "799f6a75775bfbdb8aaefbb9480af3cb8890f274ef9ff190d6601f517ffdcf4d",
+      "extraction": "structural"
+    },
+    "src/error/no-image-generated-error.ts": {
+      "path": "src/error/no-image-generated-error.ts",
+      "size_bytes": 1074,
+      "mtime_ms": 1778480951633.977,
+      "hash": "7446106d23f092809ff3848ae941f7c52ced4e58d30a7f1d277d469c73110131",
+      "extraction": "structural"
+    },
+    "src/error/tool-call-repair-error.ts": {
+      "path": "src/error/tool-call-repair-error.ts",
+      "size_bytes": 933,
+      "mtime_ms": 1778480951634.4084,
+      "hash": "daceda96d72a81a4fc764e27b035a27ef2534d86499181ff2d2b1d0ec570054f",
+      "extraction": "structural"
+    },
+    "src/generate-object/generate-object.test-d.ts": {
+      "path": "src/generate-object/generate-object.test-d.ts",
+      "size_bytes": 1613,
+      "mtime_ms": 1778480951635.211,
+      "hash": "b03dd182a05f4f55326362ab4630bc374369c4febed6907f48dc71e1727dc6ad",
+      "extraction": "structural"
+    },
+    "src/generate-object/stream-object.test-d.ts": {
+      "path": "src/generate-object/stream-object.test-d.ts",
+      "size_bytes": 2303,
+      "mtime_ms": 1778480951636.667,
+      "hash": "92a111dd28f147a2ea50f09de34f83155574f89447c02a2ec7b35af06f42e29f",
+      "extraction": "structural"
+    },
+    "src/generate-text/active-tools.ts": {
+      "path": "src/generate-text/active-tools.ts",
+      "size_bytes": 396,
+      "mtime_ms": 1778480951637.848,
+      "hash": "20e047993b47724d98360fd4b9111905f25eeda5a65ce823edb7eb7db7f07257",
+      "extraction": "structural"
+    },
+    "src/generate-text/filter-active-tools.ts": {
+      "path": "src/generate-text/filter-active-tools.ts",
+      "size_bytes": 1228,
+      "mtime_ms": 1778480951638.8706,
+      "hash": "6448314c52285a9b551464e6912621b3e78746558a0515f3b0e7c17192b74f03",
+      "extraction": "structural"
+    },
+    "src/generate-text/language-model-events.ts": {
+      "path": "src/generate-text/language-model-events.ts",
+      "size_bytes": 2890,
+      "mtime_ms": 1778480951640.118,
+      "hash": "eda7aa6ffa2df1535c31a022ff5b0589a6a1d4c0d103399ff942999124589437",
+      "extraction": "structural"
+    },
+    "src/generate-text/resolve-tool-approval.ts": {
+      "path": "src/generate-text/resolve-tool-approval.ts",
+      "size_bytes": 3952,
+      "mtime_ms": 1778480951641.0298,
+      "hash": "765b458e60080baa195a7056192644d8baa820d3594fcdf1e7cdc637159dd8c7",
+      "extraction": "structural"
+    },
+    "src/generate-text/stream-text-result.ts": {
+      "path": "src/generate-text/stream-text-result.ts",
+      "size_bytes": 16258,
+      "mtime_ms": 1778480951642.031,
+      "hash": "21dc8370b5ae3e78debdd126dc7e27a0f4796ce59beb0400e59072cc2ce7e54c",
+      "extraction": "structural"
+    },
+    "src/generate-text/tool-call-repair-function.ts": {
+      "path": "src/generate-text/tool-call-repair-function.ts",
+      "size_bytes": 1492,
+      "mtime_ms": 1778480951643.2026,
+      "hash": "a2e35a026d2849c97bc89f9628f487618d032fc3730b622977cbdbca57bf5913",
+      "extraction": "structural"
+    },
+    "src/generate-text/tool-result.ts": {
+      "path": "src/generate-text/tool-result.ts",
+      "size_bytes": 1101,
+      "mtime_ms": 1778480951643.644,
+      "hash": "563b014264fda54bdca796e6521aa0c5af6633cd7165a2090a27223e537b1569",
+      "extraction": "structural"
+    },
+    "src/index.ts": {
+      "path": "src/index.ts",
+      "size_bytes": 1244,
+      "mtime_ms": 1778480951644.245,
+      "hash": "be5e33d80bae670c855774dbc88edc427accf7738a1d6686a0e8ff13932ca502",
+      "extraction": "structural"
+    },
+    "src/middleware/index.ts": {
+      "path": "src/middleware/index.ts",
+      "size_bytes": 700,
+      "mtime_ms": 1778480951645.6785,
+      "hash": "e071610636054395533bfca0f95b2cc1deda3a316580f6e7260ca370fe87c3f3",
+      "extraction": "structural"
+    },
+    "src/model/as-image-model-v3.ts": {
+      "path": "src/model/as-image-model-v3.ts",
+      "size_bytes": 705,
+      "mtime_ms": 1778480951646.684,
+      "hash": "4c9d7526cdf7880e8ed4c6e9d8f5aebad5ae9b16810b70ab8b3d9c8bda02ce00",
+      "extraction": "structural"
+    },
+    "src/model/as-speech-model-v4.ts": {
+      "path": "src/model/as-speech-model-v4.ts",
+      "size_bytes": 669,
+      "mtime_ms": 1778480951647.7341,
+      "hash": "af2af8b9e097a58ab24cc864c062cd16926148fa080cad9cc100a849a7d3eb2a",
+      "extraction": "structural"
+    },
+    "src/prompt/create-tool-model-output.ts": {
+      "path": "src/prompt/create-tool-model-output.ts",
+      "size_bytes": 945,
+      "mtime_ms": 1778480951648.9763,
+      "hash": "16d05e24dd546a313bb150bea6225d25e59612605ecb49ef9bcd15408d6dc7fa",
+      "extraction": "structural"
+    },
+    "src/prompt/message.ts": {
+      "path": "src/prompt/message.ts",
+      "size_bytes": 1962,
+      "mtime_ms": 1778480951649.4653,
+      "hash": "3ca5d2c6cf4e3d2f8ef067e724a5c0c990eab11b731baa2316f5b6e299d67f73",
+      "extraction": "structural"
+    },
+    "src/prompt/wrap-gateway-error.ts": {
+      "path": "src/prompt/wrap-gateway-error.ts",
+      "size_bytes": 973,
+      "mtime_ms": 1778480951650.1775,
+      "hash": "27791c492a0a65eaa5a8dd1b65f704a62313892b27f39bb6be65301293b15f01",
+      "extraction": "structural"
+    },
+    "src/rerank/rerank-events.ts": {
+      "path": "src/rerank/rerank-events.ts",
+      "size_bytes": 4174,
+      "mtime_ms": 1778480951651.1921,
+      "hash": "de52f7128ddbc70e28827e7e58d39025e388e9d8662317df23d9a23d72de9fa9",
+      "extraction": "structural"
+    },
+    "src/telemetry/telemetry-registry.ts": {
+      "path": "src/telemetry/telemetry-registry.ts",
+      "size_bytes": 483,
+      "mtime_ms": 1778480951651.9106,
+      "hash": "8f65c0f526f6605981072426f0d967d9402cf4ccaa7a99a4f519039fe02d6f95",
+      "extraction": "structural"
+    },
+    "src/types/embedding-model-middleware.ts": {
+      "path": "src/types/embedding-model-middleware.ts",
+      "size_bytes": 482,
+      "mtime_ms": 1778480951654.0803,
+      "hash": "ad57576196a719dd06c376ab8276298b2798ea83bf40328871e37328e9a00c8c",
+      "extraction": "structural"
+    },
+    "src/types/language-model-request-metadata.ts": {
+      "path": "src/types/language-model-request-metadata.ts",
+      "size_bytes": 379,
+      "mtime_ms": 1778480951654.5186,
+      "hash": "c261f0873afa03ded90781890da5a125573f5359b9fef26d63fab3b42e310ab2",
+      "extraction": "structural"
+    },
+    "src/types/speech-model.ts": {
+      "path": "src/types/speech-model.ts",
+      "size_bytes": 237,
+      "mtime_ms": 1778480951654.9521,
+      "hash": "811981d218d9a77977f36cc7409f77d0d25fc6709f4fbe7bca3102ec60d68cd0",
+      "extraction": "structural"
+    },
+    "src/ui-message-stream/create-ui-message-stream.ts": {
+      "path": "src/ui-message-stream/create-ui-message-stream.ts",
+      "size_bytes": 4587,
+      "mtime_ms": 1778480951655.7656,
+      "hash": "c3fa35a8b52d970af46ac2df4ebefef7185714c1cf80499f577ae27b1cbb312c",
+      "extraction": "structural"
+    },
+    "src/ui-message-stream/ui-message-chunks.ts": {
+      "path": "src/ui-message-stream/ui-message-chunks.ts",
+      "size_bytes": 11164,
+      "mtime_ms": 1778480951656.4768,
+      "hash": "49ca410516a1f2c4197852b96d0251f705bd5904d53150e22361cb29747702fd",
+      "extraction": "structural"
+    },
+    "src/ui/chat.test-d.ts": {
+      "path": "src/ui/chat.test-d.ts",
+      "size_bytes": 5067,
+      "mtime_ms": 1778480951657.558,
+      "hash": "34c400787592207a2631dc96eb2607a48fa16ccbda76a51067d4272909a95f62",
+      "extraction": "structural"
+    },
+    "src/ui/last-assistant-message-is-complete-with-approval-responses.ts": {
+      "path": "src/ui/last-assistant-message-is-complete-with-approval-responses.ts",
+      "size_bytes": 1223,
+      "mtime_ms": 1778480951659.9448,
+      "hash": "67bb7f0ccbffb2e9fc42f855f9e3b70fc9d87401bbfb54359f500629c171382a",
+      "extraction": "structural"
+    },
+    "src/ui/validate-ui-messages.ts": {
+      "path": "src/ui/validate-ui-messages.ts",
+      "size_bytes": 20946,
+      "mtime_ms": 1778480951661.3884,
+      "hash": "f194eb9345c82c48b2063391fcf9a2a28f29bef250ab1b19fd068f2032e79aaa",
+      "extraction": "structural"
+    },
+    "src/util/callback.ts": {
+      "path": "src/util/callback.ts",
+      "size_bytes": 137,
+      "mtime_ms": 1778480951662.3542,
+      "hash": "4667c9621f71395aa0e8c8758ac7b9649b5356507d36ef45bfea30882d794e58",
+      "extraction": "structural"
+    },
+    "src/util/download/download-function.ts": {
+      "path": "src/util/download/download-function.ts",
+      "size_bytes": 1520,
+      "mtime_ms": 1778480951662.9253,
+      "hash": "78ac636990a13ac24880ac86c6c1a682a60a5947bb1d01cc0c3dbd867931abb6",
+      "extraction": "structural"
+    },
+    "src/util/is-node-runtime.ts": {
+      "path": "src/util/is-node-runtime.ts",
+      "size_bytes": 122,
+      "mtime_ms": 1778480951663.66,
+      "hash": "52926d9260d51a4479ff57d36642ad23de7a8d992d6e74e24355665d56f41c1f",
+      "extraction": "structural"
+    },
+    "src/util/now.ts": {
+      "path": "src/util/now.ts",
+      "size_bytes": 163,
+      "mtime_ms": 1778480951664.5063,
+      "hash": "66dadb062f5118372832da000f55aef1f669024aa1c8c8c45ec5c6f98afcd5ea",
+      "extraction": "structural"
+    },
+    "src/util/simulate-readable-stream.ts": {
+      "path": "src/util/simulate-readable-stream.ts",
+      "size_bytes": 1765,
+      "mtime_ms": 1778480951665.5977,
+      "hash": "6eb9c6a762af686af1f54f28d4e4db3aae3011c61d3fb44b095732d53656dc32",
+      "extraction": "structural"
+    },
+    "vitest.node.config.js": {
+      "path": "vitest.node.config.js",
+      "size_bytes": 556,
+      "mtime_ms": 1778480951666.4287,
+      "hash": "f7edaefe882195c8c9af4aa9945f1e0d854358b16b61bd03e17214a356096f83",
+      "extraction": "structural"
+    }
+  }
+}

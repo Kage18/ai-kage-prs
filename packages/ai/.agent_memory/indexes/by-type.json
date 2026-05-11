@@ -1,0 +1,9 @@
+{
+  "bug_fix": [
+    "repo:ai:bug_fix:mock-model-array-results-are-call-indexed-after-recording-calls-1778481438900"
+  ],
+  "repo_map": [
+    "repo:ai:repo_map:ai-repo-overview-auto-overview",
+    "repo:ai:repo_map:ai-repo-structure-auto-structure"
+  ]
+}

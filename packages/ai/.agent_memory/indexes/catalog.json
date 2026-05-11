@@ -1,0 +1,112 @@
+{
+  "schema_version": 2,
+  "generated_from_updated_at": "2026-05-11T06:42:15.275Z",
+  "repo_state": {
+    "branch": "fix-mock-array-result-index",
+    "head": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "merge_base": "d57cf11d0e8d06bb3c2e1bcda89ad6a6a5530793"
+  },
+  "packet_count": 3,
+  "packets": [
+    {
+      "id": "repo:ai:bug_fix:mock-model-array-results-are-call-indexed-after-recording-calls-1778481438900",
+      "title": "Mock model array results are call-indexed after recording calls",
+      "summary": "MockLanguageModelV3/V4 and MockEmbeddingModelV3/V4 record each call before selecting from array backed scripted results, so the array index must subtract one from the call count length. Issue 15141 verified this for doGe",
+      "type": "bug_fix",
+      "status": "approved",
+      "tags": [
+        "session-learning",
+        "issue-15141",
+        "mock-models",
+        "test-helpers"
+      ],
+      "paths": [
+        "src/test/mock-language-model-v3.ts",
+        "src/test/mock-language-model-v4.ts",
+        "src/test/mock-embedding-model-v3.ts",
+        "src/test/mock-embedding-model-v4.ts",
+        "src/test/mock-language-model.test.ts",
+        "src/test/mock-embedding-model.test.ts"
+      ],
+      "updated_at": "2026-05-11T06:37:26.321Z",
+      "source_refs": [
+        {
+          "kind": "explicit_capture",
+          "captured_at": "2026-05-11T06:37:18.900Z"
+        }
+      ]
+    },
+    {
+      "id": "repo:ai:repo_map:ai-repo-overview-auto-overview",
+      "title": "ai repo overview",
+      "summary": "Package name: ai. Available npm scripts: build , build:watch , clean , prepack , postpack , type check , test , test:update , test:watch , test:edge , test:node , check bundle size . README excerpt: ! hero illustration .",
+      "type": "repo_map",
+      "status": "approved",
+      "tags": [
+        "repo",
+        "overview"
+      ],
+      "paths": [
+        "root"
+      ],
+      "updated_at": "2026-05-11T06:30:50.510Z",
+      "source_refs": [
+        {
+          "kind": "file",
+          "path": "package.json"
+        },
+        {
+          "kind": "file",
+          "path": "README.md"
+        }
+      ]
+    },
+    {
+      "id": "repo:ai:repo_map:ai-repo-structure-auto-structure",
+      "title": "ai repo structure",
+      "summary": "Detected repo structure: package.json, tsconfig.json, README.md, CLAUDE.md, AGENTS.md, src. Test files: internal/index.test.ts, src/agent/create agent ui stream response.test.ts, src/agent/tool loop agent.test.ts, src/em",
+      "type": "repo_map",
+      "status": "approved",
+      "tags": [
+        "repo",
+        "structure",
+        "index"
+      ],
+      "paths": [
+        "package.json",
+        "tsconfig.json",
+        "README.md",
+        "CLAUDE.md",
+        "AGENTS.md",
+        "src"
+      ],
+      "updated_at": "2026-05-11T06:42:15.275Z",
+      "source_refs": [
+        {
+          "kind": "file",
+          "path": "package.json"
+        },
+        {
+          "kind": "file",
+          "path": "tsconfig.json"
+        },
+        {
+          "kind": "file",
+          "path": "README.md"
+        },
+        {
+          "kind": "file",
+          "path": "CLAUDE.md"
+        },
+        {
+          "kind": "file",
+          "path": "AGENTS.md"
+        },
+        {
+          "kind": "file",
+          "path": "src"
+        }
+      ]
+    }
+  ]
+}

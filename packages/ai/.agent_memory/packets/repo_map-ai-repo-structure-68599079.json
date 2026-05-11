@@ -1,0 +1,77 @@
+{
+  "schema_version": 2,
+  "id": "repo:ai:repo_map:ai-repo-structure-auto-structure",
+  "title": "ai repo structure",
+  "summary": "Detected repo structure: package.json, tsconfig.json, README.md, CLAUDE.md, AGENTS.md, src. Test files: internal/index.test.ts, src/agent/create agent ui stream response.test.ts, src/agent/tool loop agent.test.ts, src/em",
+  "body": "Detected repo structure: package.json, tsconfig.json, README.md, CLAUDE.md, AGENTS.md, src.\nTest files: internal/index.test.ts, src/agent/create-agent-ui-stream-response.test.ts, src/agent/tool-loop-agent.test.ts, src/embed/embed-many.test.ts, src/embed/embed.test.ts, src/generate-image/generate-image.test.ts, src/generate-object/generate-object.test.ts, src/generate-object/inject-json-instruction.test.ts, src/generate-object/stream-object.test.ts, src/generate-speech/generate-speech.test.ts, src/generate-text/collect-tool-approvals.test.ts, src/generate-text/create-execute-tools-transformation.test.ts, src/generate-text/execute-tool-call.test.ts, src/generate-text/filter-active-tools.test.ts, src/generate-text/generate-text.test.ts, src/generate-text/invoke-tool-callbacks-from-stream.test.ts, src/generate-text/output.test.ts, src/generate-text/parse-tool-call.test.ts, src/generate-text/prune-messages.test.ts, src/generate-text/resolve-tool-approval.test.ts, src/generate-text/restricted-telemetry-dispatcher.test.ts, src/generate-text/smooth-stream.test.ts, src/generate-text/stop-condition.test.ts, src/generate-text/stream-language-model-call.test.ts, src/generate-text/stream-text.test.ts.\nThis packet is generated and should be treated as a navigation aid, not deep semantic understanding.",
+  "type": "repo_map",
+  "scope": "repo",
+  "visibility": "team",
+  "sensitivity": "internal",
+  "status": "approved",
+  "confidence": 0.65,
+  "tags": [
+    "repo",
+    "structure",
+    "index"
+  ],
+  "paths": [
+    "package.json",
+    "tsconfig.json",
+    "README.md",
+    "CLAUDE.md",
+    "AGENTS.md",
+    "src"
+  ],
+  "stack": [],
+  "source_refs": [
+    {
+      "kind": "file",
+      "path": "package.json"
+    },
+    {
+      "kind": "file",
+      "path": "tsconfig.json"
+    },
+    {
+      "kind": "file",
+      "path": "README.md"
+    },
+    {
+      "kind": "file",
+      "path": "CLAUDE.md"
+    },
+    {
+      "kind": "file",
+      "path": "AGENTS.md"
+    },
+    {
+      "kind": "file",
+      "path": "src"
+    }
+  ],
+  "context": {
+    "fact": "Generated repo structure summarizes top-level files, workflows, and test files as a navigation aid.",
+    "why": "Agents need a quick map of repo entry points before choosing which files, workflows, or tests to inspect.",
+    "trigger": "Recall when orienting to this repo's layout, CI workflows, or test locations.",
+    "action": "Use this as a starting map and verify details against the current filesystem or code graph before editing.",
+    "verification": "Generated from files present in the repository.",
+    "risk_if_forgotten": "Agents may miss important entry points such as AGENTS.md, workflows, or MCP tests during initial orientation.",
+    "stale_when": "Top-level repo structure, workflow files, or test files change."
+  },
+  "freshness": {
+    "ttl_days": 30,
+    "last_verified_at": "2026-05-11",
+    "verification": "source_seen"
+  },
+  "edges": [],
+  "quality": {
+    "reviewer": "kage-indexer",
+    "votes_up": 0,
+    "votes_down": 0,
+    "uses_30d": 0,
+    "reports_stale": 0
+  },
+  "created_at": "2026-05-11T06:30:50.517Z",
+  "updated_at": "2026-05-11T06:42:15.275Z"
+}

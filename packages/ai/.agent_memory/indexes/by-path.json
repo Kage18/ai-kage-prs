@@ -1,0 +1,41 @@
+{
+  "src/test/mock-language-model-v3.ts": [
+    "repo:ai:bug_fix:mock-model-array-results-are-call-indexed-after-recording-calls-1778481438900"
+  ],
+  "src/test/mock-language-model-v4.ts": [
+    "repo:ai:bug_fix:mock-model-array-results-are-call-indexed-after-recording-calls-1778481438900"
+  ],
+  "src/test/mock-embedding-model-v3.ts": [
+    "repo:ai:bug_fix:mock-model-array-results-are-call-indexed-after-recording-calls-1778481438900"
+  ],
+  "src/test/mock-embedding-model-v4.ts": [
+    "repo:ai:bug_fix:mock-model-array-results-are-call-indexed-after-recording-calls-1778481438900"
+  ],
+  "src/test/mock-language-model.test.ts": [
+    "repo:ai:bug_fix:mock-model-array-results-are-call-indexed-after-recording-calls-1778481438900"
+  ],
+  "src/test/mock-embedding-model.test.ts": [
+    "repo:ai:bug_fix:mock-model-array-results-are-call-indexed-after-recording-calls-1778481438900"
+  ],
+  "root": [
+    "repo:ai:repo_map:ai-repo-overview-auto-overview"
+  ],
+  "package.json": [
+    "repo:ai:repo_map:ai-repo-structure-auto-structure"
+  ],
+  "tsconfig.json": [
+    "repo:ai:repo_map:ai-repo-structure-auto-structure"
+  ],
+  "README.md": [
+    "repo:ai:repo_map:ai-repo-structure-auto-structure"
+  ],
+  "CLAUDE.md": [
+    "repo:ai:repo_map:ai-repo-structure-auto-structure"
+  ],
+  "AGENTS.md": [
+    "repo:ai:repo_map:ai-repo-structure-auto-structure"
+  ],
+  "src": [
+    "repo:ai:repo_map:ai-repo-structure-auto-structure"
+  ]
+}

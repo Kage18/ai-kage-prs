@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "project_dir": "/private/tmp/kage-oss/ai-kage-prs/packages/ai",
+  "branch": "main",
+  "head": "d57cf11d0e8d06bb3c2e1bcda89ad6a6a5530793",
+  "merge_base": "d57cf11d0e8d06bb3c2e1bcda89ad6a6a5530793",
+  "changed_files": [
+    ".agent_memory/packets/repo_map-ai-repo-repo-overview-ef57a3f1.json",
+    ".changeset/slow-mocks-learn.md",
+    "AGENTS.md",
+    "packages/ai/AGENTS.md",
+    "packages/ai/CLAUDE.md",
+    "packages/ai/src/test/mock-embedding-model-v3.ts",
+    "packages/ai/src/test/mock-embedding-model-v4.ts",
+    "packages/ai/src/test/mock-embedding-model.test.ts",
+    "packages/ai/src/test/mock-language-model-v3.ts",
+    "packages/ai/src/test/mock-language-model-v4.ts",
+    "packages/ai/src/test/mock-language-model.test.ts"
+  ],
+  "pending_packet_ids": [],
+  "generated_at": "2026-05-11T06:37:48.916Z"
+}

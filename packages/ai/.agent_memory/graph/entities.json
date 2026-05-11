@@ -1,0 +1,983 @@
+[
+  {
+    "id": "command:generated-from-files-present-in-the-repository",
+    "type": "command",
+    "name": "Generated from files present in the repository",
+    "summary": "Verification command from structured memory context.",
+    "first_seen_at": "2026-05-11T06:30:50.517Z",
+    "last_seen_at": "2026-05-11T06:42:15.275Z",
+    "evidence": [
+      "episode:68599079012aa11b"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "command:generated-from-package-json-and-readme-md-when-present",
+    "type": "command",
+    "name": "Generated from package.json and README.md when present",
+    "summary": "Verification command from structured memory context.",
+    "first_seen_at": "2026-05-11T06:30:50.510Z",
+    "last_seen_at": "2026-05-11T06:30:50.510Z",
+    "evidence": [
+      "episode:55c0eb828de8e9fa"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "command:npm-install",
+    "type": "command",
+    "name": "npm install",
+    "summary": "Command extracted from memory packet evidence.",
+    "first_seen_at": "2026-05-11T06:30:50.510Z",
+    "last_seen_at": "2026-05-11T06:30:50.510Z",
+    "evidence": [
+      "episode:55c0eb828de8e9fa"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "command:npm-run-build",
+    "type": "command",
+    "name": "npm run build",
+    "summary": "Command extracted from package.json scripts.",
+    "first_seen_at": "2026-05-11T06:42:15.275Z",
+    "last_seen_at": "2026-05-11T06:42:15.275Z",
+    "evidence": [
+      "episode:repo-manifest-package-json"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "command:npm-run-build-watch",
+    "type": "command",
+    "name": "npm run build:watch",
+    "summary": "Command extracted from package.json scripts.",
+    "first_seen_at": "2026-05-11T06:42:15.275Z",
+    "last_seen_at": "2026-05-11T06:42:15.275Z",
+    "evidence": [
+      "episode:repo-manifest-package-json"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "command:npm-run-check-bundle-size",
+    "type": "command",
+    "name": "npm run check-bundle-size",
+    "summary": "Command extracted from package.json scripts.",
+    "first_seen_at": "2026-05-11T06:42:15.275Z",
+    "last_seen_at": "2026-05-11T06:42:15.275Z",
+    "evidence": [
+      "episode:repo-manifest-package-json"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "command:npm-run-clean",
+    "type": "command",
+    "name": "npm run clean",
+    "summary": "Command extracted from package.json scripts.",
+    "first_seen_at": "2026-05-11T06:42:15.275Z",
+    "last_seen_at": "2026-05-11T06:42:15.275Z",
+    "evidence": [
+      "episode:repo-manifest-package-json"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "command:npm-run-postpack",
+    "type": "command",
+    "name": "npm run postpack",
+    "summary": "Command extracted from package.json scripts.",
+    "first_seen_at": "2026-05-11T06:42:15.275Z",
+    "last_seen_at": "2026-05-11T06:42:15.275Z",
+    "evidence": [
+      "episode:repo-manifest-package-json"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "command:npm-run-prepack",
+    "type": "command",
+    "name": "npm run prepack",
+    "summary": "Command extracted from package.json scripts.",
+    "first_seen_at": "2026-05-11T06:42:15.275Z",
+    "last_seen_at": "2026-05-11T06:42:15.275Z",
+    "evidence": [
+      "episode:repo-manifest-package-json"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "command:npm-run-test",
+    "type": "command",
+    "name": "npm run test",
+    "summary": "Command extracted from package.json scripts.",
+    "first_seen_at": "2026-05-11T06:42:15.275Z",
+    "last_seen_at": "2026-05-11T06:42:15.275Z",
+    "evidence": [
+      "episode:repo-manifest-package-json"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "command:npm-run-test-edge",
+    "type": "command",
+    "name": "npm run test:edge",
+    "summary": "Command extracted from package.json scripts.",
+    "first_seen_at": "2026-05-11T06:42:15.275Z",
+    "last_seen_at": "2026-05-11T06:42:15.275Z",
+    "evidence": [
+      "episode:repo-manifest-package-json"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "command:npm-run-test-node",
+    "type": "command",
+    "name": "npm run test:node",
+    "summary": "Command extracted from package.json scripts.",
+    "first_seen_at": "2026-05-11T06:42:15.275Z",
+    "last_seen_at": "2026-05-11T06:42:15.275Z",
+    "evidence": [
+      "episode:repo-manifest-package-json"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "command:npm-run-test-update",
+    "type": "command",
+    "name": "npm run test:update",
+    "summary": "Command extracted from package.json scripts.",
+    "first_seen_at": "2026-05-11T06:42:15.275Z",
+    "last_seen_at": "2026-05-11T06:42:15.275Z",
+    "evidence": [
+      "episode:repo-manifest-package-json"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "command:npm-run-test-watch",
+    "type": "command",
+    "name": "npm run test:watch",
+    "summary": "Command extracted from package.json scripts.",
+    "first_seen_at": "2026-05-11T06:42:15.275Z",
+    "last_seen_at": "2026-05-11T06:42:15.275Z",
+    "evidence": [
+      "episode:repo-manifest-package-json"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "command:npm-run-type-check",
+    "type": "command",
+    "name": "npm run type-check",
+    "summary": "Command extracted from package.json scripts.",
+    "first_seen_at": "2026-05-11T06:42:15.275Z",
+    "last_seen_at": "2026-05-11T06:42:15.275Z",
+    "evidence": [
+      "episode:repo-manifest-package-json"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "command:npx-skills",
+    "type": "command",
+    "name": "npx skills",
+    "summary": "Command extracted from memory packet evidence.",
+    "first_seen_at": "2026-05-11T06:30:50.510Z",
+    "last_seen_at": "2026-05-11T06:30:50.510Z",
+    "evidence": [
+      "episode:55c0eb828de8e9fa"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "command:targeted-vitest-before-fix-returned-second-embedding-result-on-first-call-after-",
+    "type": "command",
+    "name": "Targeted Vitest before fix returned second embedding result on first call; after fix pnpm --filter ai exec vitest --config vitest.node.config.js --run src/test/mock-language-model.test.ts src/test/mock-embedding-model.test.ts passed 6 tests",
+    "summary": "Verification command from structured memory context.",
+    "first_seen_at": "2026-05-11T06:37:18.900Z",
+    "last_seen_at": "2026-05-11T06:37:26.321Z",
+    "evidence": [
+      "episode:1c2a8d1fee75100f"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "command:vitest-before",
+    "type": "command",
+    "name": "Vitest before",
+    "summary": "Command extracted from memory packet evidence.",
+    "first_seen_at": "2026-05-11T06:37:18.900Z",
+    "last_seen_at": "2026-05-11T06:37:26.321Z",
+    "evidence": [
+      "episode:1c2a8d1fee75100f"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "command:vitest-config",
+    "type": "command",
+    "name": "vitest --config",
+    "summary": "Command extracted from memory packet evidence.",
+    "first_seen_at": "2026-05-11T06:37:18.900Z",
+    "last_seen_at": "2026-05-11T06:37:26.321Z",
+    "evidence": [
+      "episode:1c2a8d1fee75100f"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "memory_type:bug-fix",
+    "type": "memory_type",
+    "name": "bug_fix",
+    "summary": "Kage memory type bug_fix.",
+    "first_seen_at": "2026-05-11T06:37:18.900Z",
+    "last_seen_at": "2026-05-11T06:37:26.321Z",
+    "evidence": [
+      "episode:1c2a8d1fee75100f"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "memory_type:repo-map",
+    "type": "memory_type",
+    "name": "repo_map",
+    "summary": "Kage memory type repo_map.",
+    "first_seen_at": "2026-05-11T06:30:50.510Z",
+    "last_seen_at": "2026-05-11T06:42:15.275Z",
+    "evidence": [
+      "episode:55c0eb828de8e9fa",
+      "episode:68599079012aa11b"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "memory:repo-ai-bug-fix-mock-model-array-results-are-call-indexed-after-recording-calls-",
+    "type": "memory",
+    "name": "Mock model array results are call-indexed after recording calls",
+    "aliases": [
+      "repo:ai:bug_fix:mock-model-array-results-are-call-indexed-after-recording-calls-1778481438900"
+    ],
+    "summary": "MockLanguageModelV3/V4 and MockEmbeddingModelV3/V4 record each call before selecting from array backed scripted results, so the array index must subtract one from the call count length. Issue 15141 verified this for doGe",
+    "first_seen_at": "2026-05-11T06:37:18.900Z",
+    "last_seen_at": "2026-05-11T06:37:26.321Z",
+    "evidence": [
+      "episode:1c2a8d1fee75100f"
+    ]
+  },
+  {
+    "id": "memory:repo-ai-repo-map-ai-repo-overview-auto-overview",
+    "type": "memory",
+    "name": "ai repo overview",
+    "aliases": [
+      "repo:ai:repo_map:ai-repo-overview-auto-overview"
+    ],
+    "summary": "Package name: ai. Available npm scripts: build , build:watch , clean , prepack , postpack , type check , test , test:update , test:watch , test:edge , test:node , check bundle size . README excerpt: ! hero illustration .",
+    "first_seen_at": "2026-05-11T06:30:50.510Z",
+    "last_seen_at": "2026-05-11T06:30:50.510Z",
+    "evidence": [
+      "episode:55c0eb828de8e9fa"
+    ]
+  },
+  {
+    "id": "memory:repo-ai-repo-map-ai-repo-structure-auto-structure",
+    "type": "memory",
+    "name": "ai repo structure",
+    "aliases": [
+      "repo:ai:repo_map:ai-repo-structure-auto-structure"
+    ],
+    "summary": "Detected repo structure: package.json, tsconfig.json, README.md, CLAUDE.md, AGENTS.md, src. Test files: internal/index.test.ts, src/agent/create agent ui stream response.test.ts, src/agent/tool loop agent.test.ts, src/em",
+    "first_seen_at": "2026-05-11T06:30:50.517Z",
+    "last_seen_at": "2026-05-11T06:42:15.275Z",
+    "evidence": [
+      "episode:68599079012aa11b"
+    ]
+  },
+  {
+    "id": "package:ai-sdk-gateway",
+    "type": "package",
+    "name": "@ai-sdk/gateway",
+    "summary": "Package or framework detected in repo memory.",
+    "first_seen_at": "2026-05-11T06:30:50.510Z",
+    "last_seen_at": "2026-05-11T06:30:50.510Z",
+    "evidence": [
+      "episode:55c0eb828de8e9fa"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "package:ai-sdk-provider",
+    "type": "package",
+    "name": "@ai-sdk/provider",
+    "summary": "Package or framework detected in repo memory.",
+    "first_seen_at": "2026-05-11T06:30:50.510Z",
+    "last_seen_at": "2026-05-11T06:30:50.510Z",
+    "evidence": [
+      "episode:55c0eb828de8e9fa"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "package:ai-sdk-provider-utils",
+    "type": "package",
+    "name": "@ai-sdk/provider-utils",
+    "summary": "Package or framework detected in repo memory.",
+    "first_seen_at": "2026-05-11T06:30:50.510Z",
+    "last_seen_at": "2026-05-11T06:30:50.510Z",
+    "evidence": [
+      "episode:55c0eb828de8e9fa"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "package:ai-sdk-test-server",
+    "type": "package",
+    "name": "@ai-sdk/test-server",
+    "summary": "Package or framework detected in repo memory.",
+    "first_seen_at": "2026-05-11T06:30:50.510Z",
+    "last_seen_at": "2026-05-11T06:30:50.510Z",
+    "evidence": [
+      "episode:55c0eb828de8e9fa"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "package:edge-runtime-vm",
+    "type": "package",
+    "name": "@edge-runtime/vm",
+    "summary": "Package or framework detected in repo memory.",
+    "first_seen_at": "2026-05-11T06:30:50.510Z",
+    "last_seen_at": "2026-05-11T06:30:50.510Z",
+    "evidence": [
+      "episode:55c0eb828de8e9fa"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "package:esbuild",
+    "type": "package",
+    "name": "esbuild",
+    "summary": "Package or framework detected in repo memory.",
+    "first_seen_at": "2026-05-11T06:30:50.510Z",
+    "last_seen_at": "2026-05-11T06:30:50.510Z",
+    "evidence": [
+      "episode:55c0eb828de8e9fa"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "package:tsup",
+    "type": "package",
+    "name": "tsup",
+    "summary": "Package or framework detected in repo memory.",
+    "first_seen_at": "2026-05-11T06:30:50.510Z",
+    "last_seen_at": "2026-05-11T06:30:50.510Z",
+    "evidence": [
+      "episode:55c0eb828de8e9fa"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "package:tsx",
+    "type": "package",
+    "name": "tsx",
+    "summary": "Package or framework detected in repo memory.",
+    "first_seen_at": "2026-05-11T06:30:50.510Z",
+    "last_seen_at": "2026-05-11T06:30:50.510Z",
+    "evidence": [
+      "episode:55c0eb828de8e9fa"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "package:types-json-schema",
+    "type": "package",
+    "name": "@types/json-schema",
+    "summary": "Package or framework detected in repo memory.",
+    "first_seen_at": "2026-05-11T06:30:50.510Z",
+    "last_seen_at": "2026-05-11T06:30:50.510Z",
+    "evidence": [
+      "episode:55c0eb828de8e9fa"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "package:types-node",
+    "type": "package",
+    "name": "@types/node",
+    "summary": "Package or framework detected in repo memory.",
+    "first_seen_at": "2026-05-11T06:30:50.510Z",
+    "last_seen_at": "2026-05-11T06:30:50.510Z",
+    "evidence": [
+      "episode:55c0eb828de8e9fa"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "package:typescript",
+    "type": "package",
+    "name": "typescript",
+    "summary": "Package or framework detected in repo memory.",
+    "first_seen_at": "2026-05-11T06:30:50.510Z",
+    "last_seen_at": "2026-05-11T06:30:50.510Z",
+    "evidence": [
+      "episode:55c0eb828de8e9fa"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "package:vercel-ai-tsconfig",
+    "type": "package",
+    "name": "@vercel/ai-tsconfig",
+    "summary": "Package or framework detected in repo memory.",
+    "first_seen_at": "2026-05-11T06:30:50.510Z",
+    "last_seen_at": "2026-05-11T06:30:50.510Z",
+    "evidence": [
+      "episode:55c0eb828de8e9fa"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "package:zod",
+    "type": "package",
+    "name": "zod",
+    "summary": "Package or framework detected in repo memory.",
+    "first_seen_at": "2026-05-11T06:30:50.510Z",
+    "last_seen_at": "2026-05-11T06:30:50.510Z",
+    "evidence": [
+      "episode:55c0eb828de8e9fa"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "path:agents-md",
+    "type": "path",
+    "name": "AGENTS.md",
+    "summary": "Repository path referenced by memory packets.",
+    "first_seen_at": "2026-05-11T06:30:50.517Z",
+    "last_seen_at": "2026-05-11T06:42:15.275Z",
+    "evidence": [
+      "episode:68599079012aa11b"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "path:claude-md",
+    "type": "path",
+    "name": "CLAUDE.md",
+    "summary": "Repository path referenced by memory packets.",
+    "first_seen_at": "2026-05-11T06:30:50.517Z",
+    "last_seen_at": "2026-05-11T06:42:15.275Z",
+    "evidence": [
+      "episode:68599079012aa11b"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "path:package-json",
+    "type": "path",
+    "name": "package.json",
+    "summary": "Repository path referenced by memory packets.",
+    "first_seen_at": "2026-05-11T06:30:50.517Z",
+    "last_seen_at": "2026-05-11T06:42:15.275Z",
+    "evidence": [
+      "episode:68599079012aa11b"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "path:readme-md",
+    "type": "path",
+    "name": "README.md",
+    "summary": "Repository path referenced by memory packets.",
+    "first_seen_at": "2026-05-11T06:30:50.517Z",
+    "last_seen_at": "2026-05-11T06:42:15.275Z",
+    "evidence": [
+      "episode:68599079012aa11b"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "path:root",
+    "type": "path",
+    "name": "root",
+    "summary": "Repository path referenced by memory packets.",
+    "first_seen_at": "2026-05-11T06:30:50.510Z",
+    "last_seen_at": "2026-05-11T06:30:50.510Z",
+    "evidence": [
+      "episode:55c0eb828de8e9fa"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "path:src",
+    "type": "path",
+    "name": "src",
+    "summary": "Repository path referenced by memory packets.",
+    "first_seen_at": "2026-05-11T06:30:50.517Z",
+    "last_seen_at": "2026-05-11T06:42:15.275Z",
+    "evidence": [
+      "episode:68599079012aa11b"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "path:src-test-mock-embedding-model-test-ts",
+    "type": "path",
+    "name": "src/test/mock-embedding-model.test.ts",
+    "summary": "Repository path referenced by memory packets.",
+    "first_seen_at": "2026-05-11T06:37:18.900Z",
+    "last_seen_at": "2026-05-11T06:37:26.321Z",
+    "evidence": [
+      "episode:1c2a8d1fee75100f"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "path:src-test-mock-embedding-model-v3-ts",
+    "type": "path",
+    "name": "src/test/mock-embedding-model-v3.ts",
+    "summary": "Repository path referenced by memory packets.",
+    "first_seen_at": "2026-05-11T06:37:18.900Z",
+    "last_seen_at": "2026-05-11T06:37:26.321Z",
+    "evidence": [
+      "episode:1c2a8d1fee75100f"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "path:src-test-mock-embedding-model-v4-ts",
+    "type": "path",
+    "name": "src/test/mock-embedding-model-v4.ts",
+    "summary": "Repository path referenced by memory packets.",
+    "first_seen_at": "2026-05-11T06:37:18.900Z",
+    "last_seen_at": "2026-05-11T06:37:26.321Z",
+    "evidence": [
+      "episode:1c2a8d1fee75100f"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "path:src-test-mock-language-model-test-ts",
+    "type": "path",
+    "name": "src/test/mock-language-model.test.ts",
+    "summary": "Repository path referenced by memory packets.",
+    "first_seen_at": "2026-05-11T06:37:18.900Z",
+    "last_seen_at": "2026-05-11T06:37:26.321Z",
+    "evidence": [
+      "episode:1c2a8d1fee75100f"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "path:src-test-mock-language-model-v3-ts",
+    "type": "path",
+    "name": "src/test/mock-language-model-v3.ts",
+    "summary": "Repository path referenced by memory packets.",
+    "first_seen_at": "2026-05-11T06:37:18.900Z",
+    "last_seen_at": "2026-05-11T06:37:26.321Z",
+    "evidence": [
+      "episode:1c2a8d1fee75100f"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "path:src-test-mock-language-model-v4-ts",
+    "type": "path",
+    "name": "src/test/mock-language-model-v4.ts",
+    "summary": "Repository path referenced by memory packets.",
+    "first_seen_at": "2026-05-11T06:37:18.900Z",
+    "last_seen_at": "2026-05-11T06:37:26.321Z",
+    "evidence": [
+      "episode:1c2a8d1fee75100f"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "path:tsconfig-json",
+    "type": "path",
+    "name": "tsconfig.json",
+    "summary": "Repository path referenced by memory packets.",
+    "first_seen_at": "2026-05-11T06:30:50.517Z",
+    "last_seen_at": "2026-05-11T06:42:15.275Z",
+    "evidence": [
+      "episode:68599079012aa11b"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "repo:ai",
+    "type": "repo",
+    "name": "ai",
+    "summary": "Repository memory graph for ai.",
+    "first_seen_at": "2026-05-11T06:42:15.275Z",
+    "last_seen_at": "2026-05-11T06:42:15.275Z",
+    "aliases": [],
+    "evidence": []
+  },
+  {
+    "id": "symbol:symbol-src-test-mock-embedding-model-test-ts-constant-model-14",
+    "type": "symbol",
+    "name": "model",
+    "aliases": [
+      "symbol:src-test-mock-embedding-model-test-ts:constant:model:14"
+    ],
+    "summary": "constant in src/test/mock-embedding-model.test.ts:14",
+    "first_seen_at": "2026-05-11T06:37:18.900Z",
+    "last_seen_at": "2026-05-11T06:37:26.321Z",
+    "evidence": [
+      "episode:1c2a8d1fee75100f"
+    ]
+  },
+  {
+    "id": "symbol:symbol-src-test-mock-embedding-model-test-ts-constant-model-29",
+    "type": "symbol",
+    "name": "model",
+    "aliases": [
+      "symbol:src-test-mock-embedding-model-test-ts:constant:model:29"
+    ],
+    "summary": "constant in src/test/mock-embedding-model.test.ts:29",
+    "first_seen_at": "2026-05-11T06:37:18.900Z",
+    "last_seen_at": "2026-05-11T06:37:26.321Z",
+    "evidence": [
+      "episode:1c2a8d1fee75100f"
+    ]
+  },
+  {
+    "id": "symbol:symbol-src-test-mock-embedding-model-v3-ts-class-mockembeddingmodelv3-4",
+    "type": "symbol",
+    "name": "MockEmbeddingModelV3",
+    "aliases": [
+      "symbol:src-test-mock-embedding-model-v3-ts:class:mockembeddingmodelv3:4"
+    ],
+    "summary": "class in src/test/mock-embedding-model-v3.ts:4",
+    "first_seen_at": "2026-05-11T06:37:18.900Z",
+    "last_seen_at": "2026-05-11T06:37:26.321Z",
+    "evidence": [
+      "episode:1c2a8d1fee75100f"
+    ]
+  },
+  {
+    "id": "symbol:symbol-src-test-mock-language-model-test-ts-constant-model-101",
+    "type": "symbol",
+    "name": "model",
+    "aliases": [
+      "symbol:src-test-mock-language-model-test-ts:constant:model:101"
+    ],
+    "summary": "constant in src/test/mock-language-model.test.ts:101",
+    "first_seen_at": "2026-05-11T06:37:18.900Z",
+    "last_seen_at": "2026-05-11T06:37:26.321Z",
+    "evidence": [
+      "episode:1c2a8d1fee75100f"
+    ]
+  },
+  {
+    "id": "symbol:symbol-src-test-mock-language-model-test-ts-constant-model-59",
+    "type": "symbol",
+    "name": "model",
+    "aliases": [
+      "symbol:src-test-mock-language-model-test-ts:constant:model:59"
+    ],
+    "summary": "constant in src/test/mock-language-model.test.ts:59",
+    "first_seen_at": "2026-05-11T06:37:18.900Z",
+    "last_seen_at": "2026-05-11T06:37:26.321Z",
+    "evidence": [
+      "episode:1c2a8d1fee75100f"
+    ]
+  },
+  {
+    "id": "symbol:symbol-src-test-mock-language-model-test-ts-constant-model-72",
+    "type": "symbol",
+    "name": "model",
+    "aliases": [
+      "symbol:src-test-mock-language-model-test-ts:constant:model:72"
+    ],
+    "summary": "constant in src/test/mock-language-model.test.ts:72",
+    "first_seen_at": "2026-05-11T06:37:18.900Z",
+    "last_seen_at": "2026-05-11T06:37:26.321Z",
+    "evidence": [
+      "episode:1c2a8d1fee75100f"
+    ]
+  },
+  {
+    "id": "symbol:symbol-src-test-mock-language-model-test-ts-constant-model-88",
+    "type": "symbol",
+    "name": "model",
+    "aliases": [
+      "symbol:src-test-mock-language-model-test-ts:constant:model:88"
+    ],
+    "summary": "constant in src/test/mock-language-model.test.ts:88",
+    "first_seen_at": "2026-05-11T06:37:18.900Z",
+    "last_seen_at": "2026-05-11T06:37:26.321Z",
+    "evidence": [
+      "episode:1c2a8d1fee75100f"
+    ]
+  },
+  {
+    "id": "symbol:symbol-src-test-mock-language-model-v3-ts-class-mocklanguagemodelv3-9",
+    "type": "symbol",
+    "name": "MockLanguageModelV3",
+    "aliases": [
+      "symbol:src-test-mock-language-model-v3-ts:class:mocklanguagemodelv3:9"
+    ],
+    "summary": "class in src/test/mock-language-model-v3.ts:9",
+    "first_seen_at": "2026-05-11T06:37:18.900Z",
+    "last_seen_at": "2026-05-11T06:37:26.321Z",
+    "evidence": [
+      "episode:1c2a8d1fee75100f"
+    ]
+  },
+  {
+    "id": "tag:index",
+    "type": "tag",
+    "name": "index",
+    "summary": "Topic tag index.",
+    "first_seen_at": "2026-05-11T06:30:50.517Z",
+    "last_seen_at": "2026-05-11T06:42:15.275Z",
+    "evidence": [
+      "episode:68599079012aa11b"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "tag:issue-15141",
+    "type": "tag",
+    "name": "issue-15141",
+    "summary": "Topic tag issue-15141.",
+    "first_seen_at": "2026-05-11T06:37:18.900Z",
+    "last_seen_at": "2026-05-11T06:37:26.321Z",
+    "evidence": [
+      "episode:1c2a8d1fee75100f"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "tag:mock-models",
+    "type": "tag",
+    "name": "mock-models",
+    "summary": "Topic tag mock-models.",
+    "first_seen_at": "2026-05-11T06:37:18.900Z",
+    "last_seen_at": "2026-05-11T06:37:26.321Z",
+    "evidence": [
+      "episode:1c2a8d1fee75100f"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "tag:overview",
+    "type": "tag",
+    "name": "overview",
+    "summary": "Topic tag overview.",
+    "first_seen_at": "2026-05-11T06:30:50.510Z",
+    "last_seen_at": "2026-05-11T06:30:50.510Z",
+    "evidence": [
+      "episode:55c0eb828de8e9fa"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "tag:repo",
+    "type": "tag",
+    "name": "repo",
+    "summary": "Topic tag repo.",
+    "first_seen_at": "2026-05-11T06:30:50.510Z",
+    "last_seen_at": "2026-05-11T06:42:15.275Z",
+    "evidence": [
+      "episode:55c0eb828de8e9fa",
+      "episode:68599079012aa11b"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "tag:session-learning",
+    "type": "tag",
+    "name": "session-learning",
+    "summary": "Topic tag session-learning.",
+    "first_seen_at": "2026-05-11T06:37:18.900Z",
+    "last_seen_at": "2026-05-11T06:37:26.321Z",
+    "evidence": [
+      "episode:1c2a8d1fee75100f"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "tag:structure",
+    "type": "tag",
+    "name": "structure",
+    "summary": "Topic tag structure.",
+    "first_seen_at": "2026-05-11T06:30:50.517Z",
+    "last_seen_at": "2026-05-11T06:42:15.275Z",
+    "evidence": [
+      "episode:68599079012aa11b"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "tag:test-helpers",
+    "type": "tag",
+    "name": "test-helpers",
+    "summary": "Topic tag test-helpers.",
+    "first_seen_at": "2026-05-11T06:37:18.900Z",
+    "last_seen_at": "2026-05-11T06:37:26.321Z",
+    "evidence": [
+      "episode:1c2a8d1fee75100f"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "test:symbol-src-model-resolve-model-test-ts-test-should-adapt-to-v4-and-preserve-prot",
+    "type": "test",
+    "name": "should adapt to v4 and preserve prototype methods",
+    "aliases": [
+      "symbol:src-model-resolve-model-test-ts:test:should-adapt-to-v4-and-preserve-prototype-methods:129",
+      "symbol:src-model-resolve-model-test-ts:test:should-adapt-to-v4-and-preserve-prototype-methods:54"
+    ],
+    "summary": "Test in src/model/resolve-model.test.ts:54 covers MockEmbeddingModelV3",
+    "first_seen_at": "2026-05-11T06:37:18.900Z",
+    "last_seen_at": "2026-05-11T06:37:26.321Z",
+    "evidence": [
+      "episode:1c2a8d1fee75100f"
+    ]
+  },
+  {
+    "id": "test:symbol-src-model-resolve-model-test-ts-test-should-convert-v3-to-v4-169",
+    "type": "test",
+    "name": "should convert v3 to v4",
+    "aliases": [
+      "symbol:src-model-resolve-model-test-ts:test:should-convert-v3-to-v4:169"
+    ],
+    "summary": "Test in src/model/resolve-model.test.ts:169 covers MockEmbeddingModelV3",
+    "first_seen_at": "2026-05-11T06:37:18.900Z",
+    "last_seen_at": "2026-05-11T06:37:26.321Z",
+    "evidence": [
+      "episode:1c2a8d1fee75100f"
+    ]
+  },
+  {
+    "id": "test:symbol-src-model-resolve-model-test-ts-test-should-convert-v3-to-v4-39",
+    "type": "test",
+    "name": "should convert v3 to v4",
+    "aliases": [
+      "symbol:src-model-resolve-model-test-ts:test:should-convert-v3-to-v4:39"
+    ],
+    "summary": "Test in src/model/resolve-model.test.ts:39 covers MockEmbeddingModelV3",
+    "first_seen_at": "2026-05-11T06:37:18.900Z",
+    "last_seen_at": "2026-05-11T06:37:26.321Z",
+    "evidence": [
+      "episode:1c2a8d1fee75100f"
+    ]
+  },
+  {
+    "id": "test:symbol-src-model-resolve-model-test-ts-test-should-return-a-embedding-model-from",
+    "type": "test",
+    "name": "should return a embedding model from the global default provider",
+    "aliases": [
+      "symbol:src-model-resolve-model-test-ts:test:should-return-a-embedding-model-from-the-global-default-provider:208"
+    ],
+    "summary": "Test in src/model/resolve-model.test.ts:208 covers MockEmbeddingModelV3",
+    "first_seen_at": "2026-05-11T06:37:18.900Z",
+    "last_seen_at": "2026-05-11T06:37:26.321Z",
+    "evidence": [
+      "episode:1c2a8d1fee75100f"
+    ]
+  },
+  {
+    "id": "test:symbol-src-model-resolve-model-test-ts-test-should-return-a-gateway-embedding-mo",
+    "type": "test",
+    "name": "should return a gateway embedding model",
+    "aliases": [
+      "symbol:src-model-resolve-model-test-ts:test:should-return-a-gateway-embedding-model:184"
+    ],
+    "summary": "Test in src/model/resolve-model.test.ts:184 covers MockEmbeddingModelV3",
+    "first_seen_at": "2026-05-11T06:37:18.900Z",
+    "last_seen_at": "2026-05-11T06:37:26.321Z",
+    "evidence": [
+      "episode:1c2a8d1fee75100f"
+    ]
+  },
+  {
+    "id": "test:symbol-src-model-resolve-model-test-ts-test-should-return-a-gateway-image-model-",
+    "type": "test",
+    "name": "should return a gateway image model",
+    "aliases": [
+      "symbol:src-model-resolve-model-test-ts:test:should-return-a-gateway-image-model:233"
+    ],
+    "summary": "Test in src/model/resolve-model.test.ts:233 covers MockEmbeddingModelV3",
+    "first_seen_at": "2026-05-11T06:37:18.900Z",
+    "last_seen_at": "2026-05-11T06:37:26.321Z",
+    "evidence": [
+      "episode:1c2a8d1fee75100f"
+    ]
+  },
+  {
+    "id": "test:symbol-src-model-resolve-model-test-ts-test-should-return-a-gateway-language-mod",
+    "type": "test",
+    "name": "should return a gateway language model",
+    "aliases": [
+      "symbol:src-model-resolve-model-test-ts:test:should-return-a-gateway-language-model:94"
+    ],
+    "summary": "Test in src/model/resolve-model.test.ts:94 covers MockEmbeddingModelV3",
+    "first_seen_at": "2026-05-11T06:37:18.900Z",
+    "last_seen_at": "2026-05-11T06:37:26.321Z",
+    "evidence": [
+      "episode:1c2a8d1fee75100f"
+    ]
+  },
+  {
+    "id": "test:symbol-src-model-resolve-model-test-ts-test-should-return-a-language-model-from-",
+    "type": "test",
+    "name": "should return a language model from the global default provider",
+    "aliases": [
+      "symbol:src-model-resolve-model-test-ts:test:should-return-a-language-model-from-the-global-default-provider:118"
+    ],
+    "summary": "Test in src/model/resolve-model.test.ts:118 covers MockEmbeddingModelV3",
+    "first_seen_at": "2026-05-11T06:37:18.900Z",
+    "last_seen_at": "2026-05-11T06:37:26.321Z",
+    "evidence": [
+      "episode:1c2a8d1fee75100f"
+    ]
+  },
+  {
+    "id": "test:symbol-src-model-resolve-model-test-ts-test-should-return-it-as-is-155",
+    "type": "test",
+    "name": "should return it as-is",
+    "aliases": [
+      "symbol:src-model-resolve-model-test-ts:test:should-return-it-as-is:155"
+    ],
+    "summary": "Test in src/model/resolve-model.test.ts:155 covers MockEmbeddingModelV3",
+    "first_seen_at": "2026-05-11T06:37:18.900Z",
+    "last_seen_at": "2026-05-11T06:37:26.321Z",
+    "evidence": [
+      "episode:1c2a8d1fee75100f"
+    ]
+  },
+  {
+    "id": "test:symbol-src-model-resolve-model-test-ts-test-should-return-it-as-is-25",
+    "type": "test",
+    "name": "should return it as-is",
+    "aliases": [
+      "symbol:src-model-resolve-model-test-ts:test:should-return-it-as-is:25"
+    ],
+    "summary": "Test in src/model/resolve-model.test.ts:25 covers MockEmbeddingModelV3",
+    "first_seen_at": "2026-05-11T06:37:18.900Z",
+    "last_seen_at": "2026-05-11T06:37:26.321Z",
+    "evidence": [
+      "episode:1c2a8d1fee75100f"
+    ]
+  },
+  {
+    "id": "test:symbol-src-model-resolve-model-test-ts-test-should-return-the-image-model-v2-219",
+    "type": "test",
+    "name": "should return the image model v2",
+    "aliases": [
+      "symbol:src-model-resolve-model-test-ts:test:should-return-the-image-model-v2:219"
+    ],
+    "summary": "Test in src/model/resolve-model.test.ts:219 covers MockEmbeddingModelV3",
+    "first_seen_at": "2026-05-11T06:37:18.900Z",
+    "last_seen_at": "2026-05-11T06:37:26.321Z",
+    "evidence": [
+      "episode:1c2a8d1fee75100f"
+    ]
+  }
+]
