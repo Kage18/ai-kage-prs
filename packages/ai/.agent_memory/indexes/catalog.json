@@ -1,26 +1,28 @@
 {
   "schema_version": 2,
-  "generated_from_updated_at": "2026-05-11T06:42:15.275Z",
+  "generated_from_updated_at": "2026-05-11T06:51:04.194Z",
   "repo_state": {
     "branch": "fix-mock-array-result-index",
-    "head": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "head": "3234eb56f4847bf769069eda1fd7cadc88c71531",
     "merge_base": "d57cf11d0e8d06bb3c2e1bcda89ad6a6a5530793"
   },
-  "packet_count": 3,
+  "packet_count": 4,
   "packets": [
     {
-      "id": "repo:ai:bug_fix:mock-model-array-results-are-call-indexed-after-recording-calls-1778481438900",
-      "title": "Mock model array results are call-indexed after recording calls",
-      "summary": "MockLanguageModelV3/V4 and MockEmbeddingModelV3/V4 record each call before selecting from array backed scripted results, so the array index must subtract one from the call count length. Issue 15141 verified this for doGe",
+      "id": "repo:ai:bug_fix:mock-language-model-array-results-are-call-indexed-after-recording-calls-1778482",
+      "title": "Mock language model array results are call-indexed after recording calls",
+      "summary": "MockLanguageModelV2/V3/V4 record doGenerate and doStream calls before selecting from array backed scripted results, so array lookup must use call count minus one. MockEmbeddingModelV3/V4 have the same doEmbed pattern and",
       "type": "bug_fix",
       "status": "approved",
       "tags": [
         "session-learning",
         "issue-15141",
         "mock-models",
-        "test-helpers"
+        "test-helpers",
+        "review-feedback"
       ],
       "paths": [
+        "src/test/mock-language-model-v2.ts",
         "src/test/mock-language-model-v3.ts",
         "src/test/mock-language-model-v4.ts",
         "src/test/mock-embedding-model-v3.ts",
@@ -28,11 +30,36 @@
         "src/test/mock-language-model.test.ts",
         "src/test/mock-embedding-model.test.ts"
       ],
-      "updated_at": "2026-05-11T06:37:26.321Z",
+      "updated_at": "2026-05-11T06:51:04.194Z",
       "source_refs": [
         {
           "kind": "explicit_capture",
-          "captured_at": "2026-05-11T06:37:18.900Z"
+          "captured_at": "2026-05-11T06:51:03.626Z"
+        }
+      ]
+    },
+    {
+      "id": "repo:ai:bug_fix:mock-language-model-v2-shares-array-result-indexing-bug-1778482215298",
+      "title": "Mock language model V2 shares array result indexing bug",
+      "summary": "Vercel Agent Review on PR 15154 caught that MockLanguageModelV2 has the same off by one array indexing pattern as V3/V4: doGenerateCalls/doStreamCalls are pushed before selecting from array backed scripted results, so V2",
+      "type": "bug_fix",
+      "status": "approved",
+      "tags": [
+        "session-learning",
+        "issue-15141",
+        "mock-models",
+        "test-helpers",
+        "review-feedback"
+      ],
+      "paths": [
+        "src/test/mock-language-model-v2.ts",
+        "src/test/mock-language-model.test.ts"
+      ],
+      "updated_at": "2026-05-11T06:50:27.609Z",
+      "source_refs": [
+        {
+          "kind": "explicit_capture",
+          "captured_at": "2026-05-11T06:50:15.297Z"
         }
       ]
     },
@@ -49,7 +76,7 @@
       "paths": [
         "root"
       ],
-      "updated_at": "2026-05-11T06:30:50.510Z",
+      "updated_at": "2026-05-11T06:50:26.572Z",
       "source_refs": [
         {
           "kind": "file",
@@ -64,7 +91,7 @@
     {
       "id": "repo:ai:repo_map:ai-repo-structure-auto-structure",
       "title": "ai repo structure",
-      "summary": "Detected repo structure: package.json, tsconfig.json, README.md, CLAUDE.md, AGENTS.md, src. Test files: internal/index.test.ts, src/agent/create agent ui stream response.test.ts, src/agent/tool loop agent.test.ts, src/em",
+      "summary": "Detected repo structure: package.json, tsconfig.json, README.md, CLAUDE.md, AGENTS.md, src. Test files: dist/internal/index.test.js, dist/src/agent/create agent ui stream response.test.js, dist/src/agent/tool loop agent.",
       "type": "repo_map",
       "status": "approved",
       "tags": [
@@ -80,7 +107,7 @@
         "AGENTS.md",
         "src"
       ],
-      "updated_at": "2026-05-11T06:42:15.275Z",
+      "updated_at": "2026-05-11T06:50:26.662Z",
       "source_refs": [
         {
           "kind": "file",

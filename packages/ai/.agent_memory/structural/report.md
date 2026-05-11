@@ -6,10 +6,10 @@ This is the full-repo structural index used for fast large-repo orientation. It 
 
 - Files: 432/432
 - Metadata-only files: 1
-- Ignored files: 19
-- Symbols: 7267
-- Imports: 2037
-- Edges: 9304
+- Ignored files: 20
+- Symbols: 7273
+- Imports: 2038
+- Edges: 9311
 - Cache: 432 hits, 0 misses
 - Workers: 8
 

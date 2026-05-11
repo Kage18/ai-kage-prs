@@ -2,8 +2,8 @@
   "schema_version": 2,
   "id": "repo:ai:repo_map:ai-repo-structure-auto-structure",
   "title": "ai repo structure",
-  "summary": "Detected repo structure: package.json, tsconfig.json, README.md, CLAUDE.md, AGENTS.md, src. Test files: internal/index.test.ts, src/agent/create agent ui stream response.test.ts, src/agent/tool loop agent.test.ts, src/em",
-  "body": "Detected repo structure: package.json, tsconfig.json, README.md, CLAUDE.md, AGENTS.md, src.\nTest files: internal/index.test.ts, src/agent/create-agent-ui-stream-response.test.ts, src/agent/tool-loop-agent.test.ts, src/embed/embed-many.test.ts, src/embed/embed.test.ts, src/generate-image/generate-image.test.ts, src/generate-object/generate-object.test.ts, src/generate-object/inject-json-instruction.test.ts, src/generate-object/stream-object.test.ts, src/generate-speech/generate-speech.test.ts, src/generate-text/collect-tool-approvals.test.ts, src/generate-text/create-execute-tools-transformation.test.ts, src/generate-text/execute-tool-call.test.ts, src/generate-text/filter-active-tools.test.ts, src/generate-text/generate-text.test.ts, src/generate-text/invoke-tool-callbacks-from-stream.test.ts, src/generate-text/output.test.ts, src/generate-text/parse-tool-call.test.ts, src/generate-text/prune-messages.test.ts, src/generate-text/resolve-tool-approval.test.ts, src/generate-text/restricted-telemetry-dispatcher.test.ts, src/generate-text/smooth-stream.test.ts, src/generate-text/stop-condition.test.ts, src/generate-text/stream-language-model-call.test.ts, src/generate-text/stream-text.test.ts.\nThis packet is generated and should be treated as a navigation aid, not deep semantic understanding.",
+  "summary": "Detected repo structure: package.json, tsconfig.json, README.md, CLAUDE.md, AGENTS.md, src. Test files: dist/internal/index.test.js, dist/src/agent/create agent ui stream response.test.js, dist/src/agent/tool loop agent.",
+  "body": "Detected repo structure: package.json, tsconfig.json, README.md, CLAUDE.md, AGENTS.md, src.\nTest files: dist/internal/index.test.js, dist/src/agent/create-agent-ui-stream-response.test.js, dist/src/agent/tool-loop-agent.test.js, dist/src/embed/embed-many.test.js, dist/src/embed/embed.test.js, dist/src/generate-image/generate-image.test.js, dist/src/generate-object/generate-object.test.js, dist/src/generate-object/inject-json-instruction.test.js, dist/src/generate-object/stream-object.test.js, dist/src/generate-speech/generate-speech.test.js, dist/src/generate-text/collect-tool-approvals.test.js, dist/src/generate-text/create-execute-tools-transformation.test.js, dist/src/generate-text/execute-tool-call.test.js, dist/src/generate-text/filter-active-tools.test.js, dist/src/generate-text/generate-text.test.js, dist/src/generate-text/invoke-tool-callbacks-from-stream.test.js, dist/src/generate-text/output.test.js, dist/src/generate-text/parse-tool-call.test.js, dist/src/generate-text/prune-messages.test.js, dist/src/generate-text/resolve-tool-approval.test.js, dist/src/generate-text/restricted-telemetry-dispatcher.test.js, dist/src/generate-text/smooth-stream.test.js, dist/src/generate-text/stop-condition.test.js, dist/src/generate-text/stream-language-model-call.test.js, dist/src/generate-text/stream-text.test.js.\nThis packet is generated and should be treated as a navigation aid, not deep semantic understanding.",
   "type": "repo_map",
   "scope": "repo",
   "visibility": "team",
@@ -72,6 +72,6 @@
     "uses_30d": 0,
     "reports_stale": 0
   },
-  "created_at": "2026-05-11T06:30:50.517Z",
-  "updated_at": "2026-05-11T06:42:15.275Z"
+  "created_at": "2026-05-11T06:50:26.662Z",
+  "updated_at": "2026-05-11T06:50:26.662Z"
 }

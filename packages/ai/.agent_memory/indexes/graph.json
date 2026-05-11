@@ -3,7 +3,7 @@
   "entities": ".agent_memory/graph/entities.json",
   "edges": ".agent_memory/graph/edges.json",
   "episodes": ".agent_memory/graph/episodes.json",
-  "entity_count": 78,
-  "edge_count": 79,
-  "episode_count": 4
+  "entity_count": 84,
+  "edge_count": 113,
+  "episode_count": 5
 }

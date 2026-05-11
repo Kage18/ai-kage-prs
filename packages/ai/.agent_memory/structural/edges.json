@@ -61930,7 +61930,7 @@
   },
   {
     "source": "file:src-test-mock-language-model-test-ts",
-    "target": "file:src-test-mock-language-model-v3-ts",
+    "target": "file:src-test-mock-language-model-v2-ts",
     "relation": "imports",
     "confidence": "EXTRACTED",
     "source_file": "src/test/mock-language-model.test.ts",
@@ -61939,7 +61939,7 @@
   },
   {
     "source": "file:src-test-mock-language-model-test-ts",
-    "target": "file:src-test-mock-language-model-v4-ts",
+    "target": "file:src-test-mock-language-model-v3-ts",
     "relation": "imports",
     "confidence": "EXTRACTED",
     "source_file": "src/test/mock-language-model.test.ts",
@@ -61948,29 +61948,56 @@
   },
   {
     "source": "file:src-test-mock-language-model-test-ts",
-    "target": "symbol:src-test-mock-language-model-test-ts:constant:model:101",
-    "relation": "contains",
+    "target": "file:src-test-mock-language-model-v4-ts",
+    "relation": "imports",
     "confidence": "EXTRACTED",
     "source_file": "src/test/mock-language-model.test.ts",
-    "source_location": "L101",
+    "source_location": "L4",
     "weight": 1
   },
   {
     "source": "file:src-test-mock-language-model-test-ts",
-    "target": "symbol:src-test-mock-language-model-test-ts:constant:model:59",
+    "target": "symbol:src-test-mock-language-model-test-ts:constant:model:104",
     "relation": "contains",
     "confidence": "EXTRACTED",
     "source_file": "src/test/mock-language-model.test.ts",
-    "source_location": "L59",
+    "source_location": "L104",
     "weight": 1
   },
   {
     "source": "file:src-test-mock-language-model-test-ts",
-    "target": "symbol:src-test-mock-language-model-test-ts:constant:model:72",
+    "target": "symbol:src-test-mock-language-model-test-ts:constant:model:117",
     "relation": "contains",
     "confidence": "EXTRACTED",
     "source_file": "src/test/mock-language-model.test.ts",
-    "source_location": "L72",
+    "source_location": "L117",
+    "weight": 1
+  },
+  {
+    "source": "file:src-test-mock-language-model-test-ts",
+    "target": "symbol:src-test-mock-language-model-test-ts:constant:model:133",
+    "relation": "contains",
+    "confidence": "EXTRACTED",
+    "source_file": "src/test/mock-language-model.test.ts",
+    "source_location": "L133",
+    "weight": 1
+  },
+  {
+    "source": "file:src-test-mock-language-model-test-ts",
+    "target": "symbol:src-test-mock-language-model-test-ts:constant:model:146",
+    "relation": "contains",
+    "confidence": "EXTRACTED",
+    "source_file": "src/test/mock-language-model.test.ts",
+    "source_location": "L146",
+    "weight": 1
+  },
+  {
+    "source": "file:src-test-mock-language-model-test-ts",
+    "target": "symbol:src-test-mock-language-model-test-ts:constant:model:75",
+    "relation": "contains",
+    "confidence": "EXTRACTED",
+    "source_file": "src/test/mock-language-model.test.ts",
+    "source_location": "L75",
     "weight": 1
   },
   {
@@ -61984,70 +62011,61 @@
   },
   {
     "source": "file:src-test-mock-language-model-test-ts",
-    "target": "symbol:src-test-mock-language-model-test-ts:constant:reader:43",
+    "target": "symbol:src-test-mock-language-model-test-ts:constant:reader:59",
     "relation": "contains",
     "confidence": "EXTRACTED",
     "source_file": "src/test/mock-language-model.test.ts",
-    "source_location": "L43",
+    "source_location": "L59",
     "weight": 1
   },
   {
     "source": "file:src-test-mock-language-model-test-ts",
-    "target": "symbol:src-test-mock-language-model-test-ts:constant:text:44",
+    "target": "symbol:src-test-mock-language-model-test-ts:constant:text:60",
     "relation": "contains",
     "confidence": "EXTRACTED",
     "source_file": "src/test/mock-language-model.test.ts",
-    "source_location": "L44",
+    "source_location": "L60",
     "weight": 1
   },
   {
     "source": "file:src-test-mock-language-model-test-ts",
-    "target": "symbol:src-test-mock-language-model-test-ts:constant:usage:5",
+    "target": "symbol:src-test-mock-language-model-test-ts:constant:usage:12",
     "relation": "contains",
     "confidence": "EXTRACTED",
     "source_file": "src/test/mock-language-model.test.ts",
-    "source_location": "L5",
+    "source_location": "L12",
     "weight": 1
   },
   {
     "source": "file:src-test-mock-language-model-test-ts",
-    "target": "symbol:src-test-mock-language-model-test-ts:function:generateresult:20",
+    "target": "symbol:src-test-mock-language-model-test-ts:constant:usagev2:6",
     "relation": "contains",
     "confidence": "EXTRACTED",
     "source_file": "src/test/mock-language-model.test.ts",
-    "source_location": "L20",
+    "source_location": "L6",
     "weight": 1
   },
   {
     "source": "file:src-test-mock-language-model-test-ts",
-    "target": "symbol:src-test-mock-language-model-test-ts:function:readstreamtext:42",
+    "target": "symbol:src-test-mock-language-model-test-ts:function:generateresult:27",
     "relation": "contains",
     "confidence": "EXTRACTED",
     "source_file": "src/test/mock-language-model.test.ts",
-    "source_location": "L42",
+    "source_location": "L27",
     "weight": 1
   },
   {
     "source": "file:src-test-mock-language-model-test-ts",
-    "target": "symbol:src-test-mock-language-model-test-ts:function:streamresult:29",
+    "target": "symbol:src-test-mock-language-model-test-ts:function:generateresultv2:36",
     "relation": "contains",
     "confidence": "EXTRACTED",
     "source_file": "src/test/mock-language-model.test.ts",
-    "source_location": "L29",
+    "source_location": "L36",
     "weight": 1
   },
   {
     "source": "file:src-test-mock-language-model-test-ts",
-    "target": "symbol:src-test-mock-language-model-test-ts:method:start:32",
-    "relation": "contains",
-    "confidence": "EXTRACTED",
-    "source_file": "src/test/mock-language-model.test.ts",
-    "source_location": "L32",
-    "weight": 1
-  },
-  {
-    "source": "file:src-test-mock-language-model-test-ts",
-    "target": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-generate-results-from-the-first-entry:58",
+    "target": "symbol:src-test-mock-language-model-test-ts:function:readstreamtext:58",
     "relation": "contains",
     "confidence": "EXTRACTED",
     "source_file": "src/test/mock-language-model.test.ts",
@@ -62056,29 +62074,74 @@
   },
   {
     "source": "file:src-test-mock-language-model-test-ts",
-    "target": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-generate-results-from-the-first-entry:87",
+    "target": "symbol:src-test-mock-language-model-test-ts:function:streamresult:45",
+    "relation": "contains",
+    "confidence": "EXTRACTED",
+    "source_file": "src/test/mock-language-model.test.ts",
+    "source_location": "L45",
+    "weight": 1
+  },
+  {
+    "source": "file:src-test-mock-language-model-test-ts",
+    "target": "symbol:src-test-mock-language-model-test-ts:method:start:48",
+    "relation": "contains",
+    "confidence": "EXTRACTED",
+    "source_file": "src/test/mock-language-model.test.ts",
+    "source_location": "L48",
+    "weight": 1
+  },
+  {
+    "source": "file:src-test-mock-language-model-test-ts",
+    "target": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-generate-results-from-the-first-entry:103",
+    "relation": "contains",
+    "confidence": "EXTRACTED",
+    "source_file": "src/test/mock-language-model.test.ts",
+    "source_location": "L103",
+    "weight": 1
+  },
+  {
+    "source": "file:src-test-mock-language-model-test-ts",
+    "target": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-generate-results-from-the-first-entry:132",
+    "relation": "contains",
+    "confidence": "EXTRACTED",
+    "source_file": "src/test/mock-language-model.test.ts",
+    "source_location": "L132",
+    "weight": 1
+  },
+  {
+    "source": "file:src-test-mock-language-model-test-ts",
+    "target": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-generate-results-from-the-first-entry:74",
+    "relation": "contains",
+    "confidence": "EXTRACTED",
+    "source_file": "src/test/mock-language-model.test.ts",
+    "source_location": "L74",
+    "weight": 1
+  },
+  {
+    "source": "file:src-test-mock-language-model-test-ts",
+    "target": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-stream-results-from-the-first-entry:116",
+    "relation": "contains",
+    "confidence": "EXTRACTED",
+    "source_file": "src/test/mock-language-model.test.ts",
+    "source_location": "L116",
+    "weight": 1
+  },
+  {
+    "source": "file:src-test-mock-language-model-test-ts",
+    "target": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-stream-results-from-the-first-entry:145",
+    "relation": "contains",
+    "confidence": "EXTRACTED",
+    "source_file": "src/test/mock-language-model.test.ts",
+    "source_location": "L145",
+    "weight": 1
+  },
+  {
+    "source": "file:src-test-mock-language-model-test-ts",
+    "target": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-stream-results-from-the-first-entry:87",
     "relation": "contains",
     "confidence": "EXTRACTED",
     "source_file": "src/test/mock-language-model.test.ts",
     "source_location": "L87",
-    "weight": 1
-  },
-  {
-    "source": "file:src-test-mock-language-model-test-ts",
-    "target": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-stream-results-from-the-first-entry:100",
-    "relation": "contains",
-    "confidence": "EXTRACTED",
-    "source_file": "src/test/mock-language-model.test.ts",
-    "source_location": "L100",
-    "weight": 1
-  },
-  {
-    "source": "file:src-test-mock-language-model-test-ts",
-    "target": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-stream-results-from-the-first-entry:71",
-    "relation": "contains",
-    "confidence": "EXTRACTED",
-    "source_file": "src/test/mock-language-model.test.ts",
-    "source_location": "L71",
     "weight": 1
   },
   {

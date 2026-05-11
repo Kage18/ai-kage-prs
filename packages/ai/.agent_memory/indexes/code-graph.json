@@ -6,9 +6,9 @@
   "symbols": ".agent_memory/structural/symbols.json",
   "imports": ".agent_memory/structural/imports.json",
   "file_count": 432,
-  "symbol_count": 7267,
-  "import_count": 2037,
-  "call_count": 8762,
+  "symbol_count": 7273,
+  "import_count": 2038,
+  "call_count": 8782,
   "route_count": 0,
-  "test_count": 2031
+  "test_count": 2033
 }

@@ -2,7 +2,7 @@
   "schema_version": 1,
   "project_dir": "/private/tmp/kage-oss/ai-kage-prs/packages/ai",
   "repo_key": "ai",
-  "generated_at": "2026-05-11T06:42:15.559Z",
+  "generated_at": "2026-05-11T06:51:04.468Z",
   "mode": "structural",
   "limits": {
     "max_extract_file_bytes": 524288,
@@ -13,7 +13,7 @@
     "indexable_files": 432,
     "indexed_files": 432,
     "deferred_files": 1,
-    "ignored_files": 19,
+    "ignored_files": 20,
     "coverage_percent": 100,
     "complete": false
   },
@@ -29,8 +29,8 @@
     }
   ],
   "ignored_summary": {
-    "generated_vendor_or_cache": 2,
+    "generated_vendor_or_cache": 3,
     "unsupported_file_type": 17
   },
-  "fingerprint": "81085fc95868c370a5251fb385cb2bbe30a104f995b688694fe89f2c2e5635d8"
+  "fingerprint": "c9567a2dce6e5ed476a82888bc2a2e9e4563bb829cd60b1d40321ed06f90614a"
 }

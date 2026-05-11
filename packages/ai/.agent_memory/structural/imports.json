@@ -17808,6 +17808,17 @@
   },
   {
     "from_path": "src/test/mock-language-model.test.ts",
+    "to_path": "src/test/mock-language-model-v2.ts",
+    "specifier": "./mock-language-model-v2",
+    "imported": [
+      "MockLanguageModelV2"
+    ],
+    "kind": "import",
+    "parser": "typescript-ast",
+    "line": 2
+  },
+  {
+    "from_path": "src/test/mock-language-model.test.ts",
     "to_path": "src/test/mock-language-model-v3.ts",
     "specifier": "./mock-language-model-v3",
     "imported": [
@@ -17815,7 +17826,7 @@
     ],
     "kind": "import",
     "parser": "typescript-ast",
-    "line": 2
+    "line": 3
   },
   {
     "from_path": "src/test/mock-language-model.test.ts",
@@ -17826,7 +17837,7 @@
     ],
     "kind": "import",
     "parser": "typescript-ast",
-    "line": 3
+    "line": 4
   },
   {
     "from_path": "src/test/mock-provider-v2.ts",

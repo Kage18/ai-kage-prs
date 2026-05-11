@@ -1,15 +1,23 @@
 {
   "session-learning": [
-    "repo:ai:bug_fix:mock-model-array-results-are-call-indexed-after-recording-calls-1778481438900"
+    "repo:ai:bug_fix:mock-language-model-array-results-are-call-indexed-after-recording-calls-1778482",
+    "repo:ai:bug_fix:mock-language-model-v2-shares-array-result-indexing-bug-1778482215298"
   ],
   "issue-15141": [
-    "repo:ai:bug_fix:mock-model-array-results-are-call-indexed-after-recording-calls-1778481438900"
+    "repo:ai:bug_fix:mock-language-model-array-results-are-call-indexed-after-recording-calls-1778482",
+    "repo:ai:bug_fix:mock-language-model-v2-shares-array-result-indexing-bug-1778482215298"
   ],
   "mock-models": [
-    "repo:ai:bug_fix:mock-model-array-results-are-call-indexed-after-recording-calls-1778481438900"
+    "repo:ai:bug_fix:mock-language-model-array-results-are-call-indexed-after-recording-calls-1778482",
+    "repo:ai:bug_fix:mock-language-model-v2-shares-array-result-indexing-bug-1778482215298"
   ],
   "test-helpers": [
-    "repo:ai:bug_fix:mock-model-array-results-are-call-indexed-after-recording-calls-1778481438900"
+    "repo:ai:bug_fix:mock-language-model-array-results-are-call-indexed-after-recording-calls-1778482",
+    "repo:ai:bug_fix:mock-language-model-v2-shares-array-result-indexing-bug-1778482215298"
+  ],
+  "review-feedback": [
+    "repo:ai:bug_fix:mock-language-model-array-results-are-call-indexed-after-recording-calls-1778482",
+    "repo:ai:bug_fix:mock-language-model-v2-shares-array-result-indexing-bug-1778482215298"
   ],
   "repo": [
     "repo:ai:repo_map:ai-repo-overview-auto-overview",

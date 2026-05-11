@@ -2,7 +2,7 @@
   "schema_version": 1,
   "project_dir": "/private/tmp/kage-oss/ai-kage-prs/packages/ai",
   "repo_key": "ai",
-  "generated_at": "2026-05-11T06:42:15.536Z",
+  "generated_at": "2026-05-11T06:51:04.431Z",
   "provider": "kage-structural",
   "limits": {
     "max_extract_file_bytes": 524288,
@@ -13,15 +13,15 @@
     "total": 432,
     "indexed": 432,
     "metadata_only": 1,
-    "ignored": 19
+    "ignored": 20
   },
   "cache": {
     "hits": 432,
     "misses": 0
   },
-  "symbols": 7267,
-  "imports": 2037,
-  "edges": 9304,
+  "symbols": 7273,
+  "imports": 2038,
+  "edges": 9311,
   "languages": {
     "javascript": 2,
     "json": 2,
@@ -30,11 +30,11 @@
   },
   "worker_count": 8,
   "ignored_summary": {
-    "generated_vendor_or_cache": 2,
+    "generated_vendor_or_cache": 3,
     "unsupported_file_type": 17
   },
   "deleted_files": [],
-  "fingerprint": "a6f64df375daf72786c8d8aa0e568199e9f345749b23bd627f9aae5ed177f4d0",
+  "fingerprint": "818c777d4b3c9bc9a9fb47602a65f5f48058f6b8dee3ceca3764223f8477649f",
   "file_entries": {
     "package.json": {
       "path": "package.json",
@@ -108,9 +108,9 @@
     },
     "src/test/mock-language-model.test.ts": {
       "path": "src/test/mock-language-model.test.ts",
-      "size_bytes": 3262,
-      "mtime_ms": 1778481503603.833,
-      "hash": "791ad2fcba6d344b675a80acd7ae52d17e021a633daeee62ff3087f61d9b175f",
+      "size_bytes": 4590,
+      "mtime_ms": 1778482125157.4675,
+      "hash": "66b5120385b302d52af883642ac098ba4dc533fb45c9418c3eb13c6ef7ee440a",
       "extraction": "structural"
     },
     "src/test/mock-speech-model-v3.ts": {
@@ -1991,9 +1991,9 @@
     },
     "src/test/mock-language-model-v2.ts": {
       "path": "src/test/mock-language-model-v2.ts",
-      "size_bytes": 2242,
-      "mtime_ms": 1778480951652.3704,
-      "hash": "10d2cda431c10a30cf2c0215cd500c646ecf8e1884ab2d605c42c972acfde410",
+      "size_bytes": 2250,
+      "mtime_ms": 1778482125157.2742,
+      "hash": "15000477e42fc1b973378faa0d208d91c78893c9a4e8c39a8a668ea1afd0cc77",
       "extraction": "structural"
     },
     "src/test/mock-reranking-model-v4.ts": {

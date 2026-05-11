@@ -1,18 +1,18 @@
 [
   {
-    "id": "episode:1c2a8d1fee75100f",
+    "id": "episode:292ed6202c41b80a",
     "kind": "memory_packet",
-    "packet_id": "repo:ai:bug_fix:mock-model-array-results-are-call-indexed-after-recording-calls-1778481438900",
+    "packet_id": "repo:ai:bug_fix:mock-language-model-v2-shares-array-result-indexing-bug-1778482215298",
     "source_refs": [
       {
         "kind": "explicit_capture",
-        "captured_at": "2026-05-11T06:37:18.900Z"
+        "captured_at": "2026-05-11T06:50:15.297Z"
       }
     ],
-    "observed_at": "2026-05-11T06:37:26.321Z",
+    "observed_at": "2026-05-11T06:50:27.609Z",
     "branch": "fix-mock-array-result-index",
-    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
-    "summary": "MockLanguageModelV3/V4 and MockEmbeddingModelV3/V4 record each call before selecting from array backed scripted results, so the array index must subtract one from the call count length. Issue 15141 verified this for doGe"
+    "commit": "3234eb56f4847bf769069eda1fd7cadc88c71531",
+    "summary": "Vercel Agent Review on PR 15154 caught that MockLanguageModelV2 has the same off by one array indexing pattern as V3/V4: doGenerateCalls/doStreamCalls are pushed before selecting from array backed scripted results, so V2"
   },
   {
     "id": "episode:55c0eb828de8e9fa",
@@ -28,9 +28,9 @@
         "path": "README.md"
       }
     ],
-    "observed_at": "2026-05-11T06:30:50.510Z",
+    "observed_at": "2026-05-11T06:50:26.572Z",
     "branch": "fix-mock-array-result-index",
-    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "commit": "3234eb56f4847bf769069eda1fd7cadc88c71531",
     "summary": "Package name: ai. Available npm scripts: build , build:watch , clean , prepack , postpack , type check , test , test:update , test:watch , test:edge , test:node , check bundle size . README excerpt: ! hero illustration ."
   },
   {
@@ -63,10 +63,25 @@
         "path": "src"
       }
     ],
-    "observed_at": "2026-05-11T06:42:15.275Z",
+    "observed_at": "2026-05-11T06:50:26.662Z",
     "branch": "fix-mock-array-result-index",
-    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
-    "summary": "Detected repo structure: package.json, tsconfig.json, README.md, CLAUDE.md, AGENTS.md, src. Test files: internal/index.test.ts, src/agent/create agent ui stream response.test.ts, src/agent/tool loop agent.test.ts, src/em"
+    "commit": "3234eb56f4847bf769069eda1fd7cadc88c71531",
+    "summary": "Detected repo structure: package.json, tsconfig.json, README.md, CLAUDE.md, AGENTS.md, src. Test files: dist/internal/index.test.js, dist/src/agent/create agent ui stream response.test.js, dist/src/agent/tool loop agent."
+  },
+  {
+    "id": "episode:86e017e95280bd10",
+    "kind": "memory_packet",
+    "packet_id": "repo:ai:bug_fix:mock-language-model-array-results-are-call-indexed-after-recording-calls-1778482",
+    "source_refs": [
+      {
+        "kind": "explicit_capture",
+        "captured_at": "2026-05-11T06:51:03.626Z"
+      }
+    ],
+    "observed_at": "2026-05-11T06:51:04.194Z",
+    "branch": "fix-mock-array-result-index",
+    "commit": "3234eb56f4847bf769069eda1fd7cadc88c71531",
+    "summary": "MockLanguageModelV2/V3/V4 record doGenerate and doStream calls before selecting from array backed scripted results, so array lookup must use call count minus one. MockEmbeddingModelV3/V4 have the same doEmbed pattern and"
   },
   {
     "id": "episode:repo-manifest-package-json",
@@ -77,9 +92,9 @@
         "path": "package.json"
       }
     ],
-    "observed_at": "2026-05-11T06:42:15.275Z",
+    "observed_at": "2026-05-11T06:51:04.194Z",
     "branch": "fix-mock-array-result-index",
-    "commit": "6bb0debd9fc98c6929ae6cd46dbc00ebacfa7732",
+    "commit": "3234eb56f4847bf769069eda1fd7cadc88c71531",
     "summary": "NPM scripts extracted from package.json."
   }
 ]

@@ -4,13 +4,13 @@
   "artifact_format": 2,
   "project_dir": "/private/tmp/kage-oss/ai-kage-prs/packages/ai",
   "repo_key": "ai",
-  "generated_at": "2026-05-11T06:39:00.121Z",
+  "generated_at": "2026-05-11T06:50:27.549Z",
   "repo_state": {
-    "branch": "main",
-    "head": "d57cf11d0e8d06bb3c2e1bcda89ad6a6a5530793",
+    "branch": "fix-mock-array-result-index",
+    "head": "3234eb56f4847bf769069eda1fd7cadc88c71531",
     "merge_base": "d57cf11d0e8d06bb3c2e1bcda89ad6a6a5530793",
-    "tree": "aff1e8e77845f7ab7b6e5b41e441f207028583d6",
-    "input_hash": "1bf7c158faeeac2cfbad32a7665c9142f5a13b971041e33588f19e9cec4677bd"
+    "tree": "ec33d027dcbde35aad045fe566432ddcfe2318a8",
+    "input_hash": "d8aaa0c698124500c42ac118c95032f9301837705d4567e0a6de0e353c82bf75"
   },
   "refs": {
     "files": "../structural/files.json",
@@ -40039,298 +40039,418 @@
       "line": 61
     },
     {
-      "from_symbol": "symbol:src-test-mock-language-model-test-ts:function:readstreamtext:42",
+      "from_symbol": "symbol:src-test-mock-language-model-test-ts:function:readstreamtext:58",
       "to_symbol": "symbol:src-util-write-to-server-response-ts:function:read:27",
       "path": "src/test/mock-language-model.test.ts",
-      "line": 47
-    },
-    {
-      "from_symbol": "symbol:src-test-mock-language-model-test-ts:constant:model:59",
-      "to_symbol": "symbol:src-agent-tool-loop-agent-test-d-ts:constant:generateresult:92",
-      "path": "src/test/mock-language-model.test.ts",
-      "line": 60
-    },
-    {
-      "from_symbol": "symbol:src-test-mock-language-model-test-ts:constant:model:59",
-      "to_symbol": "symbol:src-agent-tool-loop-agent-test-d-ts:constant:generateresult:92",
-      "path": "src/test/mock-language-model.test.ts",
-      "line": 60
-    },
-    {
-      "from_symbol": "symbol:src-test-mock-language-model-test-ts:constant:model:59",
-      "to_symbol": "symbol:src-generate-object-generate-object-ts:constant:generateresult:355",
-      "path": "src/test/mock-language-model.test.ts",
-      "line": 60
-    },
-    {
-      "from_symbol": "symbol:src-test-mock-language-model-test-ts:constant:model:59",
-      "to_symbol": "symbol:src-generate-object-generate-object-ts:constant:generateresult:355",
-      "path": "src/test/mock-language-model.test.ts",
-      "line": 60
-    },
-    {
-      "from_symbol": "symbol:src-test-mock-language-model-test-ts:constant:model:59",
-      "to_symbol": "symbol:src-test-mock-language-model-test-ts:function:generateresult:20",
-      "path": "src/test/mock-language-model.test.ts",
-      "line": 60
-    },
-    {
-      "from_symbol": "symbol:src-test-mock-language-model-test-ts:constant:model:59",
-      "to_symbol": "symbol:src-test-mock-language-model-test-ts:function:generateresult:20",
-      "path": "src/test/mock-language-model.test.ts",
-      "line": 60
-    },
-    {
-      "from_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-generate-results-from-the-first-entry:58",
-      "to_symbol": "symbol:src-middleware-extract-json-middleware-test-ts:method:dogenerate:30",
-      "path": "src/test/mock-language-model.test.ts",
       "line": 63
     },
     {
-      "from_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-generate-results-from-the-first-entry:58",
-      "to_symbol": "symbol:src-middleware-extract-json-middleware-test-ts:method:dogenerate:58",
+      "from_symbol": "symbol:src-test-mock-language-model-test-ts:constant:model:75",
+      "to_symbol": "symbol:src-test-mock-language-model-test-ts:function:generateresultv2:36",
       "path": "src/test/mock-language-model.test.ts",
-      "line": 63
+      "line": 76
     },
     {
-      "from_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-generate-results-from-the-first-entry:58",
-      "to_symbol": "symbol:src-middleware-extract-json-middleware-test-ts:method:dogenerate:86",
+      "from_symbol": "symbol:src-test-mock-language-model-test-ts:constant:model:75",
+      "to_symbol": "symbol:src-test-mock-language-model-test-ts:function:generateresultv2:36",
       "path": "src/test/mock-language-model.test.ts",
-      "line": 63
+      "line": 76
     },
     {
-      "from_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-generate-results-from-the-first-entry:58",
+      "from_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-generate-results-from-the-first-entry:74",
       "to_symbol": "symbol:src-middleware-extract-json-middleware-test-ts:method:dogenerate:30",
       "path": "src/test/mock-language-model.test.ts",
-      "line": 66
+      "line": 79
     },
     {
-      "from_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-generate-results-from-the-first-entry:58",
+      "from_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-generate-results-from-the-first-entry:74",
       "to_symbol": "symbol:src-middleware-extract-json-middleware-test-ts:method:dogenerate:58",
       "path": "src/test/mock-language-model.test.ts",
-      "line": 66
+      "line": 79
     },
     {
-      "from_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-generate-results-from-the-first-entry:58",
+      "from_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-generate-results-from-the-first-entry:74",
       "to_symbol": "symbol:src-middleware-extract-json-middleware-test-ts:method:dogenerate:86",
       "path": "src/test/mock-language-model.test.ts",
-      "line": 66
+      "line": 79
     },
     {
-      "from_symbol": "symbol:src-test-mock-language-model-test-ts:constant:model:72",
-      "to_symbol": "symbol:src-agent-tool-loop-agent-test-d-ts:constant:streamresult:185",
+      "from_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-generate-results-from-the-first-entry:74",
+      "to_symbol": "symbol:src-middleware-extract-json-middleware-test-ts:method:dogenerate:30",
       "path": "src/test/mock-language-model.test.ts",
-      "line": 73
+      "line": 82
     },
     {
-      "from_symbol": "symbol:src-test-mock-language-model-test-ts:constant:model:72",
-      "to_symbol": "symbol:src-agent-tool-loop-agent-test-d-ts:constant:streamresult:185",
+      "from_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-generate-results-from-the-first-entry:74",
+      "to_symbol": "symbol:src-middleware-extract-json-middleware-test-ts:method:dogenerate:58",
       "path": "src/test/mock-language-model.test.ts",
-      "line": 73
+      "line": 82
     },
     {
-      "from_symbol": "symbol:src-test-mock-language-model-test-ts:constant:model:72",
-      "to_symbol": "symbol:src-test-mock-language-model-test-ts:function:streamresult:29",
+      "from_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-generate-results-from-the-first-entry:74",
+      "to_symbol": "symbol:src-middleware-extract-json-middleware-test-ts:method:dogenerate:86",
       "path": "src/test/mock-language-model.test.ts",
-      "line": 73
-    },
-    {
-      "from_symbol": "symbol:src-test-mock-language-model-test-ts:constant:model:72",
-      "to_symbol": "symbol:src-test-mock-language-model-test-ts:function:streamresult:29",
-      "path": "src/test/mock-language-model.test.ts",
-      "line": 73
-    },
-    {
-      "from_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-stream-results-from-the-first-entry:71",
-      "to_symbol": "symbol:src-middleware-extract-json-middleware-test-ts:method:dostream:185",
-      "path": "src/test/mock-language-model.test.ts",
-      "line": 77
-    },
-    {
-      "from_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-stream-results-from-the-first-entry:71",
-      "to_symbol": "symbol:src-middleware-extract-json-middleware-test-ts:method:dostream:222",
-      "path": "src/test/mock-language-model.test.ts",
-      "line": 77
-    },
-    {
-      "from_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-stream-results-from-the-first-entry:71",
-      "to_symbol": "symbol:src-middleware-extract-json-middleware-test-ts:method:dostream:259",
-      "path": "src/test/mock-language-model.test.ts",
-      "line": 77
-    },
-    {
-      "from_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-stream-results-from-the-first-entry:71",
-      "to_symbol": "symbol:src-test-mock-language-model-test-ts:function:readstreamtext:42",
-      "path": "src/test/mock-language-model.test.ts",
-      "line": 77
-    },
-    {
-      "from_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-stream-results-from-the-first-entry:71",
-      "to_symbol": "symbol:src-middleware-extract-json-middleware-test-ts:method:dostream:185",
-      "path": "src/test/mock-language-model.test.ts",
-      "line": 80
-    },
-    {
-      "from_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-stream-results-from-the-first-entry:71",
-      "to_symbol": "symbol:src-middleware-extract-json-middleware-test-ts:method:dostream:222",
-      "path": "src/test/mock-language-model.test.ts",
-      "line": 80
-    },
-    {
-      "from_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-stream-results-from-the-first-entry:71",
-      "to_symbol": "symbol:src-middleware-extract-json-middleware-test-ts:method:dostream:259",
-      "path": "src/test/mock-language-model.test.ts",
-      "line": 80
-    },
-    {
-      "from_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-stream-results-from-the-first-entry:71",
-      "to_symbol": "symbol:src-test-mock-language-model-test-ts:function:readstreamtext:42",
-      "path": "src/test/mock-language-model.test.ts",
-      "line": 80
+      "line": 82
     },
     {
       "from_symbol": "symbol:src-test-mock-language-model-test-ts:constant:model:88",
+      "to_symbol": "symbol:src-agent-tool-loop-agent-test-d-ts:constant:streamresult:185",
+      "path": "src/test/mock-language-model.test.ts",
+      "line": 89
+    },
+    {
+      "from_symbol": "symbol:src-test-mock-language-model-test-ts:constant:model:88",
+      "to_symbol": "symbol:src-agent-tool-loop-agent-test-d-ts:constant:streamresult:185",
+      "path": "src/test/mock-language-model.test.ts",
+      "line": 89
+    },
+    {
+      "from_symbol": "symbol:src-test-mock-language-model-test-ts:constant:model:88",
+      "to_symbol": "symbol:src-test-mock-language-model-test-ts:function:streamresult:45",
+      "path": "src/test/mock-language-model.test.ts",
+      "line": 89
+    },
+    {
+      "from_symbol": "symbol:src-test-mock-language-model-test-ts:constant:model:88",
+      "to_symbol": "symbol:src-test-mock-language-model-test-ts:function:streamresult:45",
+      "path": "src/test/mock-language-model.test.ts",
+      "line": 89
+    },
+    {
+      "from_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-stream-results-from-the-first-entry:87",
+      "to_symbol": "symbol:src-middleware-extract-json-middleware-test-ts:method:dostream:185",
+      "path": "src/test/mock-language-model.test.ts",
+      "line": 93
+    },
+    {
+      "from_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-stream-results-from-the-first-entry:87",
+      "to_symbol": "symbol:src-middleware-extract-json-middleware-test-ts:method:dostream:222",
+      "path": "src/test/mock-language-model.test.ts",
+      "line": 93
+    },
+    {
+      "from_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-stream-results-from-the-first-entry:87",
+      "to_symbol": "symbol:src-middleware-extract-json-middleware-test-ts:method:dostream:259",
+      "path": "src/test/mock-language-model.test.ts",
+      "line": 93
+    },
+    {
+      "from_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-stream-results-from-the-first-entry:87",
+      "to_symbol": "symbol:src-test-mock-language-model-test-ts:function:readstreamtext:58",
+      "path": "src/test/mock-language-model.test.ts",
+      "line": 93
+    },
+    {
+      "from_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-stream-results-from-the-first-entry:87",
+      "to_symbol": "symbol:src-middleware-extract-json-middleware-test-ts:method:dostream:185",
+      "path": "src/test/mock-language-model.test.ts",
+      "line": 96
+    },
+    {
+      "from_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-stream-results-from-the-first-entry:87",
+      "to_symbol": "symbol:src-middleware-extract-json-middleware-test-ts:method:dostream:222",
+      "path": "src/test/mock-language-model.test.ts",
+      "line": 96
+    },
+    {
+      "from_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-stream-results-from-the-first-entry:87",
+      "to_symbol": "symbol:src-middleware-extract-json-middleware-test-ts:method:dostream:259",
+      "path": "src/test/mock-language-model.test.ts",
+      "line": 96
+    },
+    {
+      "from_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-stream-results-from-the-first-entry:87",
+      "to_symbol": "symbol:src-test-mock-language-model-test-ts:function:readstreamtext:58",
+      "path": "src/test/mock-language-model.test.ts",
+      "line": 96
+    },
+    {
+      "from_symbol": "symbol:src-test-mock-language-model-test-ts:constant:model:104",
       "to_symbol": "symbol:src-agent-tool-loop-agent-test-d-ts:constant:generateresult:92",
       "path": "src/test/mock-language-model.test.ts",
-      "line": 89
+      "line": 105
     },
     {
-      "from_symbol": "symbol:src-test-mock-language-model-test-ts:constant:model:88",
+      "from_symbol": "symbol:src-test-mock-language-model-test-ts:constant:model:104",
       "to_symbol": "symbol:src-agent-tool-loop-agent-test-d-ts:constant:generateresult:92",
       "path": "src/test/mock-language-model.test.ts",
-      "line": 89
+      "line": 105
     },
     {
-      "from_symbol": "symbol:src-test-mock-language-model-test-ts:constant:model:88",
+      "from_symbol": "symbol:src-test-mock-language-model-test-ts:constant:model:104",
       "to_symbol": "symbol:src-generate-object-generate-object-ts:constant:generateresult:355",
       "path": "src/test/mock-language-model.test.ts",
-      "line": 89
+      "line": 105
     },
     {
-      "from_symbol": "symbol:src-test-mock-language-model-test-ts:constant:model:88",
+      "from_symbol": "symbol:src-test-mock-language-model-test-ts:constant:model:104",
       "to_symbol": "symbol:src-generate-object-generate-object-ts:constant:generateresult:355",
       "path": "src/test/mock-language-model.test.ts",
-      "line": 89
+      "line": 105
     },
     {
-      "from_symbol": "symbol:src-test-mock-language-model-test-ts:constant:model:88",
-      "to_symbol": "symbol:src-test-mock-language-model-test-ts:function:generateresult:20",
+      "from_symbol": "symbol:src-test-mock-language-model-test-ts:constant:model:104",
+      "to_symbol": "symbol:src-test-mock-language-model-test-ts:function:generateresult:27",
       "path": "src/test/mock-language-model.test.ts",
-      "line": 89
+      "line": 105
     },
     {
-      "from_symbol": "symbol:src-test-mock-language-model-test-ts:constant:model:88",
-      "to_symbol": "symbol:src-test-mock-language-model-test-ts:function:generateresult:20",
+      "from_symbol": "symbol:src-test-mock-language-model-test-ts:constant:model:104",
+      "to_symbol": "symbol:src-test-mock-language-model-test-ts:function:generateresult:27",
       "path": "src/test/mock-language-model.test.ts",
-      "line": 89
+      "line": 105
     },
     {
-      "from_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-generate-results-from-the-first-entry:87",
+      "from_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-generate-results-from-the-first-entry:103",
       "to_symbol": "symbol:src-middleware-extract-json-middleware-test-ts:method:dogenerate:30",
       "path": "src/test/mock-language-model.test.ts",
-      "line": 92
+      "line": 108
     },
     {
-      "from_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-generate-results-from-the-first-entry:87",
+      "from_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-generate-results-from-the-first-entry:103",
       "to_symbol": "symbol:src-middleware-extract-json-middleware-test-ts:method:dogenerate:58",
       "path": "src/test/mock-language-model.test.ts",
-      "line": 92
+      "line": 108
     },
     {
-      "from_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-generate-results-from-the-first-entry:87",
+      "from_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-generate-results-from-the-first-entry:103",
       "to_symbol": "symbol:src-middleware-extract-json-middleware-test-ts:method:dogenerate:86",
       "path": "src/test/mock-language-model.test.ts",
-      "line": 92
+      "line": 108
     },
     {
-      "from_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-generate-results-from-the-first-entry:87",
+      "from_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-generate-results-from-the-first-entry:103",
       "to_symbol": "symbol:src-middleware-extract-json-middleware-test-ts:method:dogenerate:30",
       "path": "src/test/mock-language-model.test.ts",
-      "line": 95
+      "line": 111
     },
     {
-      "from_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-generate-results-from-the-first-entry:87",
+      "from_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-generate-results-from-the-first-entry:103",
       "to_symbol": "symbol:src-middleware-extract-json-middleware-test-ts:method:dogenerate:58",
       "path": "src/test/mock-language-model.test.ts",
-      "line": 95
+      "line": 111
     },
     {
-      "from_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-generate-results-from-the-first-entry:87",
+      "from_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-generate-results-from-the-first-entry:103",
       "to_symbol": "symbol:src-middleware-extract-json-middleware-test-ts:method:dogenerate:86",
       "path": "src/test/mock-language-model.test.ts",
-      "line": 95
+      "line": 111
     },
     {
-      "from_symbol": "symbol:src-test-mock-language-model-test-ts:constant:model:101",
+      "from_symbol": "symbol:src-test-mock-language-model-test-ts:constant:model:117",
       "to_symbol": "symbol:src-agent-tool-loop-agent-test-d-ts:constant:streamresult:185",
       "path": "src/test/mock-language-model.test.ts",
-      "line": 102
+      "line": 118
     },
     {
-      "from_symbol": "symbol:src-test-mock-language-model-test-ts:constant:model:101",
+      "from_symbol": "symbol:src-test-mock-language-model-test-ts:constant:model:117",
       "to_symbol": "symbol:src-agent-tool-loop-agent-test-d-ts:constant:streamresult:185",
       "path": "src/test/mock-language-model.test.ts",
-      "line": 102
+      "line": 118
     },
     {
-      "from_symbol": "symbol:src-test-mock-language-model-test-ts:constant:model:101",
-      "to_symbol": "symbol:src-test-mock-language-model-test-ts:function:streamresult:29",
+      "from_symbol": "symbol:src-test-mock-language-model-test-ts:constant:model:117",
+      "to_symbol": "symbol:src-test-mock-language-model-test-ts:function:streamresult:45",
       "path": "src/test/mock-language-model.test.ts",
-      "line": 102
+      "line": 118
     },
     {
-      "from_symbol": "symbol:src-test-mock-language-model-test-ts:constant:model:101",
-      "to_symbol": "symbol:src-test-mock-language-model-test-ts:function:streamresult:29",
+      "from_symbol": "symbol:src-test-mock-language-model-test-ts:constant:model:117",
+      "to_symbol": "symbol:src-test-mock-language-model-test-ts:function:streamresult:45",
       "path": "src/test/mock-language-model.test.ts",
-      "line": 102
+      "line": 118
     },
     {
-      "from_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-stream-results-from-the-first-entry:100",
+      "from_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-stream-results-from-the-first-entry:116",
       "to_symbol": "symbol:src-middleware-extract-json-middleware-test-ts:method:dostream:185",
       "path": "src/test/mock-language-model.test.ts",
-      "line": 106
+      "line": 122
     },
     {
-      "from_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-stream-results-from-the-first-entry:100",
+      "from_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-stream-results-from-the-first-entry:116",
       "to_symbol": "symbol:src-middleware-extract-json-middleware-test-ts:method:dostream:222",
       "path": "src/test/mock-language-model.test.ts",
-      "line": 106
+      "line": 122
     },
     {
-      "from_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-stream-results-from-the-first-entry:100",
+      "from_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-stream-results-from-the-first-entry:116",
       "to_symbol": "symbol:src-middleware-extract-json-middleware-test-ts:method:dostream:259",
       "path": "src/test/mock-language-model.test.ts",
-      "line": 106
+      "line": 122
     },
     {
-      "from_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-stream-results-from-the-first-entry:100",
-      "to_symbol": "symbol:src-test-mock-language-model-test-ts:function:readstreamtext:42",
+      "from_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-stream-results-from-the-first-entry:116",
+      "to_symbol": "symbol:src-test-mock-language-model-test-ts:function:readstreamtext:58",
       "path": "src/test/mock-language-model.test.ts",
-      "line": 106
+      "line": 122
     },
     {
-      "from_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-stream-results-from-the-first-entry:100",
+      "from_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-stream-results-from-the-first-entry:116",
       "to_symbol": "symbol:src-middleware-extract-json-middleware-test-ts:method:dostream:185",
       "path": "src/test/mock-language-model.test.ts",
-      "line": 109
+      "line": 125
     },
     {
-      "from_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-stream-results-from-the-first-entry:100",
+      "from_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-stream-results-from-the-first-entry:116",
       "to_symbol": "symbol:src-middleware-extract-json-middleware-test-ts:method:dostream:222",
       "path": "src/test/mock-language-model.test.ts",
-      "line": 109
+      "line": 125
     },
     {
-      "from_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-stream-results-from-the-first-entry:100",
+      "from_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-stream-results-from-the-first-entry:116",
       "to_symbol": "symbol:src-middleware-extract-json-middleware-test-ts:method:dostream:259",
       "path": "src/test/mock-language-model.test.ts",
-      "line": 109
+      "line": 125
     },
     {
-      "from_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-stream-results-from-the-first-entry:100",
-      "to_symbol": "symbol:src-test-mock-language-model-test-ts:function:readstreamtext:42",
+      "from_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-stream-results-from-the-first-entry:116",
+      "to_symbol": "symbol:src-test-mock-language-model-test-ts:function:readstreamtext:58",
       "path": "src/test/mock-language-model.test.ts",
-      "line": 109
+      "line": 125
+    },
+    {
+      "from_symbol": "symbol:src-test-mock-language-model-test-ts:constant:model:133",
+      "to_symbol": "symbol:src-agent-tool-loop-agent-test-d-ts:constant:generateresult:92",
+      "path": "src/test/mock-language-model.test.ts",
+      "line": 134
+    },
+    {
+      "from_symbol": "symbol:src-test-mock-language-model-test-ts:constant:model:133",
+      "to_symbol": "symbol:src-agent-tool-loop-agent-test-d-ts:constant:generateresult:92",
+      "path": "src/test/mock-language-model.test.ts",
+      "line": 134
+    },
+    {
+      "from_symbol": "symbol:src-test-mock-language-model-test-ts:constant:model:133",
+      "to_symbol": "symbol:src-generate-object-generate-object-ts:constant:generateresult:355",
+      "path": "src/test/mock-language-model.test.ts",
+      "line": 134
+    },
+    {
+      "from_symbol": "symbol:src-test-mock-language-model-test-ts:constant:model:133",
+      "to_symbol": "symbol:src-generate-object-generate-object-ts:constant:generateresult:355",
+      "path": "src/test/mock-language-model.test.ts",
+      "line": 134
+    },
+    {
+      "from_symbol": "symbol:src-test-mock-language-model-test-ts:constant:model:133",
+      "to_symbol": "symbol:src-test-mock-language-model-test-ts:function:generateresult:27",
+      "path": "src/test/mock-language-model.test.ts",
+      "line": 134
+    },
+    {
+      "from_symbol": "symbol:src-test-mock-language-model-test-ts:constant:model:133",
+      "to_symbol": "symbol:src-test-mock-language-model-test-ts:function:generateresult:27",
+      "path": "src/test/mock-language-model.test.ts",
+      "line": 134
+    },
+    {
+      "from_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-generate-results-from-the-first-entry:132",
+      "to_symbol": "symbol:src-middleware-extract-json-middleware-test-ts:method:dogenerate:30",
+      "path": "src/test/mock-language-model.test.ts",
+      "line": 137
+    },
+    {
+      "from_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-generate-results-from-the-first-entry:132",
+      "to_symbol": "symbol:src-middleware-extract-json-middleware-test-ts:method:dogenerate:58",
+      "path": "src/test/mock-language-model.test.ts",
+      "line": 137
+    },
+    {
+      "from_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-generate-results-from-the-first-entry:132",
+      "to_symbol": "symbol:src-middleware-extract-json-middleware-test-ts:method:dogenerate:86",
+      "path": "src/test/mock-language-model.test.ts",
+      "line": 137
+    },
+    {
+      "from_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-generate-results-from-the-first-entry:132",
+      "to_symbol": "symbol:src-middleware-extract-json-middleware-test-ts:method:dogenerate:30",
+      "path": "src/test/mock-language-model.test.ts",
+      "line": 140
+    },
+    {
+      "from_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-generate-results-from-the-first-entry:132",
+      "to_symbol": "symbol:src-middleware-extract-json-middleware-test-ts:method:dogenerate:58",
+      "path": "src/test/mock-language-model.test.ts",
+      "line": 140
+    },
+    {
+      "from_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-generate-results-from-the-first-entry:132",
+      "to_symbol": "symbol:src-middleware-extract-json-middleware-test-ts:method:dogenerate:86",
+      "path": "src/test/mock-language-model.test.ts",
+      "line": 140
+    },
+    {
+      "from_symbol": "symbol:src-test-mock-language-model-test-ts:constant:model:146",
+      "to_symbol": "symbol:src-agent-tool-loop-agent-test-d-ts:constant:streamresult:185",
+      "path": "src/test/mock-language-model.test.ts",
+      "line": 147
+    },
+    {
+      "from_symbol": "symbol:src-test-mock-language-model-test-ts:constant:model:146",
+      "to_symbol": "symbol:src-agent-tool-loop-agent-test-d-ts:constant:streamresult:185",
+      "path": "src/test/mock-language-model.test.ts",
+      "line": 147
+    },
+    {
+      "from_symbol": "symbol:src-test-mock-language-model-test-ts:constant:model:146",
+      "to_symbol": "symbol:src-test-mock-language-model-test-ts:function:streamresult:45",
+      "path": "src/test/mock-language-model.test.ts",
+      "line": 147
+    },
+    {
+      "from_symbol": "symbol:src-test-mock-language-model-test-ts:constant:model:146",
+      "to_symbol": "symbol:src-test-mock-language-model-test-ts:function:streamresult:45",
+      "path": "src/test/mock-language-model.test.ts",
+      "line": 147
+    },
+    {
+      "from_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-stream-results-from-the-first-entry:145",
+      "to_symbol": "symbol:src-middleware-extract-json-middleware-test-ts:method:dostream:185",
+      "path": "src/test/mock-language-model.test.ts",
+      "line": 151
+    },
+    {
+      "from_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-stream-results-from-the-first-entry:145",
+      "to_symbol": "symbol:src-middleware-extract-json-middleware-test-ts:method:dostream:222",
+      "path": "src/test/mock-language-model.test.ts",
+      "line": 151
+    },
+    {
+      "from_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-stream-results-from-the-first-entry:145",
+      "to_symbol": "symbol:src-middleware-extract-json-middleware-test-ts:method:dostream:259",
+      "path": "src/test/mock-language-model.test.ts",
+      "line": 151
+    },
+    {
+      "from_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-stream-results-from-the-first-entry:145",
+      "to_symbol": "symbol:src-test-mock-language-model-test-ts:function:readstreamtext:58",
+      "path": "src/test/mock-language-model.test.ts",
+      "line": 151
+    },
+    {
+      "from_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-stream-results-from-the-first-entry:145",
+      "to_symbol": "symbol:src-middleware-extract-json-middleware-test-ts:method:dostream:185",
+      "path": "src/test/mock-language-model.test.ts",
+      "line": 154
+    },
+    {
+      "from_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-stream-results-from-the-first-entry:145",
+      "to_symbol": "symbol:src-middleware-extract-json-middleware-test-ts:method:dostream:222",
+      "path": "src/test/mock-language-model.test.ts",
+      "line": 154
+    },
+    {
+      "from_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-stream-results-from-the-first-entry:145",
+      "to_symbol": "symbol:src-middleware-extract-json-middleware-test-ts:method:dostream:259",
+      "path": "src/test/mock-language-model.test.ts",
+      "line": 154
+    },
+    {
+      "from_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-stream-results-from-the-first-entry:145",
+      "to_symbol": "symbol:src-test-mock-language-model-test-ts:function:readstreamtext:58",
+      "path": "src/test/mock-language-model.test.ts",
+      "line": 154
     },
     {
       "from_symbol": "symbol:src-test-mock-server-response-ts:function:checkifended:54",
@@ -64386,35 +64506,51 @@
       "title": "returns array-backed embed results from the first entry"
     },
     {
-      "test_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-generate-results-from-the-first-entry:58",
+      "test_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-generate-results-from-the-first-entry:74",
       "test_path": "src/test/mock-language-model.test.ts",
-      "covers_path": "src/test/mock-language-model-v3.ts",
-      "covers_symbol": "MockLanguageModelV3",
-      "line": 58,
+      "covers_path": "src/test/mock-language-model-v2.ts",
+      "covers_symbol": "MockLanguageModelV2",
+      "line": 74,
       "title": "returns array-backed generate results from the first entry"
     },
     {
-      "test_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-stream-results-from-the-first-entry:71",
+      "test_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-stream-results-from-the-first-entry:87",
       "test_path": "src/test/mock-language-model.test.ts",
-      "covers_path": "src/test/mock-language-model-v3.ts",
-      "covers_symbol": "MockLanguageModelV3",
-      "line": 71,
+      "covers_path": "src/test/mock-language-model-v2.ts",
+      "covers_symbol": "MockLanguageModelV2",
+      "line": 87,
       "title": "returns array-backed stream results from the first entry"
     },
     {
-      "test_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-generate-results-from-the-first-entry:87",
+      "test_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-generate-results-from-the-first-entry:103",
       "test_path": "src/test/mock-language-model.test.ts",
-      "covers_path": "src/test/mock-language-model-v3.ts",
-      "covers_symbol": "MockLanguageModelV3",
-      "line": 87,
+      "covers_path": "src/test/mock-language-model-v2.ts",
+      "covers_symbol": "MockLanguageModelV2",
+      "line": 103,
       "title": "returns array-backed generate results from the first entry"
     },
     {
-      "test_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-stream-results-from-the-first-entry:100",
+      "test_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-stream-results-from-the-first-entry:116",
       "test_path": "src/test/mock-language-model.test.ts",
-      "covers_path": "src/test/mock-language-model-v3.ts",
-      "covers_symbol": "MockLanguageModelV3",
-      "line": 100,
+      "covers_path": "src/test/mock-language-model-v2.ts",
+      "covers_symbol": "MockLanguageModelV2",
+      "line": 116,
+      "title": "returns array-backed stream results from the first entry"
+    },
+    {
+      "test_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-generate-results-from-the-first-entry:132",
+      "test_path": "src/test/mock-language-model.test.ts",
+      "covers_path": "src/test/mock-language-model-v2.ts",
+      "covers_symbol": "MockLanguageModelV2",
+      "line": 132,
+      "title": "returns array-backed generate results from the first entry"
+    },
+    {
+      "test_symbol": "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-stream-results-from-the-first-entry:145",
+      "test_path": "src/test/mock-language-model.test.ts",
+      "covers_path": "src/test/mock-language-model-v2.ts",
+      "covers_symbol": "MockLanguageModelV2",
+      "line": 145,
       "title": "returns array-backed stream results from the first entry"
     },
     {

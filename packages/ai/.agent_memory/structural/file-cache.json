@@ -87234,17 +87234,17 @@
         ]
       ]
     },
-    "src/test/mock-language-model-v2.ts\u000010d2cda431c10a30cf2c0215cd500c646ecf8e1884ab2d605c42c972acfde410": {
+    "src/test/mock-language-model-v2.ts\u000015000477e42fc1b973378faa0d208d91c78893c9a4e8c39a8a668ea1afd0cc77": {
       "schema_version": 2,
       "path": "src/test/mock-language-model-v2.ts",
-      "hash": "10d2cda431c10a30cf2c0215cd500c646ecf8e1884ab2d605c42c972acfde410",
+      "hash": "15000477e42fc1b973378faa0d208d91c78893c9a4e8c39a8a668ea1afd0cc77",
       "file": [
         "typescript",
         "test",
-        2242,
+        2250,
         73,
-        "10d2cda431c10a30",
-        1778480951652.3704,
+        "15000477e42fc1b9",
+        1778482125157.2742,
         "structural",
         "EXTRACTED",
         [
@@ -87435,22 +87435,24 @@
         ]
       ]
     },
-    "src/test/mock-language-model.test.ts\u0000791ad2fcba6d344b675a80acd7ae52d17e021a633daeee62ff3087f61d9b175f": {
+    "src/test/mock-language-model.test.ts\u000066b5120385b302d52af883642ac098ba4dc533fb45c9418c3eb13c6ef7ee440a": {
       "schema_version": 2,
       "path": "src/test/mock-language-model.test.ts",
-      "hash": "791ad2fcba6d344b675a80acd7ae52d17e021a633daeee62ff3087f61d9b175f",
+      "hash": "66b5120385b302d52af883642ac098ba4dc533fb45c9418c3eb13c6ef7ee440a",
       "file": [
         "typescript",
         "test",
-        3262,
-        114,
-        "791ad2fcba6d344b",
-        1778481503603.833,
+        4590,
+        159,
+        "66b5120385b302d5",
+        1778482125157.4675,
         "structural",
         "EXTRACTED",
         [
+          "usageV2",
           "usage",
           "generateResult",
+          "generateResultV2",
           "streamResult",
           "start",
           "readStreamText",
@@ -87458,12 +87460,11 @@
           "text",
           "returns array-backed generate results from the first entry",
           "model",
-          "returns array-backed stream results from the first entry",
-          "model",
-          "returns array-backed generate results from the first entry"
+          "returns array-backed stream results from the first entry"
         ],
         [
           "vitest",
+          "./mock-language-model-v2",
           "./mock-language-model-v3",
           "./mock-language-model-v4"
         ],
@@ -87492,135 +87493,135 @@
       ],
       "symbols": [
         [
-          "symbol:src-test-mock-language-model-test-ts:constant:usage:5",
+          "symbol:src-test-mock-language-model-test-ts:constant:usagev2:6",
+          "usageV2",
+          "constant",
+          "typescript-ast",
+          false,
+          6,
+          10,
+          "const usageV2 = {",
+          "EXTRACTED"
+        ],
+        [
+          "symbol:src-test-mock-language-model-test-ts:constant:usage:12",
           "usage",
           "constant",
           "typescript-ast",
           false,
-          5,
-          18,
+          12,
+          25,
           "const usage = {",
           "EXTRACTED"
         ],
         [
-          "symbol:src-test-mock-language-model-test-ts:function:generateresult:20",
+          "symbol:src-test-mock-language-model-test-ts:function:generateresult:27",
           "generateResult",
           "function",
           "typescript-ast",
           false,
-          20,
           27,
+          34,
           "function generateResult(text: string) {",
           "EXTRACTED"
         ],
         [
-          "symbol:src-test-mock-language-model-test-ts:function:streamresult:29",
+          "symbol:src-test-mock-language-model-test-ts:function:generateresultv2:36",
+          "generateResultV2",
+          "function",
+          "typescript-ast",
+          false,
+          36,
+          43,
+          "function generateResultV2(text: string) {",
+          "EXTRACTED"
+        ],
+        [
+          "symbol:src-test-mock-language-model-test-ts:function:streamresult:45",
           "streamResult",
           "function",
           "typescript-ast",
           false,
-          29,
-          40,
+          45,
+          56,
           "function streamResult(text: string) {",
           "EXTRACTED"
         ],
         [
-          "symbol:src-test-mock-language-model-test-ts:method:start:32",
+          "symbol:src-test-mock-language-model-test-ts:method:start:48",
           "start",
           "method",
           "typescript-ast",
           false,
-          32,
-          37,
+          48,
+          53,
           "start(controller) {",
           "EXTRACTED"
         ],
         [
-          "symbol:src-test-mock-language-model-test-ts:function:readstreamtext:42",
+          "symbol:src-test-mock-language-model-test-ts:function:readstreamtext:58",
           "readStreamText",
           "function",
           "typescript-ast",
           false,
-          42,
-          55,
+          58,
+          71,
           "async function readStreamText(stream: ReadableStream) {",
           "EXTRACTED"
         ],
         [
-          "symbol:src-test-mock-language-model-test-ts:constant:reader:43",
+          "symbol:src-test-mock-language-model-test-ts:constant:reader:59",
           "reader",
           "constant",
           "typescript-ast",
           false,
-          43,
-          43,
+          59,
+          59,
           "const reader = stream.getReader();",
           "EXTRACTED"
         ],
         [
-          "symbol:src-test-mock-language-model-test-ts:constant:text:44",
+          "symbol:src-test-mock-language-model-test-ts:constant:text:60",
           "text",
           "constant",
           "typescript-ast",
           false,
-          44,
-          44,
+          60,
+          60,
           "let text = '';",
           "EXTRACTED"
         ],
         [
-          "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-generate-results-from-the-first-entry:58",
+          "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-generate-results-from-the-first-entry:74",
           "returns array-backed generate results from the first entry",
           "test",
           "typescript-ast",
           false,
-          58,
-          69,
-          "returns array-backed generate results from the first entry",
-          "EXTRACTED"
-        ],
-        [
-          "symbol:src-test-mock-language-model-test-ts:constant:model:59",
-          "model",
-          "constant",
-          "typescript-ast",
-          false,
-          59,
-          61,
-          "const model = new MockLanguageModelV3({",
-          "EXTRACTED"
-        ],
-        [
-          "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-stream-results-from-the-first-entry:71",
-          "returns array-backed stream results from the first entry",
-          "test",
-          "typescript-ast",
-          false,
-          71,
-          83,
-          "returns array-backed stream results from the first entry",
-          "EXTRACTED"
-        ],
-        [
-          "symbol:src-test-mock-language-model-test-ts:constant:model:72",
-          "model",
-          "constant",
-          "typescript-ast",
-          false,
-          72,
           74,
-          "const model = new MockLanguageModelV3({",
+          85,
+          "returns array-backed generate results from the first entry",
           "EXTRACTED"
         ],
         [
-          "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-generate-results-from-the-first-entry:87",
-          "returns array-backed generate results from the first entry",
+          "symbol:src-test-mock-language-model-test-ts:constant:model:75",
+          "model",
+          "constant",
+          "typescript-ast",
+          false,
+          75,
+          77,
+          "const model = new MockLanguageModelV2({",
+          "EXTRACTED"
+        ],
+        [
+          "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-stream-results-from-the-first-entry:87",
+          "returns array-backed stream results from the first entry",
           "test",
           "typescript-ast",
           false,
           87,
-          98,
-          "returns array-backed generate results from the first entry",
+          99,
+          "returns array-backed stream results from the first entry",
           "EXTRACTED"
         ],
         [
@@ -87631,28 +87632,94 @@
           false,
           88,
           90,
-          "const model = new MockLanguageModelV4({",
+          "const model = new MockLanguageModelV2({",
           "EXTRACTED"
         ],
         [
-          "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-stream-results-from-the-first-entry:100",
-          "returns array-backed stream results from the first entry",
+          "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-generate-results-from-the-first-entry:103",
+          "returns array-backed generate results from the first entry",
           "test",
           "typescript-ast",
           false,
-          100,
-          112,
-          "returns array-backed stream results from the first entry",
+          103,
+          114,
+          "returns array-backed generate results from the first entry",
           "EXTRACTED"
         ],
         [
-          "symbol:src-test-mock-language-model-test-ts:constant:model:101",
+          "symbol:src-test-mock-language-model-test-ts:constant:model:104",
           "model",
           "constant",
           "typescript-ast",
           false,
-          101,
-          103,
+          104,
+          106,
+          "const model = new MockLanguageModelV3({",
+          "EXTRACTED"
+        ],
+        [
+          "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-stream-results-from-the-first-entry:116",
+          "returns array-backed stream results from the first entry",
+          "test",
+          "typescript-ast",
+          false,
+          116,
+          128,
+          "returns array-backed stream results from the first entry",
+          "EXTRACTED"
+        ],
+        [
+          "symbol:src-test-mock-language-model-test-ts:constant:model:117",
+          "model",
+          "constant",
+          "typescript-ast",
+          false,
+          117,
+          119,
+          "const model = new MockLanguageModelV3({",
+          "EXTRACTED"
+        ],
+        [
+          "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-generate-results-from-the-first-entry:132",
+          "returns array-backed generate results from the first entry",
+          "test",
+          "typescript-ast",
+          false,
+          132,
+          143,
+          "returns array-backed generate results from the first entry",
+          "EXTRACTED"
+        ],
+        [
+          "symbol:src-test-mock-language-model-test-ts:constant:model:133",
+          "model",
+          "constant",
+          "typescript-ast",
+          false,
+          133,
+          135,
+          "const model = new MockLanguageModelV4({",
+          "EXTRACTED"
+        ],
+        [
+          "symbol:src-test-mock-language-model-test-ts:test:returns-array-backed-stream-results-from-the-first-entry:145",
+          "returns array-backed stream results from the first entry",
+          "test",
+          "typescript-ast",
+          false,
+          145,
+          157,
+          "returns array-backed stream results from the first entry",
+          "EXTRACTED"
+        ],
+        [
+          "symbol:src-test-mock-language-model-test-ts:constant:model:146",
+          "model",
+          "constant",
+          "typescript-ast",
+          false,
+          146,
+          148,
           "const model = new MockLanguageModelV4({",
           "EXTRACTED"
         ]
@@ -87671,6 +87738,16 @@
           1
         ],
         [
+          "src/test/mock-language-model-v2.ts",
+          "./mock-language-model-v2",
+          [
+            "MockLanguageModelV2"
+          ],
+          "import",
+          "typescript-ast",
+          2
+        ],
+        [
           "src/test/mock-language-model-v3.ts",
           "./mock-language-model-v3",
           [
@@ -87678,7 +87755,7 @@
           ],
           "import",
           "typescript-ast",
-          2
+          3
         ],
         [
           "src/test/mock-language-model-v4.ts",
@@ -87688,7 +87765,7 @@
           ],
           "import",
           "typescript-ast",
-          3
+          4
         ]
       ]
     },
